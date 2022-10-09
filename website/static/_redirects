@@ -28,4 +28,5 @@
 /devices https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/Devices/menuId/Devices 302
 /users https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/AllUsers 302
 /azad https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview 302
-legacymfa https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx 302
+/legacymfa https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx 302
+/entra https://entra.microsoft.com 302
