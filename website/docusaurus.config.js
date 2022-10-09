@@ -64,7 +64,7 @@ const config = {
           },
           {
             href: 'https://merill.net',
-            label: 'merill.net',
+            label: 'About me.net',
             position: 'right',
           },
           {
@@ -83,6 +83,12 @@ const config = {
             'aria-label': 'GitHub repository',
             position: 'right',
           },
+          {
+            href: 'https://twitter.com/merill',
+            className: 'header-twitter-link',
+            'aria-label': 'Twitter',
+            position: 'right',
+          }
         ],
       },
       footer: {

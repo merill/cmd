@@ -8,8 +8,8 @@ To avoid typing **cmd.ms/** all the time you can add a prefix to make it super q
 Once set up all you have to do is
 
 * Open a new tab
-* Type **a** and press **SPACE** or **TAB**
-* Type in the cmd.ms shortcut. eg. **ad/users**
+* Type **c** and press **SPACE** or **TAB**
+* Type in the cmd.ms shortcut. eg. **users**
 
 ![Search bar demo](https://github.com/microsoft/aka/raw/main/images/SearchBarDemo.gif)
 
