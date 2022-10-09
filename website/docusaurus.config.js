@@ -63,11 +63,6 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://merill.net',
-            label: 'About me.net',
-            position: 'right',
-          },
-          {
             href: 'https://graphxray.merill.net',
             label: 'Graph X-Ray',
             position: 'right',

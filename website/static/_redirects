@@ -30,3 +30,5 @@
 /azad https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview 302
 /legacymfa https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx 302
 /entra https://entra.microsoft.com 302
+/ge https://developer.microsoft.com/graph/graph-explorer 302
+/az https://portal.azure.com 302
