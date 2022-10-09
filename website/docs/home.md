@@ -2,11 +2,12 @@
 sidebar_position: 1
 title: Home
 slug: /
+hide_table_of_contents: true
 ---
 
 # cmd.ms
 
-cmd.ms is you command line for Microsoft Portals.
+cmd.ms is your command line for Microsoft portals.
 
 Why click through multiple pages to get to where you want to go? Use the browser address bar aas your command line.
 
@@ -60,7 +61,3 @@ Here is how it works. Open a new tab and type **cmd.ms/{command}** where **{comm
 |[cmd.ms/myaccess](https://cmd.ms/myaccess)|My Access Packages|
 |[cmd.ms/mystaff](https://cmd.ms/mystaff)|My Access Packages|
 |[cmd.ms/mfasetup](https://cmd.ms/mfasetup)|Alternative for My Security|
-
-## Suggestions
-
-Notice anything missing or have suggestions? Please reach out to [@merill](https://twitter.com/merill) on [Twitter](https://twitter.com/merill).

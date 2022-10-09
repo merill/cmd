@@ -59,19 +59,23 @@ const config = {
         },
         items: [
           {
+            type: 'search',
+            position: 'left',
+          },
+          {
             href: 'https://merill.net',
             label: 'merill.net',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://graphxray.merill.net',
             label: 'Graph X-Ray',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://graphpermissions.merill.net',
             label: 'Graph Permissions Explorer',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/merill/cmd',
@@ -127,6 +131,22 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+    themes: [
+      // ... Your other themes.
+      [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        {
+          // ... Your options.
+          // `hashed` is recommended as long-term-cache of index file is possible.
+          hashed: true,
+          indexBlog: false,
+          docsRouteBasePath: '/',
+          highlightSearchTermsOnTargetPage: true,
+          removeDefaultStopWordFilter: true,
+        },
+      ],
+    ],
 };
 
 module.exports = config;
