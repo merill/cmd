@@ -7,11 +7,11 @@ hide_table_of_contents: false
 
 # cmd.ms
 
-cmd.ms is your command line for Microsoft portals.
+cmd.ms is the cloud command line for Microsoft admins!
 
-Why click through multiple pages to get to where you want to go? Use the browser address bar aas your command line.
+Why click through multiple pages to get to where you want to go? Use your browser's address bar as your command line.
 
-Here is how it works. Open a new tab and type **cmd.ms/{command}** where **{command}** can be any of the commands below.
+Here is how it works. Open a new tab and type **{command}.cmd.ms** where **{command}** can be any of the commands below.
 
 ## ![Azure AD](/img/azuread.svg) Azure Active Directory
 
