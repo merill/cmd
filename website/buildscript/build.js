@@ -28,12 +28,19 @@ function expandAlias(commands){
     return allCommands;
 }
 
-function checkDuplicates(commands){
-    console.log('Checking for duplicate commands.')
+function validateCommands(commands){
+    console.log('Validating commands file for redirects');
     let uniqueList = [];
     let duplicates = [];
     commands.forEach(cmd => {
         command = cmd.command;
+        if(command.indexOf(' ') >= 0){
+            throw new Error('Whitespace found in commands/alias: ' + command);
+        }
+        lowerCaseCommand = command.toLowerCase();
+        if(lowerCaseCommand != command){
+            throw new Error('Uppercase characters found in commands/alias: ' + command);
+        }
         if(uniqueList.includes(command)){
             duplicates.push(command);
         }
@@ -75,7 +82,7 @@ async function run() {
     })
     .on('end', function(){
         allCommands = expandAlias(commands);
-        checkDuplicates(allCommands);
+        validateCommands(allCommands);
         createRedirectFile(allCommands);
     });
 }
