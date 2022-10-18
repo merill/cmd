@@ -131,7 +131,7 @@ function GlobalFilter({
   return (
     <span>
       Search:{' '}
-      <input
+      <input autoFocus
         value={value || ""}
         onChange={e => {
           setValue(e.target.value);
