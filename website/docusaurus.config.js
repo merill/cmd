@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'cmd.ms',
-  tagline: 'The command line for Microsoft 365 | Azure | Security!',
+  tagline: 'cmd.ms: The Microsoft cloud command line for Microsoft 365 | Azure | Security!',
   url: 'https://cmd.ms',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -58,20 +58,6 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
-            type: 'search',
-            position: 'left',
-          },
-          {
-            href: 'https://graphxray.merill.net',
-            label: 'Graph X-Ray',
-            position: 'right',
-          },
-          {
-            href: 'https://graphpermissions.merill.net',
-            label: 'Graph Permissions Explorer',
-            position: 'right',
-          },
           {
             href: 'https://github.com/merill/cmd',
             className: 'header-github-link',
@@ -135,18 +121,7 @@ const config = {
 
     themes: [
       // ... Your other themes.
-      [
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-        {
-          // ... Your options.
-          // `hashed` is recommended as long-term-cache of index file is possible.
-          hashed: true,
-          indexBlog: false,
-          docsRouteBasePath: '/',
-          highlightSearchTermsOnTargetPage: true,
-          removeDefaultStopWordFilter: true,
-        },
-      ],
+
     ],
 };
 
