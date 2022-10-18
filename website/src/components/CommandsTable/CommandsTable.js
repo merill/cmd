@@ -130,7 +130,6 @@ function GlobalFilter({
 
   return (
     <span>
-      Search:{' '}
       <input autoFocus
         value={value || ""}
         onChange={e => {

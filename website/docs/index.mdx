@@ -1,0 +1,33 @@
+---
+sidebar_position: 1
+title: Intro
+slug: /
+hide_table_of_contents: false
+---
+
+import { CommandsTable } from "@site/src/components/CommandsTable";
+import { commands } from "@site/src/tableHome/commands.table";
+import { columns } from "@site/src/tableHome/columns.table";
+
+# Your Microsoft cloud command line!
+
+🚀 Are you wasting away your life clicking on Microsoft portals?
+
+Use the **power of your browser's address bar** as your cloud command line with cmd.ms.
+
+Quickly get to any blade in a Microsoft portal including Azure, Microsoft 365, Azure AD, Intune...
+
+:::tip
+
+There are two ways to use cmd.ms from the address bar. Start by opening a new tab and either
+
+* Type **{command}.cmd.ms** (e.g. [ad.cmd.ms](https://ad.cmd.ms)) or
+* Type **cmd.ms/{command}** (e.g. [cmd.ms/ad](https://cmd.ms/ad))
+
+**{command}** can be any of the commands or alias below.
+:::
+
+<CommandsTable
+  columns={columns}
+  data={ commands }
+/>
