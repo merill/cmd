@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const CommandList = [
+const FeatureList = [
   {
     command: 'ad',
     alias: 'aad',

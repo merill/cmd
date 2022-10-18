@@ -69,9 +69,8 @@ function createJsonFile(commands){
     const cmds = JSON.stringify(commands);
 
     let jsonContent = 'export const commands = ' + cmds;
-    console.log(jsonContent);
     console.log('Creating commands.table.js');
-    fs.writeFileSync('./src/pages/commands.table.js', jsonContent);
+    fs.writeFileSync('./src/components/CommandsTable/commands.table.js', jsonContent);
     console.log('Commands file created successfully.')
 }
 

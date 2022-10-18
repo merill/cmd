@@ -1,6 +1,6 @@
 import React from "react";
 
-function SelectColumnFilter({
+export function SelectColumnFilter({
   column: { filterValue, setFilter, preFilteredRows, id },
 }) {
   // Calculate the options for filtering
