@@ -6,7 +6,8 @@
 //
 // ----------------------------------------------------------------------------
 import React from "react";
-import { useTable, useSortBy } from "react-table";
+import { useTable, useSortBy, useGlobalFilter, useAsyncDebounce, useFilters } from "react-table";
+import 'regenerator-runtime';
 import { CommandsTable } from ".";
 import "./style.css";
 
@@ -25,66 +26,121 @@ const CommandsDataTable = ({
     getTableBodyProps,
     headerGroups,
     rows,
-    prepareRow
+    prepareRow,
+    state, // new
+    preGlobalFilteredRows, // new
+    setGlobalFilter, // new
   } = useTable(
     {
       columns,
       data,
     },
+    useFilters,
+    useGlobalFilter,
     useSortBy
   );
 
   // Render the UI for your table
   return (
-    <table {...getTableProps()}>
-      <thead>
-        {headerGroups.map(headerGroup => (
-          <tr {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map(column => (
-              <th
-                // Return an array of prop objects and react-table will merge them appropriately
-                {...column.getHeaderProps([
-                  {
-                    className: column.className
-                  },
-                  getHeaderProps(column),
-                  getColumnProps(column),
-                  column.getSortByToggleProps()
-                ])}
-              >
-                {column.render("Header")}
-                <span>{column.isSorted ? (column.isSortedDesc ? ' ▼' : ' ▲') : ''}</span>
-              </th>
-            ))}
-          </tr>
-        ))}
-      </thead>
-      <tbody {...getTableBodyProps()}>
-        {rows.map((row, i) => {
-          prepareRow(row);
-          return (
-            <tr {...row.getRowProps()}>
-              {row.cells.map(cell => {
-                return (
-                  <td
-                    {...cell.getCellProps([
-                      {
-                        className: cell.column.className,
-                        style: cell.column.style
-                      },
-                      getColumnProps(cell.column)
-                    ])}
-                  >
-                    {cell.render("Cell")}
-                  </td>
-                );
-              })}
+    <>
+      <GlobalFilter
+          preGlobalFilteredRows={preGlobalFilteredRows}
+          globalFilter={state.globalFilter}
+          setGlobalFilter={setGlobalFilter}
+      />
+      
+      {headerGroups.map((headerGroup) =>
+        headerGroup.headers.map((column) =>
+          column.Filter ? (
+            <div key={column.id}>
+              <label for={column.id}>{column.render("Header")}: </label>
+              {column.render("Filter")}
+            </div>
+          ) : null
+        )
+      )}
+      
+      <table {...getTableProps()}>
+        <thead>
+          {headerGroups.map(headerGroup => (
+            <tr {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map(column => (
+                <th
+                  // Return an array of prop objects and react-table will merge them appropriately
+                  {...column.getHeaderProps([
+                    {
+                      className: column.className
+                    },
+                    getHeaderProps(column),
+                    getColumnProps(column),
+                    column.getSortByToggleProps()
+                  ])}
+                >
+                  {column.render("Header")}
+                  <span>{column.isSorted ? (column.isSortedDesc ? ' ▼' : ' ▲') : ''}</span>
+                </th>
+              ))}
             </tr>
-          );
-        })}
-      </tbody>
-    </table>
+          ))}
+        </thead>
+        <tbody {...getTableBodyProps()}>
+          {rows.map((row, i) => {
+            prepareRow(row);
+            return (
+              <tr {...row.getRowProps()}>
+                {row.cells.map(cell => {
+                  return (
+                    <td
+                      {...cell.getCellProps([
+                        {
+                          className: cell.column.className,
+                          style: cell.column.style
+                        },
+                        getColumnProps(cell.column)
+                      ])}
+                    >
+                      {cell.render("Cell")}
+                    </td>
+                  );
+                })}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+      {/* <div>
+        <pre>
+          <code>{JSON.stringify(state, null, 2)}</code>
+        </pre>
+      </div> */}
+    </>
   );
 };
+
+function GlobalFilter({
+  preGlobalFilteredRows,
+  globalFilter,
+  setGlobalFilter,
+}) {
+  const count = preGlobalFilteredRows.length
+  const [value, setValue] = React.useState(globalFilter)
+  const onChange = useAsyncDebounce(value => {
+    setGlobalFilter(value || undefined)
+  }, 1)
+
+  return (
+    <span>
+      Search:{' '}
+      <input
+        value={value || ""}
+        onChange={e => {
+          setValue(e.target.value);
+          onChange(e.target.value);
+        }}
+        placeholder={`Search commands...`}
+      />
+    </span>
+  )
+}
 
 export default CommandsDataTable;
