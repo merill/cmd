@@ -19,7 +19,7 @@ function expandAlias(commands){
     let allCommands = [];
     commands.forEach(cmd => {
         allCommands.push(getCommand(cmd.command, cmd.url));
-        cmd.alias.forEach(alias => {
+        cmd.alias.split(',').forEach(alias => {
             if(alias.length > 0) {
                 allCommands.push(getCommand(alias, cmd.url));
             }
@@ -53,6 +53,7 @@ function validateCommands(commands){
         throw new Error('Duplicate commands/alias were found: ' + duplicates.toString());
     }
 }
+
 function createRedirectFile(commands){
     let redirectContent = '';
     commands.forEach(cmd => {
@@ -63,6 +64,17 @@ function createRedirectFile(commands){
     fs.writeFileSync('./static/_redirects', redirectContent);
     console.log('Redirect file created successfully.')
 }
+
+function createJsonFile(commands){
+    const cmds = JSON.stringify(commands);
+
+    let jsonContent = 'export const commands = ' + cmds;
+    console.log(jsonContent);
+    console.log('Creating commands.table.js');
+    fs.writeFileSync('./src/pages/commands.table.js', jsonContent);
+    console.log('Commands file created successfully.')
+}
+
 async function run() {
 
     let commands = [];
@@ -73,7 +85,7 @@ async function run() {
     .on('data', function (row) {
         let cmd = {
             command: row[0],
-            alias: row[1].split('|'),
+            alias: row[1].replace('|', ','),
             description: row[2],
             category: row[3],
             url: row[4]
@@ -84,6 +96,7 @@ async function run() {
         allCommands = expandAlias(commands);
         validateCommands(allCommands);
         createRedirectFile(allCommands);
+        createJsonFile(commands);
     });
 }
 
