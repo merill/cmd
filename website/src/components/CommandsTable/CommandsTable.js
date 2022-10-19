@@ -16,7 +16,7 @@ import {
 import "regenerator-runtime";
 import { CommandsTable } from ".";
 import "./style.css";
-import { SortIcon, SortDownIcon, SortUpIcon } from "../../shared/icons"
+import { SortIcon, SortDownIcon, SortUpIcon } from "../../shared/icons";
 
 // create a default prop getter
 const defaultPropGetter = () => ({});
@@ -25,6 +25,7 @@ const defaultPropGetter = () => ({});
 const CommandsDataTable = ({
   columns,
   data,
+  applyFilter,
   getHeaderProps = defaultPropGetter,
   getColumnProps = defaultPropGetter,
 }) => {
@@ -41,7 +42,16 @@ const CommandsDataTable = ({
     {
       columns,
       data,
-      initialState : { hiddenColumns: ['url'] },
+      applyFilter,
+       initialState: { 
+        hiddenColumns: ["url"],
+        filters: [
+          {
+            id: 'category',
+            value: applyFilter
+          }
+        ]
+      },
     },
     useFilters,
     useGlobalFilter,
@@ -52,18 +62,19 @@ const CommandsDataTable = ({
   return (
     <>
       <div className="flex gap-x-2">
-        {headerGroups.map((headerGroup) =>
-          headerGroup.headers.map((column) =>
-            column.Filter ? (
-              <div key={column.id}>{column.render("Filter")}</div>
-            ) : null
+          {headerGroups.map((headerGroup) =>
+            headerGroup.headers.map((column) =>
+              column.Filter && applyFilter.length === 0 ? (
+                <div key={column.id}>{column.render("Filter")}</div>
+              ) : null
+            )
           )
-        )}
-
+          }
         <GlobalFilter
           preGlobalFilteredRows={preGlobalFilteredRows}
           globalFilter={state.globalFilter}
           setGlobalFilter={setGlobalFilter}
+          applyFilter={applyFilter}
         />
       </div>
 
@@ -89,18 +100,19 @@ const CommandsDataTable = ({
                           )}
                         >
                           <div className="flex items-center justify-between">
-                          {column.render("Header")}
-                          {/* Add a sort direction indicator */}
-                          <span>
-                          {column.isSorted
-            ? column.isSortedDesc
-              ? <SortDownIcon className="w-4 h-4 text-gray-400" />
-              : <SortUpIcon className="w-4 h-4 text-gray-400" />
-            : (
-              <SortIcon className="w-4 h-4 text-gray-400 opacity-0 group-hover:opacity-100" />
-            )}
-
-                          </span>
+                            {column.render("Header")}
+                            {/* Add a sort direction indicator */}
+                            <span>
+                              {column.isSorted ? (
+                                column.isSortedDesc ? (
+                                  <SortDownIcon className="w-4 h-4 text-gray-400" />
+                                ) : (
+                                  <SortUpIcon className="w-4 h-4 text-gray-400" />
+                                )
+                              ) : (
+                                <SortIcon className="w-4 h-4 text-gray-400 opacity-0 group-hover:opacity-100" />
+                              )}
+                            </span>
                           </div>
                         </th>
                       ))}
@@ -143,6 +155,7 @@ function GlobalFilter({
   preGlobalFilteredRows,
   globalFilter,
   setGlobalFilter,
+  applyFilter,
 }) {
   const count = preGlobalFilteredRows.length;
   const [value, setValue] = React.useState(globalFilter);
@@ -151,7 +164,7 @@ function GlobalFilter({
   }, 1);
 
   return (
-    <label className="flex gap-x-2 items-baseline w-2/4">
+    <label className={`flex items-baseline w-2/4 ${applyFilter.length === 0 ? "gap-x-2" : ""}`} >
       <span></span>
       <input
         type="text"

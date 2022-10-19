@@ -1,12 +1,13 @@
 ---
-title: Azure
+title: My Pages
 ---
+
 import { CommandsTable } from "@site/src/components/CommandsTable";
 import { commands } from "@site/src/tableHome/commands.table";
-import { columns } from "@site/src/tableHome/columns.portal.table";
+import { columns } from "@site/src/tableHome/columns.table";
 
 <CommandsTable
 columns={columns}
 data={ commands }
-applyFilter = 'Azure'
+applyFilter = 'My Pages'
 />
