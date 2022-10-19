@@ -15,21 +15,24 @@ export function SelectColumnFilter({
 
   // Render a multi-select box
   return (
-    <select
-      name={id}
-      id={id}
-      value={filterValue}
-      onChange={(e) => {
-        setFilter(e.target.value || undefined);
-      }}
-    >
-      <option value="">All</option>
-      {options.map((option, i) => (
-        <option key={i} value={option}>
-          {option}
-        </option>
-      ))}
-    </select>
+    <label className="flex gap-x-2 items-baseline">
+      <select
+        className="mt-1 block rounded-md border-gray-300  focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50  dark:bg-zinc-800 dark:border-gray-700"
+        name={id}
+        id={id}
+        value={filterValue}
+        onChange={(e) => {
+          setFilter(e.target.value || undefined);
+        }}
+      >
+        <option value="">All Microsoft Portals</option>
+        {options.map((option, i) => (
+          <option key={i} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
+    </label>
   );
 }
 
