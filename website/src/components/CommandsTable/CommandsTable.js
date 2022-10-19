@@ -164,7 +164,7 @@ function GlobalFilter({
   }, 1);
 
   return (
-    <label className={`flex items-baseline w-2/4 ${applyFilter.length === 0 ? "gap-x-2" : ""}`} >
+    <label className={`flex items-baseline w-96 ${applyFilter.length === 0 ? "gap-x-2" : ""}`} >
       <span></span>
       <input
         type="text"
