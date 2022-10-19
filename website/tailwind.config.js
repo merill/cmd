@@ -4,7 +4,8 @@ module.exports = {
       extend: {},
     },
     plugins: [
-      require("@tailwindcss/forms"),
+      require("@tailwindcss/forms")({
+      }),
     ],
     corePlugins: { preflight: false },
     darkMode: ['class', '[data-theme="dark"]'],

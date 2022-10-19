@@ -40,28 +40,35 @@ export const columns = [
   {
     Header: "Command",
     accessor: "command",
-    className: "command-data-table left",
+    className: "commands-data-table right",
     Cell: ({ cell: { value }, row: { original } }) => (
-      <a href={`${original.url}`} target="blank" rel="noreferrer noopener">
-        {value}
-      </a>
+      <div style={{ textAlign: "right" }}>
+        <a href={`https://${value}.cmd.ms`} target="blank" rel="noreferrer noopener">
+          <b>{value}</b>.cmd.ms
+        </a>
+      </div>
     ),
-  },
-  {
-    Header: "Alias",
-    accessor: "alias",
-    className: "command-data-table left",
   },
   {
     Header: "Description",
     accessor: "description",
-    className: "command-data-table",
+    className: "commands-data-table",
+  },
+  {
+    Header: "Alias",
+    accessor: "alias",
+    className: "commands-data-table left",
   },
   {
     Header: "Category",
     accessor: "category",
-    className: "command-data-table",
+    className: "commands-data-table",
     Filter: SelectColumnFilter,
     filter: 'includes',
+  },
+  {
+    Header: "Url",
+    accessor: "url",
+    className: "commands-data-table",
   },
 ];

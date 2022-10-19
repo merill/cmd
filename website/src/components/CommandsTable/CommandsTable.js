@@ -40,6 +40,7 @@ const CommandsDataTable = ({
     {
       columns,
       data,
+      initialState : { hiddenColumns: ['url'] },
     },
     useFilters,
     useGlobalFilter,
@@ -147,9 +148,9 @@ function GlobalFilter({
     <label className="flex gap-x-2 items-baseline w-2/4">
       <span></span>
       <input
-        autoFocus
         type="text"
-        class="mt-1 block w-full rounded-md border-gray-300  focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 dark:bg-zinc-800 dark:border-gray-700 "
+        autoFocus
+        class="mt-1 block w-full rounded-md border-gray-300  focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 dark:bg-zinc-800 dark:border-gray-700 searchbox"
         value={value || ""}
         onChange={(e) => {
           setValue(e.target.value);
