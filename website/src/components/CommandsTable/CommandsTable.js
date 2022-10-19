@@ -16,6 +16,7 @@ import {
 import "regenerator-runtime";
 import { CommandsTable } from ".";
 import "./style.css";
+import { SortIcon, SortDownIcon, SortUpIcon } from "../../shared/icons"
 
 // create a default prop getter
 const defaultPropGetter = () => ({});
@@ -82,20 +83,25 @@ const CommandsDataTable = ({
                         // we can add them into the header props
                         <th
                           scope="col"
-                          className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
+                          className="group px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
                           {...column.getHeaderProps(
                             column.getSortByToggleProps()
                           )}
                         >
+                          <div className="flex items-center justify-between">
                           {column.render("Header")}
                           {/* Add a sort direction indicator */}
                           <span>
-                            {column.isSorted
-                              ? column.isSortedDesc
-                                ? " ▼"
-                                : " ▲"
-                              : ""}
+                          {column.isSorted
+            ? column.isSortedDesc
+              ? <SortDownIcon className="w-4 h-4 text-gray-400" />
+              : <SortUpIcon className="w-4 h-4 text-gray-400" />
+            : (
+              <SortIcon className="w-4 h-4 text-gray-400 opacity-0 group-hover:opacity-100" />
+            )}
+
                           </span>
+                          </div>
                         </th>
                       ))}
                     </tr>
