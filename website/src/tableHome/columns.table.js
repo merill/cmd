@@ -38,6 +38,18 @@ export function SelectColumnFilter({
 
 export const columns = [
   {
+    Header: "Name",
+    accessor: "description",
+    className: "commands-data-table",
+    Cell: ({ cell: { value }, row: { original } }) => (
+      <div style={{ textAlign: "left" }}>
+        <a href={`${original.url}`} target="blank" rel="noreferrer noopener">
+          {value}
+        </a>
+      </div>
+    ),    
+  },  
+  {
     Header: "Command",
     id: "altcommands",
     accessor: "command",
@@ -61,18 +73,6 @@ export const columns = [
         </a>
       </div>
     ),
-  },
-  {
-    Header: "Description",
-    accessor: "description",
-    className: "commands-data-table",
-    Cell: ({ cell: { value }, row: { original } }) => (
-      <div style={{ textAlign: "left" }}>
-        <a href={`${original.url}`} target="blank" rel="noreferrer noopener">
-          {value}
-        </a>
-      </div>
-    ),    
   },
   {
     Header: "Alias",
