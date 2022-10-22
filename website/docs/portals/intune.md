@@ -10,8 +10,10 @@ import { columns } from "@site/src/tableHome/columns.table";
 import Icon from '/static/img/intune-header.svg';
 
 # <Icon/> Intune
+
 <CommandsTable
-columns={columns}
-data={ commands }
 applyFilter = 'Intune'
+columns={columns}
+data={commands}
+columnsToHide = {['category']}
 />

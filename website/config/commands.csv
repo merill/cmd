@@ -30,16 +30,16 @@ in,,Intune,Intune,https://endpoint.microsoft.com
 myaccess,,My access,My Pages,https://myaccess.microsoft.com
 myaccount,,My account,My Pages,https://myaccount.microsoft.com
 mygroups,mygroup,My groups,My Pages,https://account.activedirectory.windowsazure.com/r#/groups
-mysecurity,,My security info,My Pages,https://mysignins.microsoft.com/security-info
-myapps,,My apps,My Pages,https://myapps.microsoft.com
+mysec,mysecurity|mysecurityinfo,My security info,My Pages,https://mysignins.microsoft.com/security-info
+myapps,myapp,My apps,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,My Pages,https://mystaff.microsoft.com
 sent,sentinel,Sentinel,Security,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade
 yam,yammer,Yammer,Microsoft 365,https://www.yammer.com/office365/admin
-ex,exchange,Exchange,Microsoft 365,https://admin.exchange.microsoft.com
-sp,sharepoint,SharePoint,Microsoft 365,https://admin.microsoft.com/sharepoint
-sec,security|def,Defender,Microsoft 365,https://security.microsoft.com
-teams,,Teams,Microsoft 365,https://admin.teams.microsoft.com/
-one,onedrive,OneDrive,Microsoft 365,https://admin.onedrive.com/
+ex,exo|exchange,Exchange,Microsoft 365,https://admin.exchange.microsoft.com
+sp,spo|sharepoint,SharePoint,Microsoft 365,https://admin.microsoft.com/sharepoint
+sec,security|def|defender,Defender,Microsoft 365,https://security.microsoft.com
+teams,team,Teams,Microsoft 365,https://admin.teams.microsoft.com/
+one,onedrive,OneDrive,Microsoft 365,https://admin.onedrive.com
 pbi,powerbi,Power BI,Microsoft 365,https://app.powerbi.com/admin-portal
-pp,ppa|power,Power Platform,Microsoft 365,https://admin.powerplatform.microsoft.com/
-purview,,Purview,Azure,https://web.purview.azure.com/
+pp,ppa|power,Power Platform,Microsoft 365,https://admin.powerplatform.microsoft.com
+purview,,Purview,Azure,https://web.purview.azure.com

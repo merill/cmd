@@ -25,7 +25,8 @@ const defaultPropGetter = () => ({});
 const CommandsDataTable = ({
   columns,
   data,
-  applyFilter,
+  applyFilter = '',
+  columnsToHide = [''],
   getHeaderProps = defaultPropGetter,
   getColumnProps = defaultPropGetter,
 }) => {
@@ -43,8 +44,9 @@ const CommandsDataTable = ({
       columns,
       data,
       applyFilter,
+      columnsToHide,
        initialState: { 
-        hiddenColumns: [""],
+        hiddenColumns: columnsToHide,
         filters: [
           {
             id: 'category',

@@ -11,8 +11,10 @@ import { columns } from "@site/src/tableHome/columns.table";
 import Icon from '/static/img/mypages-header.svg';
 
 # <Icon/> My Pages
+
 <CommandsTable
-columns={columns}
-data={ commands }
 applyFilter = 'My Pages'
+columns={columns}
+data={commands}
+columnsToHide = {['category']}
 />

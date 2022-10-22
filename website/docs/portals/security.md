@@ -11,8 +11,10 @@ import { columns } from "@site/src/tableHome/columns.table";
 import Icon from '/static/img/security-header.svg';
 
 # <Icon/> Security
+
 <CommandsTable
-columns={columns}
-data={ commands }
 applyFilter = 'Security'
+columns={columns}
+data={commands}
+columnsToHide = {['category']}
 />

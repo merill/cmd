@@ -11,8 +11,10 @@ import { columns } from "@site/src/tableHome/columns.table";
 import Icon from '/static/img/azuread-header.svg';
 
 # <Icon/> Azure Active Directory
+
 <CommandsTable
-columns={columns}
-data={ commands }
 applyFilter = 'Active Directory'
+columns={columns}
+data={commands}
+columnsToHide = {['category']}
 />
