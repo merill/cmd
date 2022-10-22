@@ -28,6 +28,7 @@ az,,Azure,Azure,https://portal.azure.com
 ge,,Graph Explorer,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
 in,,Intune,Intune,https://endpoint.microsoft.com
 myaccess,,My access,My Pages,https://myaccess.microsoft.com
-myaccount,,My account,My Pages,https://myaccount.microsoft.com/
+myaccount,,My account,My Pages,https://myaccount.microsoft.com
 mygroups,mygroup,My groups,My Pages,https://account.activedirectory.windowsazure.com/r#/groups
 mysecurity,,My security info,My Pages,https://mysignins.microsoft.com/security-info
+myapps,,My apps,My Pages,https://myapps.microsoft.com

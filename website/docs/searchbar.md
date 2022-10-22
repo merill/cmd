@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Search Bar
+title: 🔎 Search Bar
 ---
 
 To avoid typing **cmd.ms/** all the time you can add a prefix to make it super quick to get to the cmd.ms links.

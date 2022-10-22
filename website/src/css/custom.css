@@ -84,3 +84,32 @@ html[data-theme="dark"] .header-github-link:before {
     no-repeat;
 }
 
+/* Override non-category links to be horizonally compact */
+li > a.menu__link {
+  justify-content: flex-start;
+}
+
+.azure a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/azure.svg);
+}
+
+.azuread a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/azuread.svg);
+}
+
+.intune a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/intune.svg);
+}
+
+.m365 a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/m365.svg);
+}
+
+.mypages a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/mypages.svg);
+}
