@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'cmd.ms',
+  title: '[cmd.ms]',
   tagline: 'cmd.ms: The Microsoft cloud command line for Microsoft 365 | Azure | Security!',
   url: 'https://cmd.ms',
   baseUrl: '/',
@@ -52,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'cmd.ms',
+        title: '[cmd.ms]',
         logo: {
           alt: 'cmd.ms Logo',
           src: 'img/logo.png',
