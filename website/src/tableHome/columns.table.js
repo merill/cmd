@@ -39,6 +39,19 @@ export function SelectColumnFilter({
 export const columns = [
   {
     Header: "Command",
+    id: "altcommands",
+    accessor: "command",
+    className: "commands-data-table left",
+    Cell: ({ cell: { value }, row: { original } }) => (
+      <div style={{ textAlign: "left" }}>
+        <a href={`https://cmd.ms/${value}`} target="blank" rel="noreferrer noopener">
+          cmd.ms/<b>{value}</b>
+        </a>
+      </div>
+    ),
+  },
+  {
+    Header: "Alternate Command",
     accessor: "command",
     className: "commands-data-table right",
     Cell: ({ cell: { value }, row: { original } }) => (
@@ -53,6 +66,13 @@ export const columns = [
     Header: "Description",
     accessor: "description",
     className: "commands-data-table",
+    Cell: ({ cell: { value }, row: { original } }) => (
+      <div style={{ textAlign: "left" }}>
+        <a href={`${original.url}`} target="blank" rel="noreferrer noopener">
+          {value}
+        </a>
+      </div>
+    ),    
   },
   {
     Header: "Alias",

@@ -44,7 +44,7 @@ const CommandsDataTable = ({
       data,
       applyFilter,
        initialState: { 
-        hiddenColumns: ["url"],
+        hiddenColumns: [""],
         filters: [
           {
             id: 'category',

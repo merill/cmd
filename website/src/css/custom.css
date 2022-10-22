@@ -113,3 +113,8 @@ li > a.menu__link {
   padding-right: 0.5rem;
   content: url(/static/img/mypages.svg);
 }
+
+.security a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/security.svg);
+}

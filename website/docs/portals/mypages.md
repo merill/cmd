@@ -2,6 +2,7 @@
 title: My Pages
 sidebar_class_name: mypages
 hide_table_of_contents: true
+custom_edit_url: null
 ---
 
 import { CommandsTable } from "@site/src/components/CommandsTable";
