@@ -84,10 +84,12 @@ async function run() {
     .on('data', function (row) {
         let cmd = {
             command: row[0],
-            alias: row[1].replace('|', ','),
+            alias: row[1].replaceAll('|', ','),
             description: row[2],
-            category: row[3],
-            url: row[4]
+            keywords:row[3],
+            category: row[4],
+            categoryShortName: row[4].replaceAll(' ', '-').toLowerCase(),
+            url: row[5]
         }
         commands.push(cmd);
     })

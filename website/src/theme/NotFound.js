@@ -4,7 +4,7 @@ import { PageMetadata } from "@docusaurus/theme-common";
 import Layout from "@theme/Layout";
 import { CommandsTable } from "@site/src/components/CommandsTable";
 import { commands } from "@site/src/tableHome/commands.table";
-import { columns } from "@site/src/tableHome/columns.portal.table";
+import { columns } from "@site/src/tableHome/columns.table";
 
 export default function NotFound() {
   return (
@@ -18,7 +18,7 @@ export default function NotFound() {
       <Layout>
         <main className="container margin-vert--xl">
           <div className="row">
-            <div className="col col--6 col--offset-3">
+            <div className="col col--6 col--offset-0">
               <h1 className="hero__title">
                 <Translate
                   id="theme.NotFound.title"
@@ -43,7 +43,7 @@ export default function NotFound() {
                 </a> to make a request.
               </p>
             </div>
-            <div className="col col--offset-3">
+            <div className="col col--offset-0">
               <CommandsTable columns={columns} data={commands} applyFilter="" />
             </div>
           </div>

@@ -55,7 +55,8 @@
 /sharepoint https://admin.microsoft.com/sharepoint 302
 /sec https://security.microsoft.com 302
 /security https://security.microsoft.com 302
-/def|defender https://security.microsoft.com 302
+/def https://security.microsoft.com 302
+/defender https://security.microsoft.com 302
 /teams https://admin.teams.microsoft.com/ 302
 /team https://admin.teams.microsoft.com/ 302
 /one https://admin.onedrive.com 302

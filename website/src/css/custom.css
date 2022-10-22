@@ -118,3 +118,27 @@ li > a.menu__link {
   padding-right: 0.5rem;
   content: url(/static/img/security.svg);
 }
+
+.cat-azure {
+  content:url('/static/img/azure.svg');
+}
+
+.cat-active-directory {
+  content:url('/static/img/azuread.svg');
+}
+
+.cat-intune {
+  content:url('/static/img/intune.svg');
+}
+
+.cat-microsoft-365 {
+  content:url('/static/img/m365.svg');
+}
+
+.cat-my-pages {
+  content:url('/static/img/mypages.svg');
+}
+
+.cat-security {
+  content:url('/static/img/security.svg');
+}
