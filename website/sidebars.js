@@ -19,9 +19,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Microsoft Portals',
-      link: {
-        type: 'generated-index',
-      },
       collapsed: false,
       items: [
         {
