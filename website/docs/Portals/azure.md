@@ -1,5 +1,6 @@
 ---
 title: Azure
+hide_table_of_contents: true
 ---
 import { CommandsTable } from "@site/src/components/CommandsTable";
 import { commands } from "@site/src/tableHome/commands.table";

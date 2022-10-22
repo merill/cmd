@@ -1,5 +1,6 @@
 ---
 title: My Pages
+hide_table_of_contents: true
 ---
 
 import { CommandsTable } from "@site/src/components/CommandsTable";
