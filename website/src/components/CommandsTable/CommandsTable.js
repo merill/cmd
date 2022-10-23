@@ -46,7 +46,7 @@ const CommandsDataTable = ({
       applyFilter,
       columnsToHide,
        initialState: { 
-        hiddenColumns: columnsToHide,
+        hiddenColumns: columnsToHide.concat(['keywords']),
         filters: [
           {
             id: 'category',
@@ -86,7 +86,7 @@ const CommandsDataTable = ({
             <div className="overflow-hidden">
               <table
                 {...getTableProps()}
-                className="min-w-full divide-y divide-gray-200"
+                className="min-w-full divide-y divide-gray-200 table-fixed"
               >
                 <thead className="">
                   {headerGroups.map((headerGroup) => (
@@ -96,7 +96,7 @@ const CommandsDataTable = ({
                         // we can add them into the header props
                         <th
                           scope="col"
-                          className="group px-6 py-3 text-left text-xs font-medium uppercase tracking-wider"
+                          className="group px-6 py-2 text-left text-xs font-medium uppercase tracking-wider"
                           {...column.getHeaderProps(
                             column.getSortByToggleProps()
                           )}
@@ -129,12 +129,15 @@ const CommandsDataTable = ({
                     // new
                     prepareRow(row);
                     return (
-                      <tr {...row.getRowProps()}>
+                      <tr 
+                        class="hover:bg-gray-50 dark:hover:bg-gray-600"
+                        {...row.getRowProps()}>
                         {row.cells.map((cell) => {
                           return (
                             <td
-                              {...cell.getCellProps()}
-                              className="px-6 py-2 whitespace-nowrap"
+                              {...cell.getCellProps({
+                                className: cell.column.className
+                              })}                              
                             >
                               {cell.render("Cell")}
                             </td>

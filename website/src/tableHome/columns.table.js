@@ -44,21 +44,17 @@ export const columns = [
     Filter: SelectColumnFilter,
     filter: 'includes',
     Cell: ({ cell: { value }, row: { original } }) => (
-      <div style={{ textAlign: "center", width: "30px" }}>
-        <img class={`cat-${original.categoryShortName}`}/>
-      </div>
+      <img class={`cat-${original.categoryShortName}`}/>
     ),    
   },
   {
     Header: "Name",
     accessor: "description",
-    className: "commands-data-table",
+    className: "commands-data-table whitespace-nowrap left",
     Cell: ({ cell: { value }, row: { original } }) => (
-      <div style={{ textAlign: "left" }}>
-        <a href={`${original.url}`} target="blank" rel="noreferrer noopener">
-          {value}
-        </a>
-      </div>
+      <a href={`${original.url}`} target="blank" rel="noreferrer noopener">
+        {value}
+      </a>
     ),    
   },  
   {
@@ -66,11 +62,9 @@ export const columns = [
     accessor: "command",
     className: "commands-data-table right",
     Cell: ({ cell: { value }, row: { original } }) => (
-      <div style={{ textAlign: "right" }}>
-        <a href={`https://${value}.cmd.ms`} target="blank" rel="noreferrer noopener">
-          <b>{value}</b>.cmd.ms
-        </a>
-      </div>
+      <a href={`https://${value}.cmd.ms`} target="blank" rel="noreferrer noopener">
+        <b>{value}</b>.cmd.ms
+      </a>
     ),
   },
   {
@@ -79,8 +73,18 @@ export const columns = [
     className: "commands-data-table left",
   },
   {
+    Header: "Keywords",
+    accessor: "keywords",
+    className: "commands-data-table left",
+  },  
+  {
     Header: "Url",
     accessor: "url",
-    className: "commands-data-table",
+    className: "commands-data-table left col-url",
+    Cell: ({ cell: { value }, row: { original } }) => (
+      <a href={value} target="blank" rel="noreferrer noopener">
+        {value}
+      </a>
+    ),    
   },
 ];
