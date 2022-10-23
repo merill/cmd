@@ -15,7 +15,7 @@ import Icon from '/static/img/azuread-header.svg';
 # <Icon/> Azure Active Directory
 
 <CommandsTable
-applyFilter = 'Active Directory'
+applyFilter = 'Azure Active Directory'
 columns={columns}
 data={commands}
 columnsToHide = {['category']}

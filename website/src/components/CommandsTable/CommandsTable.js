@@ -1,10 +1,3 @@
-// ----------------------------------------------------------------------------
-// Please note that this component is deliberately NOT using a CCS stylesheet
-// because react-table is ui-agnostic and the table will therefore inherit
-// Docusaurus table styling. If additional styling ever becomes required please
-// consider using either "css modules" or "styled components".
-//
-// ----------------------------------------------------------------------------
 import React from "react";
 import {
   useTable,
@@ -57,7 +50,7 @@ const CommandsDataTable = ({
     },
     useFilters,
     useGlobalFilter,
-    useSortBy
+    useSortBy,
   );
 
   // Render the UI for your table

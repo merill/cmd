@@ -111,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href='https://twitter.com/merill' target='_blank'>Merill Fernando</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Merill Fernando.`,
       },
       prism: {
         theme: lightCodeTheme,

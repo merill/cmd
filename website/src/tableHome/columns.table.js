@@ -20,9 +20,9 @@ export function SelectColumnFilter({
         className="mt-1 block rounded-md border-gray-300  focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50  dark:bg-zinc-800 dark:border-gray-700"
         name={id}
         id={id}
-        value={filterValue}
+        value={filterValue || "All"}
         onChange={(e) => {
-          setFilter(e.target.value || undefined);
+            setFilter(e.target.value || undefined);         
         }}
       >
         <option value="">All Microsoft Portals</option>
@@ -42,7 +42,18 @@ export const columns = [
     accessor: "category",
     className: "commands-data-table",
     Filter: SelectColumnFilter,
-    filter: 'includes',
+    filter: (rows, id, filterValue) => {
+      return rows.filter(row => {
+        const rowValue = row.values[id];
+        console.log(rowValue, filterValue);
+        if(filterValue === ''){
+          return true;
+        }
+        else {
+          return filterValue === rowValue;
+        }
+      });
+    },
     Cell: ({ cell: { value }, row: { original } }) => (
       <img class={`cat-${original.categoryShortName}`}/>
     ),    

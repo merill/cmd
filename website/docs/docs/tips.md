@@ -1,7 +1,9 @@
 ---
-sidebar_position: 4
-title: 🔎 Search Bar
+sidebar_position: 1
+title: 🔥 Power User Tips
 ---
+
+## Browser Search
 
 To avoid typing **cmd.ms/** all the time you can add a prefix to make it super quick to get to the cmd.ms links.
 
@@ -13,7 +15,7 @@ Once set up all you have to do is
 
 ![Search bar demo](https://github.com/microsoft/aka/raw/main/images/SearchBarDemo.gif)
 
-## Microsoft Edge
+### Microsoft Edge
 
 * Go to **Settings** > **Privacy, Search and Services** > Scroll all the way down to **Services**
 * Select **Address bar and search** > **Manage search engines**
@@ -28,7 +30,7 @@ A quick alternative to get to the **Manage search enginess** page is to search f
 
 ![Screenshot of Edge config of address bar](https://github.com/microsoft/aka/raw/main/images/configedge.png)
 
-## Google Chrome
+### Google Chrome
 
 * Go to **Settings** > **Search engine** > **Manage search engines and site search**
 * Scroll down to **Site Search**
@@ -39,6 +41,6 @@ A quick alternative to get to the **Manage search enginess** page is to search f
   * Url: **https://cmd.ms/%s**
 * Select **Add**
 
-## Firefox
+### Firefox
 
 Unfortunately [Firefox does not have an easy way to do add a search engine](https://bugzilla.mozilla.org/show_bug.cgi?id=1683969) and an extension may be required. If you find an easy way please share.

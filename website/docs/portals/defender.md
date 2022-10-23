@@ -1,5 +1,5 @@
 ---
-title: Security
+title: Defender
 sidebar_class_name: security
 hide_table_of_contents: true
 custom_edit_url: null
@@ -12,7 +12,7 @@ import { commands } from "@site/src/tableHome/commands.table";
 import { columns } from "@site/src/tableHome/columns.table";
 import Icon from '/static/img/security-header.svg';
 
-# <Icon/> Security
+# <Icon/> Defender
 
 <CommandsTable
 applyFilter = 'Security'

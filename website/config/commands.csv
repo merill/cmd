@@ -1,19 +1,34 @@
 ﻿Command,Alias,Description,Keywords,Category,Url
 ad,aad,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview
-adadfslog,,ADFS services,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
+admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
+az,azure,Azure,,Azure,https://portal.azure.com
+in,intune,Intune,,Intune,https://endpoint.microsoft.com
+sec,security|def|defender,Defender,,Security,https://security.microsoft.com
+sent,sentinel,Sentinel,,Security,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade
+ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
+sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
+teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
+one,onedrive,OneDrive,,Microsoft 365,https://admin.onedrive.com
+pbi,powerbi,Power BI,,Microsoft 365,https://app.powerbi.com/admin-portal
+pp,ppa|power,Power Platform,,Microsoft 365,https://admin.powerplatform.microsoft.com
+yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
+ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
+purview,,Purview,,Azure,https://web.purview.azure.com
 adappreg,,App registrations,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
 adentapp,adapp|adapps,Enterprise applications,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
-adauth,,Authentication methods,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
-adca,,Conditional access,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConditionalAccessBlade/~/Policies
-adconsent,,Consent and permissions,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
-addevices,,Devices,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/Devices/menuId/Devices
 adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
+adusers,,Users,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/AllUsers
+addevices,,Devices,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/Devices/menuId/Devices
 adguests,,Guests and External Identities,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings/menuId/ExternalIdentitiesGettingStarted
+adca,,Conditional access,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConditionalAccessBlade/~/Policies
+adctas,adxtap,Cross-tenant access settings,external,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/CrossTenantAccessSettings/menuId/CrossTenantAccessSettings
+adadfslog,,ADFS services,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
+adauth,,Authentication methods,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
+adconsent,,Consent and permissions,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
 adlegacymfa,,Legacy MFA,,Azure Active Directory,https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx
 adlicense,,Licenses,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
 adsign,adlogs,Sign-in logs,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
 admfaunblock,,MFA unblock,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationMenuBlade/~/BlockedUsers/fromProviders~/false
-admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 adpim,,Privileged identity mangement,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles
 adreviews,adar,Access reviews,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/Controls
 adroles,,Roles and administrators,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
@@ -22,24 +37,10 @@ adsecurity,,Security,,Azure Active Directory,https://entra.microsoft.com/#view/M
 adpassword,adsspr,Password reset,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/PasswordResetMenuBlade/~/Properties
 adsupport,,Support,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_Support/NewSupportRequestV3Blade/callerName/ActiveDirectory/issueType/technical
 adsynclog,,AAD Connect - Sync errors,aadconnect,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/SyncErros/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade
-adusers,,Users,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/AllUsers
-adctas,adxtap,Cross-tenant access settings,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/CrossTenantAccessSettings/menuId/CrossTenantAccessSettings
-az,,Azure,,Azure,https://portal.azure.com
-ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
-in,,Intune,,Intune,https://endpoint.microsoft.com
 myaccess,,My access,,My Pages,https://myaccess.microsoft.com
 myaccount,,My account,,My Pages,https://myaccount.microsoft.com
 mygroups,mygroup,My groups,,My Pages,https://account.activedirectory.windowsazure.com/r#/groups
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
-sent,sentinel,Sentinel,,Security,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade
-yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
-ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
-sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
-sec,security|def|defender,Defender,,Security,https://security.microsoft.com
-teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
-one,onedrive,OneDrive,,Microsoft 365,https://admin.onedrive.com
-pbi,powerbi,Power BI,,Microsoft 365,https://app.powerbi.com/admin-portal
-pp,ppa|power,Power Platform,,Microsoft 365,https://admin.powerplatform.microsoft.com
-purview,,Purview,,Azure,https://web.purview.azure.com
+vm,,Virtual machines,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
