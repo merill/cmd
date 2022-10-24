@@ -18,6 +18,7 @@ export function SelectColumnFilter({
     <label className="flex gap-x-2 items-baseline">
       <select
         className="mt-1 block rounded-md border-gray-300  focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50  dark:bg-zinc-800 dark:border-gray-700"
+        aria-label="Select category"
         name={id}
         id={id}
         value={filterValue || "All"}
@@ -55,7 +56,7 @@ export const columns = [
       });
     },
     Cell: ({ cell: { value }, row: { original } }) => (
-      <img class={`cat-${original.categoryShortName}`}/>
+      <img alt="{value}" class={`cat-${original.categoryShortName}`}/>
     ),    
   },
   {
