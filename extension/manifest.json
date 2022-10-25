@@ -1,6 +1,6 @@
 {
     "name": "[cmd.ms]",
-    "description": "Type 'c' plus a search term into the Omnibox to open search in new tab.",
+    "description": "Type 'c' <spacebar> and then type in the [cmd.ms] command.",
     "version": "0.2",
     "manifest_version": 3,
     "homepage_url": "https://cmd.ms",

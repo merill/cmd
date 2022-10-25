@@ -9,7 +9,7 @@ chrome.omnibox.onInputChanged.addListener((text, suggest) => {
     return;
   }
 
-  fetch('http://localhost:3000/commands.json')
+  fetch('https://cmd.ms/commands.json')
     .then((response) => response.json())
     .then((data) => {
     	if (!data.length) {
