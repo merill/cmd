@@ -70,4 +70,3 @@
 /myapp https://myapps.microsoft.com 302
 /mystaff https://mystaff.microsoft.com 302
 /vm https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines 302
-/azvm https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines 302
