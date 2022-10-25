@@ -71,8 +71,37 @@ function createJsonFile(commands){
     let jsonContent = 'export const commands = ' + cmds;
     console.log('Creating commands.table.js');
     fs.writeFileSync('./src/tableHome/commands.table.js', jsonContent);
-    fs.writeFileSync('./static/commands.json', jsonContent);
     console.log('Commands file created successfully.')
+}
+
+function createJsonFileForExtension(commands){
+    commands.forEach(element => {
+        if(element.alias.length != 0){
+            element.alias.split(',').forEach(aliasItem => {
+                let cmd = {
+                    command: aliasItem,
+                    alias: aliasItem,
+                    description: element.description,
+                    keywords: '',
+                    category: element.category,
+                    url: getTruncatedUrl(element.url)
+                }
+                commands.push(cmd);
+            })
+            element.alias = '';
+        }
+        element.url = getTruncatedUrl(element.url);
+    });
+    const cmds = JSON.stringify(commands);
+    fs.writeFileSync('./static/commands.json', cmds);
+}
+
+function getTruncatedUrl(url){
+    var shortUrl = url.slice(0, 75);
+    if(url.length > 75){
+        shortUrl += '...'
+    }
+    return shortUrl;
 }
 
 async function run() {
@@ -99,6 +128,7 @@ async function run() {
         validateCommands(allCommands);
         createRedirectFile(allCommands);
         createJsonFile(commands);
+        createJsonFileForExtension(commands);
     });
 }
 

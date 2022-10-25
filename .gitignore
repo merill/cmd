@@ -150,4 +150,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-/website/static/commands.txt
+/website/static/commands.json
