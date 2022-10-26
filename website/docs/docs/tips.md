@@ -3,44 +3,29 @@ sidebar_position: 1
 title: 🔥 Power User Tips
 ---
 
-## Browser Search
+## Address bar autocomplete
 
-To avoid typing **cmd.ms/** all the time you can add a prefix to make it super quick to get to the cmd.ms links.
+You can install the [cmd.ms] browser extension to get autocomplete support for all the commands right in the address bar, plus you can avoid typing .cmd.ms each time.
 
-Once set up all you have to do is
+Once the extension is installed you can:
 
 * Open a new tab
 * Type **c** and press **SPACE** or **TAB**
-* Type in the cmd.ms shortcut. eg. **users**
+* Type in the cmd.ms shortcut. eg. **adusers**
 
-![Search bar demo](https://github.com/microsoft/aka/raw/main/images/SearchBarDemo.gif)
+:::tip
 
-### Microsoft Edge
+Get the browser extension for your favorite browser from the links below.
 
-* Go to **Settings** > **Privacy, Search and Services** > Scroll all the way down to **Services**
-* Select **Address bar and search** > **Manage search engines**
-* Select **Add**
-* Fill in the following
-  * Search engine: **cmd.ms**
-  * Shortcut: **a** (You can choose any prefix you like)
-  * Url: **https://cmd.ms/%s**
-* Select **Add**
+* [[cmd.ms] Chrome Extension](https://chrome.google.com/webstore/detail/cmdms/elbjjbmcngffncifaghboopbmegjnkbi)
 
-A quick alternative to get to the **Manage search enginess** page is to search for **Manage search engines** under **Settings** and select **Address bar search**
 
-![Screenshot of Edge config of address bar](https://github.com/microsoft/aka/raw/main/images/configedge.png)
+:::
 
-### Google Chrome
+![Search bar demo](/demos/browserdemo.gif)
 
-* Go to **Settings** > **Search engine** > **Manage search engines and site search**
-* Scroll down to **Site Search**
-* Select **Add**
-* Fill in the following
-  * Search engine: **cmd.ms**
-  * Shortcut: **a** (You can choose any prefix you like)
-  * Url: **https://cmd.ms/%s**
-* Select **Add**
+## cmd.ms/{command}
 
-### Firefox
+[cmd.ms] also supports the **cmd.ms/{command}** format for those who prefer it over **{command}.cmd.ms**.
 
-Unfortunately [Firefox does not have an easy way to do add a search engine](https://bugzilla.mozilla.org/show_bug.cgi?id=1683969) and an extension may be required. If you find an easy way please share.
+Having said that **{command}.cmd.ms** is better in the long run due to autocomplete filling in the cmd.ms suffix as soon as you type in the {command} in the browser window.
