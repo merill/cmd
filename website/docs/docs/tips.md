@@ -17,6 +17,7 @@ Once the extension is installed you can:
 
 Get the browser extension for your favorite browser from the links below.
 
+* [[cmd.ms]](https://microsoftedge.microsoft.com/addons/detail/jfkgnnmpdnoelcfmojmddglicjlagfjm) Edge Add-on
 * [[cmd.ms] Chrome Extension](https://chrome.google.com/webstore/detail/cmdms/elbjjbmcngffncifaghboopbmegjnkbi)
 
 
