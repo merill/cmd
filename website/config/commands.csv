@@ -19,7 +19,7 @@ adentapp,adapp|adapps,Enterprise applications,,Azure Active Directory,https://en
 adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
 adusers,,Users,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/AllUsers
 addevices,,Devices,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/Devices/menuId/Devices
-adguests,,Guests and External Identities,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings/menuId/ExternalIdentitiesGettingStarted
+adguests,adext,External Identities,guests,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings/menuId/ExternalIdentitiesGettingStarted
 adca,,Conditional access,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConditionalAccessBlade/~/Policies
 adctas,adxtap,Cross-tenant access settings,external,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/CrossTenantAccessSettings/menuId/CrossTenantAccessSettings
 adadfslog,,ADFS services,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
@@ -43,8 +43,6 @@ mygroups,mygroup,My groups,,My Pages,https://account.activedirectory.windowsazur
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
-vm,,Virtual machines,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
-aks,,Kubernetes services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters
 indevices,,Devices,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/overview
 inapps,,Apps,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/overview
 insecurity,insec,Security,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/overview
@@ -60,3 +58,27 @@ incompliance,,Compliance policies,,Intune,https://endpoint.microsoft.com/#view/M
 inconfig,,Configuration profiles,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configurationProfiles
 inscripts,,Scripts,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
 inappconfig,,App configuration policies,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
+azavd,avd,Azure Virtual Desktop,,Azure,https://portal.azure.com/#view/Microsoft_Azure_WVD/WvdManagerMenuBlade/~/overview
+azfn,,Function App,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp
+azcosmos,,Azure Cosmos DB,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DocumentDb%2FdatabaseAccounts
+azmonitor,,Monitor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/~/overview
+azasp,,App Service plans,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2FserverFarms
+azapps,azweb,App Services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites
+azsql,,SQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers
+azsqldb,,SQL databases,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers%2Fdatabases
+azsqlep,,SQL elastic pools,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers%2Felasticpools
+azcost,,Cost Management + Billing,,Azure,https://portal.azure.com/#view/Microsoft_Azure_GTM/ModernBillingMenuBlade/~/BillingAccounts
+azlb,,Load balancing,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Network/LoadBalancingHubMenuBlade/~/overview
+azsa,,Storage accounts,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts
+azdisks,,Disks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2Fdisks
+azvn,,Virtual networks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworks
+azdefender,,Microsoft Defender for Cloud,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0
+azadf,,Data factories,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DataFactory%2FdataFactories
+azhelp,,Help + support,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview
+azsubs,,Subscriptions,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade
+azrg,,Resource groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups
+aznsg,,Network security groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FNetworkSecurityGroups
+azkv,,Key Vault,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.KeyVault%2Fvaults
+azvm,,Virtual machines,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
+azaks,,Kubernetes services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters
+azredis,,Azure Cache for Redis,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FRedis
