@@ -114,9 +114,9 @@ li > a.menu__link {
   content: url(/static/img/mypages.svg);
 }
 
-.security a::before {
+.defender a::before {
   padding-right: 0.5rem;
-  content: url(/static/img/security.svg);
+  content: url(/static/img/defender.svg);
 }
 
 .cat-azure {
@@ -139,6 +139,6 @@ li > a.menu__link {
   content:url('/static/img/mypages.svg');
 }
 
-.cat-security {
-  content:url('/static/img/security.svg');
+.cat-defender {
+  content:url('/static/img/defender.svg');
 }

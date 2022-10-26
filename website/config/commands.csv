@@ -3,8 +3,8 @@ ad,aad,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
 in,intune,Intune,,Intune,https://endpoint.microsoft.com
-sec,security|def|defender,Defender,,Security,https://security.microsoft.com
-sent,sentinel,Sentinel,,Security,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade
+defender,def,Defender,,Defender,https://security.microsoft.com
+azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade
 ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
 sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
 teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
@@ -14,6 +14,10 @@ pp,ppa|power,Power Platform,,Microsoft 365,https://admin.powerplatform.microsoft
 yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
 ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
 purview,,Purview,,Azure,https://web.purview.azure.com
+deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
+dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
+deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
+deexplorer,,Explorer,,Defender,https://sip.security.microsoft.com/threatexplorer
 adappreg,,App registrations,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
 adentapp,adapp|adapps,Enterprise applications,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
 adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
