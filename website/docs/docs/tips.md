@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 title: 🔥 Power User Tips
+description: 🔥 Power User Tips
+image: /
 ---
 
 ## Address bar autocomplete
@@ -17,7 +19,7 @@ Once the extension is installed you can:
 
 Get the browser extension for your favorite browser from the links below.
 
-* [[cmd.ms]](https://microsoftedge.microsoft.com/addons/detail/jfkgnnmpdnoelcfmojmddglicjlagfjm) Edge Add-on
+* [[cmd.ms] Edge Add-on](https://microsoftedge.microsoft.com/addons/detail/jfkgnnmpdnoelcfmojmddglicjlagfjm) 
 * [[cmd.ms] Chrome Extension](https://chrome.google.com/webstore/detail/cmdms/elbjjbmcngffncifaghboopbmegjnkbi)
 
 
