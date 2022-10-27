@@ -2,6 +2,7 @@
 ad,aad,Azure Active Directory,,Azure Active Directory,https://entra.microsoft.com
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
+azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
 in,intune,Intune,,Intune,https://endpoint.microsoft.com
 defender,def,Defender,,Defender,https://security.microsoft.com
 azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade
