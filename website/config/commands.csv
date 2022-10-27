@@ -1,5 +1,6 @@
 ﻿Command,Alias,Description,Keywords,Category,Url
-ad,aad,Azure Active Directory,,Azure Active Directory,https://entra.microsoft.com
+ad,aad,Azure Active Directory (Entra),,Azure Active Directory,https://entra.microsoft.com
+azad,,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
 azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
@@ -108,3 +109,10 @@ adelm,,Azure AD Entitlement Management,elm,Azure Active Directory,https://entra.
 azfwmg,,Azure Firewall Manager,,Azure,https://portal.azure.com/#view/Microsoft_Azure_HybridNetworking/FirewallManagerMenuBlade
 azpip,,Public IP Addresses,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FPublicIpAddresses
 azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Azure_ManagementGroups/ManagementGroupBrowseBlade?
+synapse,,Azure Synapse Studio,,Azure,https://web.azuresynapse.net/
+partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/
+powerapps,,PowerApps,,Microsoft 365,https://make.powerapps.com/
+myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
+training,,Training,,General,https://learn.microsoft.com/training/
+docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
+lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
