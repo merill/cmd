@@ -1,5 +1,5 @@
 ﻿Command,Alias,Description,Keywords,Category,Url
-ad,aad,Azure Active Directory,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView
+ad,aad,Azure Active Directory,,Azure Active Directory,https://entra.microsoft.com
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
 in,intune,Intune,,Intune,https://endpoint.microsoft.com
