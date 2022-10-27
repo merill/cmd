@@ -80,7 +80,7 @@ azcost,,Cost Management + Billing,,Azure,https://portal.azure.com/#view/Microsof
 azlb,lb,Load balancing,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Network/LoadBalancingHubMenuBlade/~/overview
 azsa,storage,Storage accounts,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts
 azdisks,,Disks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2Fdisks
-azvn,,Virtual networks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworks
+azvn,vnet,Virtual networks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworks
 azdefender,,Microsoft Defender for Cloud,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0
 azadf,,Data factories,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DataFactory%2FdataFactories
 azhelp,,Help + support,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview
@@ -91,7 +91,15 @@ azkv,kv,Key Vault,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseReso
 azvm,,Virtual machines,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
 azaks,,Kubernetes services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters
 azredis,,Azure Cache for Redis,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FRedis
-azvnet,vnet,Virtual Networks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworks
 azservicebus,bus,Service Bus,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ServiceBus%2Fnamespaces
-azapplicationgateway,appgw|gateway,Application Gateway,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Network/LoadBalancingHubMenuBlade/~/applicationgateways
+azappgw,appgw|gateway,Application Gateway,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Network/LoadBalancingHubMenuBlade/~/applicationgateways
 azwaf,waf,Web Application Firewall policies,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FFrontDoorWebApplicationFirewallPolicies
+azhybridcompute,,Servers - Azure Arc,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.HybridCompute%2Fmachines
+azssh,,SSH Keys,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FsshPublicKeys
+azdcr,,Data Collection Rules,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Insights%2FdataCollectionRules
+azacr,,Container Registries,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerRegistry%2Fregistries
+azcontainer,,Container Instances,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerInstance%2FcontainerGroups
+azpolicy,,Azure Policy,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/overview
+azshell,shell,Azure Cloud Shell,,Azure,https://portal.azure.com/#cloudshell/
+adinvite,,Azure B2B Invitations,b2b,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/UserCreateBlade/initialMode~/1/b2cEnabled~/false
+adelm,,Azure AD Entitlement Management,elm,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/elmEntitlement
