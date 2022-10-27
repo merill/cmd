@@ -89,3 +89,9 @@ azkv,,Key Vault,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResour
 azvm,,Virtual machines,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
 azaks,,Kubernetes services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters
 azredis,,Azure Cache for Redis,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FRedis
+hybridcompute,,Servers - Azure Arc,,Azure,https://ms.portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.HybridCompute%2Fmachines
+azssh,,SSH Keys,,Azure,https://ms.portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FsshPublicKeys
+azdcr,,Data Collection Rules,,Azure,https://ms.portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Insights%2FdataCollectionRules
+azacr,,Container Registries,,Azure,https://ms.portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerRegistry%2Fregistries
+azcontainer,,Container Instances,,Azure,https://ms.portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerInstance%2FcontainerGroups
+azpolicy,,Azure Policy,,Azure,https://ms.portal.azure.com/#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/overview
