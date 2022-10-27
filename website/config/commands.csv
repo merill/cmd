@@ -91,3 +91,4 @@ azaks,,Kubernetes services,,Azure,https://portal.azure.com/#view/HubsExtension/B
 azredis,,Azure Cache for Redis,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FRedis
 azshell,shell,Azure Cloud Shell,,Azure,https://portal.azure.com/#cloudshell/
 adinvite,,Azure B2B Invitations,b2b,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/UserCreateBlade/initialMode~/1/b2cEnabled~/false
+adelm,,Azure AD Entitlement Management,elm,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/elmEntitlement
