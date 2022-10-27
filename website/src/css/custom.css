@@ -142,3 +142,7 @@ li > a.menu__link {
 .cat-defender {
   content:url('/static/img/defender.svg');
 }
+
+.cat-general {
+  content:url('/static/img/general.svg');
+}
