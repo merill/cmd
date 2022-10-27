@@ -4,7 +4,7 @@ admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
 in,intune,Intune,,Intune,https://endpoint.microsoft.com
 defender,def,Defender,,Defender,https://security.microsoft.com
-azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade
+azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
 ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
 sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
 teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
@@ -86,7 +86,7 @@ azdefender,,Microsoft Defender for Cloud,,Azure,https://portal.azure.com/#view/M
 azadf,,Data factories,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DataFactory%2FdataFactories
 azhelp,,Help + support,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview
 azsubs,,Subscriptions,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade?
-azrg,,Resource groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups
+azrg,,Resource groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups?
 aznsg,,Network security groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FNetworkSecurityGroups
 azkv,kv,Key Vault,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.KeyVault%2Fvaults
 azvm,,Virtual machines,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
