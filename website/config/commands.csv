@@ -13,6 +13,7 @@ pbi,powerbi,Power BI,,Microsoft 365,https://app.powerbi.com/admin-portal
 pp,ppa|power,Power Platform,,Microsoft 365,https://admin.powerplatform.microsoft.com
 yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
 ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
+mail,outlook,Outlook,,Microsoft 365,https://outlook.office365.com/mail/
 purview,,Purview,,Azure,https://web.purview.azure.com
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
