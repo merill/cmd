@@ -65,6 +65,7 @@ inconfig,,Configuration profiles,,Intune,https://endpoint.microsoft.com/#view/Mi
 inscripts,,Scripts,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
 inappconfig,,App configuration policies,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
 azautomanage,azam,Automanage,,Azure,https://portal.azure.com/#view/Microsoft_Azure_AutoManagedVirtualMachines/AutomanageMenuBlade
+azad, ad, Azure Active Directory, Azure, https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview
 azavd,avd,Azure Virtual Desktop,,Azure,https://portal.azure.com/#view/Microsoft_Azure_WVD/WvdManagerMenuBlade/~/overview
 azauto,azautomation,Azure Automation,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts
 azfn,,Function App,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp
