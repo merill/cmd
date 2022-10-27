@@ -85,7 +85,7 @@ azvn,vnet,Virtual networks,,Azure,https://portal.azure.com/#view/HubsExtension/B
 azdefender,,Microsoft Defender for Cloud,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0
 azadf,,Data factories,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DataFactory%2FdataFactories
 azhelp,,Help + support,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview
-azsubs,,Subscriptions,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade
+azsubs,,Subscriptions,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade?
 azrg,,Resource groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups
 aznsg,,Network security groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FNetworkSecurityGroups
 azkv,kv,Key Vault,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.KeyVault%2Fvaults
