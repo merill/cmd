@@ -15,6 +15,7 @@ pbi,powerbi,Power BI,,Microsoft 365,https://app.powerbi.com/admin-portal
 pp,ppa|power,Power Platform,,Microsoft 365,https://admin.powerplatform.microsoft.com
 yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
 ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
+arg,arge,Azure Resource Graph Explorer,,Azure,https://portal.azure.com/#view/HubsExtension/ArgQueryBlade?
 mail,outlook,Outlook,,Microsoft 365,https://outlook.office365.com/mail/
 purview,,Purview,,Azure,https://web.purview.azure.com
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
@@ -109,6 +110,7 @@ adelm,,Azure AD Entitlement Management,elm,Azure Active Directory,https://entra.
 azfwmg,,Azure Firewall Manager,,Azure,https://portal.azure.com/#view/Microsoft_Azure_HybridNetworking/FirewallManagerMenuBlade
 azpip,,Public IP Addresses,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FPublicIpAddresses
 azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Azure_ManagementGroups/ManagementGroupBrowseBlade?
+azumc,,Azure Update Management Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Automation/UpdateCenterMenuBlade/~/overview?
 synapse,,Azure Synapse Studio,,Azure,https://web.azuresynapse.net/
 partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/
 powerapps,,PowerApps,,Microsoft 365,https://make.powerapps.com/
@@ -116,4 +118,14 @@ myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
 training,,Training,,General,https://learn.microsoft.com/training/
 docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
 lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
-qre,,Quarantined Emails,,Defender,https://security.microsoft.com/quarantine
+deqre,,Quarantined Emails,,Defender,https://security.microsoft.com/quarantine
+azapim,,API Management services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ApiManagement%2Fservice?
+azfdcdn,,Azure Front Door and CDN profiles,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.cdn%2Fprofiles?
+azmi,,Azure Managed Identities,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ManagedIdentity%2FuserAssignedIdentities?
+azhealth,,Azure Service Health,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Health/ServiceIssuesBlade?
+azcreate,,Azure - Create a Resource,,Azure,https://portal.azure.com/#create/hub?
+aznwatch,netwatch,Network Watcher,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Network/NetworkWatcherMenuBlade/~/overview?
+azadvisor,,Azure Advisor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Expert/AdvisorMenuBlade/~/score?
+azvmas,,Availability Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FavailabilitySets?
+azvmss,,Scale Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FvirtualMachineScaleSets?
+azml,,Azure Machine Learning Studio,,Azure,https://ml.azure.com/
