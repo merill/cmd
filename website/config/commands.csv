@@ -110,6 +110,7 @@ adelm,,Azure AD Entitlement Management,elm,Azure Active Directory,https://entra.
 azfwmg,,Azure Firewall Manager,,Azure,https://portal.azure.com/#view/Microsoft_Azure_HybridNetworking/FirewallManagerMenuBlade
 azpip,,Public IP Addresses,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FPublicIpAddresses
 azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Azure_ManagementGroups/ManagementGroupBrowseBlade?
+azumc,,Azure Update Management Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Automation/UpdateCenterMenuBlade/~/overview?
 synapse,,Azure Synapse Studio,,Azure,https://web.azuresynapse.net/
 partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/
 powerapps,,PowerApps,,Microsoft 365,https://make.powerapps.com/
