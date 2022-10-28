@@ -117,4 +117,11 @@ myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
 training,,Training,,General,https://learn.microsoft.com/training/
 docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
 lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
+azmi,,Azure Managed Identities,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ManagedIdentity%2FuserAssignedIdentities?
+azhealth,,Azure Service Health,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Health/ServiceIssuesBlade?
+azcreate,,Azure - Create a Resource,,Azure,https://portal.azure.com/#create/hub?
+aznwatch,netwatch,Network Watcher,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Network/NetworkWatcherMenuBlade/~/overview?
+azadvisor,,Azure Advisor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Expert/AdvisorMenuBlade/~/score?
+azvmas,,Availability Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FavailabilitySets?
+azvmss,,Scale Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FvirtualMachineScaleSets?
 azml,,Azure Machine Learning Studio,,Azure,https://ml.azure.com/
