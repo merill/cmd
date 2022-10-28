@@ -117,6 +117,7 @@ myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
 training,,Training,,General,https://learn.microsoft.com/training/
 docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
 lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
+azfdcdn,,Azure Front Door and CDN profiles,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.cdn%2Fprofiles?
 azmi,,Azure Managed Identities,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ManagedIdentity%2FuserAssignedIdentities?
 azhealth,,Azure Service Health,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Health/ServiceIssuesBlade?
 azcreate,,Azure - Create a Resource,,Azure,https://portal.azure.com/#create/hub?
