@@ -130,7 +130,7 @@ azadvisor,,Azure Advisor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_E
 azvmas,,Availability Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FavailabilitySets?
 azvmss,,Scale Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FvirtualMachineScaleSets?
 azml,,Azure Machine Learning Studio,,Azure,https://ml.azure.com/
-azpg,,Azure Database for PostgreSQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2Fservers
-azpgfs,,Azure Database for PostgreSQL flexible servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers
-azpgh,,Azure Database for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2
-azpgaa,,PostgreSQL servers - Azure Arc,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.AzureArcData%2FpostgresInstances
+azpg,,Azure Database for PostgreSQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2Fservers?
+azpgfs,,Azure Database for PostgreSQL flexible servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers?
+azpgh,,Azure Database for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2?
+azpgaa,,PostgreSQL servers - Azure Arc,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.AzureArcData%2FpostgresInstances?
