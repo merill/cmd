@@ -7,6 +7,9 @@ custom_edit_url: null
 pagination_next: null
 pagination_prev: null
 ---
+<head>
+  <link rel="search" type="application/opensearchdescription+xml" title="[cmd.ms] Search" href="/opensearch.xml" />
+</head>
 
 import { CommandsTable } from "@site/src/components/CommandsTable";
 import { commands } from "@site/src/tableHome/commands.table";
@@ -24,3 +27,4 @@ Try it out. Open a new tab and type **{command}.cmd.ms** using any of the comman
   columns={columns}
   data={commands}
 />
+

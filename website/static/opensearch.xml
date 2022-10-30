@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>cmd</ShortName>
+    <Description>Enter command. See https://cmd.ms for list of commands.</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <Image width="16" height="16" type="image/x-icon">https://cmd.ms/favicon.ico</Image>
+    <Url type="text/html" method="get" template="https://cmd.ms/{searchTerms}"/>
+</OpenSearchDescription>
