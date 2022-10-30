@@ -1,7 +1,7 @@
 {
   "name": "[cmd.ms]",
   "description": "Type 'c' <spacebar> and then type in the [cmd.ms] command.",
-  "version": "0.2",
+  "version": "0.4",
   "homepage_url": "https://cmd.ms",
   "author": "Merill Fernando",
   "omnibox": { "keyword": "c" },
