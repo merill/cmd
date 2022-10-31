@@ -129,3 +129,4 @@ azadvisor,,Azure Advisor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_E
 azvmas,,Availability Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FavailabilitySets?
 azvmss,,Scale Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FvirtualMachineScaleSets?
 azml,,Azure Machine Learning Studio,,Azure,https://ml.azure.com/
+detallow,,Defender Tenant Allow/Block List,,Defender,https://security.microsoft.com/tenantAllowBlockList
