@@ -1,5 +1,5 @@
 ﻿Command,Alias,Description,Keywords,Category,Url
-ad,aad,Azure Active Directory (Entra),,Azure Active Directory,https://entra.microsoft.com
+ad,aad|entra,Azure Active Directory (Entra),,Azure Active Directory,https://entra.microsoft.com
 azad,,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
@@ -134,3 +134,9 @@ azpg,,Azure Database for PostgreSQL servers,,Azure,https://portal.azure.com/#vie
 azpgfs,,Azure Database for PostgreSQL flexible servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers?
 azpgh,,Azure Database for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2?
 azpgaa,,PostgreSQL servers - Azure Arc,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.AzureArcData%2FpostgresInstances?
+dess,,Microsoft Secure Score,,Defender,https://security.microsoft.com/securescore
+decm,,Compliance Manager,,Defender,https://compliance.microsoft.com/compliancemanager
+azdatabricks,,Azure Databricks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces?
+decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/app-catalog
+decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps
+teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
