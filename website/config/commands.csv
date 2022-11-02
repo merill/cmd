@@ -141,4 +141,5 @@ azdatabricks,,Azure Databricks,,Azure,https://portal.azure.com/#view/HubsExtensi
 decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/app-catalog
 decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps
 teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
+oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings
 deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/
