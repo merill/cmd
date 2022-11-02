@@ -1,0 +1,26 @@
+{
+  "name": "[cmd.ms]",
+  "description": "Type 'c' <spacebar> and then type in the [cmd.ms] command.",
+  "version": "0.4",
+  "homepage_url": "https://cmd.ms",
+  "author": "Merill Fernando",
+  "omnibox": { "keyword": "c" },
+  "icons": {
+    "512": "img/icon-512.png",
+    "256": "img/icon-256.png",
+    "128": "img/icon-128.png",
+    "64": "img/icon-64.png",
+    "32": "img/icon-32.png",
+    "16": "img/icon-16.png"
+  },
+
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "52.0a1"
+    }
+  }
+}

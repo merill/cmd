@@ -1,5 +1,5 @@
 ﻿Command,Alias,Description,Keywords,Category,Url
-ad,aad,Azure Active Directory (Entra),,Azure Active Directory,https://entra.microsoft.com
+ad,aad|entra,Azure Active Directory (Entra),,Azure Active Directory,https://entra.microsoft.com
 azad,,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
@@ -21,7 +21,7 @@ purview,,Purview,,Azure,https://web.purview.azure.com
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
 deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
-deexplorer,,Explorer,,Defender,https://sip.security.microsoft.com/threatexplorer
+deexplorer,,Explorer,,Defender,https://security.microsoft.com/threatexplorer
 adappreg,,App registrations,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
 adentapp,adapp|adapps,Enterprise applications,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
 adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
@@ -117,6 +117,7 @@ powerapps,,PowerApps,,Microsoft 365,https://make.powerapps.com/
 myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
 training,,Training,,General,https://learn.microsoft.com/training/
 docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
+vlsc,,Volume Licensing Service Center,,General,https://www.microsoft.com/Licensing/servicecenter
 lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
 deqre,,Quarantined Emails,,Defender,https://security.microsoft.com/quarantine
 azapim,,API Management services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ApiManagement%2Fservice?
@@ -130,3 +131,14 @@ azvmas,,Availability Sets,,Azure,https://portal.azure.com/#view/HubsExtension/Br
 azvmss,,Scale Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FvirtualMachineScaleSets?
 azml,,Azure Machine Learning Studio,,Azure,https://ml.azure.com/
 detallow,,Defender Tenant Allow/Block List,,Defender,https://security.microsoft.com/tenantAllowBlockList
+azpg,,Azure Database for PostgreSQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2Fservers?
+azpgfs,,Azure Database for PostgreSQL flexible servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers?
+azpgh,,Azure Database for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2?
+azpgaa,,PostgreSQL servers - Azure Arc,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.AzureArcData%2FpostgresInstances?
+dess,,Microsoft Secure Score,,Defender,https://security.microsoft.com/securescore
+decm,,Compliance Manager,,Defender,https://compliance.microsoft.com/compliancemanager
+azdatabricks,,Azure Databricks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces?
+decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/app-catalog
+decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps
+teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
+deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/
