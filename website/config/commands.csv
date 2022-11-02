@@ -143,3 +143,5 @@ decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/
 teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
 oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings
 deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/
+inprorem,,Proactive Remediations,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_Enrollment/UXAnalyticsMenu/~/proactiveRemediations?
+inwur,,Windows Update Rings,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?
