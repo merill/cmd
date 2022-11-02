@@ -17,20 +17,20 @@ yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
 ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
 arg,arge,Azure Resource Graph Explorer,,Azure,https://portal.azure.com/#view/HubsExtension/ArgQueryBlade?
 mail,outlook,Outlook,,Microsoft 365,https://outlook.office365.com/mail/
-purviewudg,purviewudg|purview,Purview Unified Data Governance,Azure Purview portal,Azure,https://web.purview.azure.com
-purviewperms,,Purview Permissions manager used to manage RBAC roles associated with Microsoft Purview Compliance,,Defender,https://compliance.microsoft.com/permissions
-purviewcmgr,decm,Purview Compliance Manager utilizes global and regional compliance templates,Microsoft Compliance Manager,Defender,https://compliance.microsoft.com/compliancemanager
-purviewcloudgov,,Purview App Governance extends the reach of Purview Compliance to 3rd party locations connected via Defender for Cloud Apps.,,Defender,https://compliance.microsoft.com/cloudapps/app-governance
-purviewaudit,,Purview Audit provides one-year retention of audit logs in Purview.,Microsoft 365 Advanced Audit,Defender,https://compliance.microsoft.com/auditlogsearch
-purviewcomms,,"Purview Communication Compliance helps minimize communication risks by helping you detect, capture, and take remediation actions for inappropriate messages in your organization. ",Microsoft 365 Communication Compliance,Defender,https://compliance.microsoft.com/supervisoryreview
-purviewdlp,dlp,Purview Data Loss Prevention to detect activity on items determined to be sensitive and to help prevent the unintentional sharing of those items.,Microsoft Endpoint DLP,Defender,https://compliance.microsoft.com/datalossprevention
-purviewedisc,ediscovery,Purview eDiscovery provides capabilities to perform Electronic Discovery,Office 365 Advanced eDiscovery,Defender,https://compliance.microsoft.com/advancedediscovery
-purviewdlm,,Purview Data Lifecycle Management provides compliance management for internal user,Microsoft Information Governance,Defender,https://compliance.microsoft.com/informationgovernance
-purviewrecmon,,Microsoft Purview Records Management provides compliance management for regulatory policies,Records Management in Microsoft 365,Defender,https://compliance.microsoft.com/recordsmanagement
-purviewinfoprot,,Purview Information Protection allows users to create sensitivity labels and label policies to classify data,Microsoft Information Protection,Defender,https://compliance.microsoft.com/informationprotection
-purviewirm,,"Insider Risk Management is a solution that helps minimize internal risks by letting you detect, investigate, and take action on risky activities in your organization.",Microsoft 365 Insider Risk Management,Defender,https://compliance.microsoft.com/insiderriskmgmt
-purviewprivaprm,,Purview Priva Privacy Risk Management is used to provide management of policy templates.,,Defender,https://compliance.microsoft.com/privacymgmtoverview
-purviewprivasrr,,Purview Priva Subject Rights Requests is used to automate fulfilling user data search requests.,,Defender,https://compliance.microsoft.com/privacymgmtsrm
+puudg,purviewudg|purview,Purview Unified Data Governance,Azure Purview portal,Azure,https://web.purview.azure.com
+puperms,,Purview Permissions manager,,Microsoft 365,https://compliance.microsoft.com/permissions
+pucmgr,decm,Purview Compliance manager,Microsoft Compliance Manager,Microsoft 365,https://compliance.microsoft.com/compliancemanager
+pucloudgov,,Purview App Governance,,Microsoft 365,https://compliance.microsoft.com/cloudapps/app-governance
+puaudit,,Purview Audit,Microsoft 365 Advanced Audit,Microsoft 365,https://compliance.microsoft.com/auditlogsearch
+pucomms,,Purview Communication Compliance,Microsoft 365 Communication Compliance,Microsoft 365,https://compliance.microsoft.com/supervisoryreview
+pudlp,dlp,Purview Data Loss Prevention,Microsoft Endpoint DLP,Microsoft 365,https://compliance.microsoft.com/datalossprevention
+puedisc,ediscovery,Purview eDiscovery,Office 365 Advanced eDiscovery,Microsoft 365,https://compliance.microsoft.com/advancedediscovery
+pudlm,,Purview Data Lifecycle Management,Microsoft Information Governance,Microsoft 365,https://compliance.microsoft.com/informationgovernance
+purecmon,,Microsoft Purview Records Management,Records Management in Microsoft 365,Microsoft 365,https://compliance.microsoft.com/recordsmanagement
+puinfoprot,,Purview Information Protection,Microsoft Information Protection,Microsoft 365,https://compliance.microsoft.com/informationprotection
+puirm,,Insider Risk Management,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.com/insiderriskmgmt
+puprivaprm,,Purview Priva Privacy Risk Management,,Microsoft 365,https://compliance.microsoft.com/privacymgmtoverview
+puprivasrr,,Purview Priva Subject Rights Requests,,Microsoft 365,https://compliance.microsoft.com/privacymgmtsrm
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
 deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
