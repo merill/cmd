@@ -1,4 +1,4 @@
-﻿Command,Alias,Description,Keywords,Category,Url
+Command,Alias,Description,Keywords,Category,Url
 ad,aad|entra,Azure Active Directory (Entra),,Azure Active Directory,https://entra.microsoft.com
 azad,,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
@@ -17,7 +17,20 @@ yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
 ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/graph/graph-explorer
 arg,arge,Azure Resource Graph Explorer,,Azure,https://portal.azure.com/#view/HubsExtension/ArgQueryBlade?
 mail,outlook,Outlook,,Microsoft 365,https://outlook.office365.com/mail/
-purview,,Purview,,Azure,https://web.purview.azure.com
+puudg,purviewudg|purview,Purview Unified Data Governance,Azure Purview portal,Azure,https://web.purview.azure.com
+puperms,,Purview Permissions manager,,Microsoft 365,https://compliance.microsoft.com/permissions
+pucmgr,decm,Purview Compliance manager,Microsoft Compliance Manager,Microsoft 365,https://compliance.microsoft.com/compliancemanager
+pucloudgov,,Purview App Governance,,Microsoft 365,https://compliance.microsoft.com/cloudapps/app-governance
+puaudit,,Purview Audit,Microsoft 365 Advanced Audit,Microsoft 365,https://compliance.microsoft.com/auditlogsearch
+pucomms,,Purview Communication Compliance,Microsoft 365 Communication Compliance,Microsoft 365,https://compliance.microsoft.com/supervisoryreview
+pudlp,dlp,Purview Data Loss Prevention,Microsoft Endpoint DLP,Microsoft 365,https://compliance.microsoft.com/datalossprevention
+puedisc,ediscovery,Purview eDiscovery,Office 365 Advanced eDiscovery,Microsoft 365,https://compliance.microsoft.com/advancedediscovery
+pudlm,,Purview Data Lifecycle Management,Microsoft Information Governance,Microsoft 365,https://compliance.microsoft.com/informationgovernance
+purecmon,,Microsoft Purview Records Management,Records Management in Microsoft 365,Microsoft 365,https://compliance.microsoft.com/recordsmanagement
+puinfoprot,,Purview Information Protection,Microsoft Information Protection,Microsoft 365,https://compliance.microsoft.com/informationprotection
+puirm,,Insider Risk Management,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.com/insiderriskmgmt
+puprivaprm,,Purview Priva Privacy Risk Management,,Microsoft 365,https://compliance.microsoft.com/privacymgmtoverview
+puprivasrr,,Purview Priva Subject Rights Requests,,Microsoft 365,https://compliance.microsoft.com/privacymgmtsrm
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
 deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
@@ -136,7 +149,6 @@ azpgfs,,Azure Database for PostgreSQL flexible servers,,Azure,https://portal.azu
 azpgh,,Azure Database for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2?
 azpgaa,,PostgreSQL servers - Azure Arc,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.AzureArcData%2FpostgresInstances?
 dess,,Microsoft Secure Score,,Defender,https://security.microsoft.com/securescore
-decm,,Compliance Manager,,Defender,https://compliance.microsoft.com/compliancemanager
 azdatabricks,,Azure Databricks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces?
 decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/app-catalog
 decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps
