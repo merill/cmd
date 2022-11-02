@@ -130,6 +130,7 @@ azadvisor,,Azure Advisor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_E
 azvmas,,Availability Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FavailabilitySets?
 azvmss,,Scale Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FvirtualMachineScaleSets?
 azml,,Azure Machine Learning Studio,,Azure,https://ml.azure.com/
+detallow,,Defender Tenant Allow/Block List,,Defender,https://security.microsoft.com/tenantAllowBlockList
 azpg,,Azure Database for PostgreSQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2Fservers?
 azpgfs,,Azure Database for PostgreSQL flexible servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers?
 azpgh,,Azure Database for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2?
@@ -141,3 +142,4 @@ decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/ap
 decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps
 teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
 oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings
+deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/
