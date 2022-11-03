@@ -26,9 +26,9 @@ pucomms,,Purview Communication Compliance,Microsoft 365 Communication Compliance
 pudlp,dlp,Purview Data Loss Prevention,Microsoft Endpoint DLP,Microsoft 365,https://compliance.microsoft.com/datalossprevention
 puedisc,ediscovery,Purview eDiscovery,Office 365 Advanced eDiscovery,Microsoft 365,https://compliance.microsoft.com/advancedediscovery
 pudlm,,Purview Data Lifecycle Management,Microsoft Information Governance,Microsoft 365,https://compliance.microsoft.com/informationgovernance
-purecmon,,Microsoft Purview Records Management,Records Management in Microsoft 365,Microsoft 365,https://compliance.microsoft.com/recordsmanagement
+purecmon,,Purview Records Management,Records Management in Microsoft 365,Microsoft 365,https://compliance.microsoft.com/recordsmanagement
 puinfoprot,,Purview Information Protection,Microsoft Information Protection,Microsoft 365,https://compliance.microsoft.com/informationprotection
-puirm,,Insider Risk Management,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.com/insiderriskmgmt
+puirm,,Purview Insider Risk Management,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.com/insiderriskmgmt
 puprivaprm,,Purview Priva Privacy Risk Management,,Microsoft 365,https://compliance.microsoft.com/privacymgmtoverview
 puprivasrr,,Purview Priva Subject Rights Requests,,Microsoft 365,https://compliance.microsoft.com/privacymgmtsrm
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
