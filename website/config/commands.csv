@@ -125,7 +125,7 @@ azpip,,Public IP Addresses,,Azure,https://portal.azure.com/#view/HubsExtension/B
 azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Azure_ManagementGroups/ManagementGroupBrowseBlade?
 azumc,,Azure Update Management Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Automation/UpdateCenterMenuBlade/~/overview?
 synapse,,Azure Synapse Studio,,Azure,https://web.azuresynapse.net/
-partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/
+partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/dashboard
 powerapps,,PowerApps,,Microsoft 365,https://make.powerapps.com/
 myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
 training,,Training,,General,https://learn.microsoft.com/training/
