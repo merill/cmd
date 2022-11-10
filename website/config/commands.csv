@@ -41,7 +41,7 @@ adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Micro
 adusers,,Users,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/AllUsers
 addevices,,Devices,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/Devices/menuId/Devices
 adguests,adext,External Identities,guests,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings/menuId/ExternalIdentitiesGettingStarted
-adca,,Conditional access,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConditionalAccessBlade/~/Policies
+adca,,Conditional Access,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies
 adctas,adxtap,Cross-tenant access settings,external,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/CrossTenantAccessSettings/menuId/CrossTenantAccessSettings
 adadfslog,,ADFS services,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
 adauth,,Authentication methods,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
