@@ -159,3 +159,4 @@ inprorem,,Proactive Remediations,,Intune,https://endpoint.microsoft.com/#view/Mi
 inwur,,Windows Update Rings,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?
 azsynapse,,Azure Synapse Analytics,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Synapse%2Fworkspaces?
 aztemp,,Templates,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Gallery%2Fmyareas%2Fgalleryitems?
+azsd,,Shared dashboards,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Portal%2Fdashboards?
