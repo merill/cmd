@@ -160,3 +160,4 @@ inwur,,Windows Update Rings,,Intune,https://endpoint.microsoft.com/#view/Microso
 azsynapse,,Azure Synapse Analytics,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Synapse%2Fworkspaces?
 aztemp,,Templates,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Gallery%2Fmyareas%2Fgalleryitems?
 azsd,,Shared dashboards,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Portal%2Fdashboards?
+m365apps,,Microsoft 365 Apps admin center,,Microsoft 365,https://config.office.com/officeSettings
