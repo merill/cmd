@@ -132,7 +132,7 @@ training,,Training,,General,https://learn.microsoft.com/training/
 docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
 vlsc,,Volume Licensing Service Center,,General,https://www.microsoft.com/Licensing/servicecenter
 lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
-deqre,q,Quarantined Emails,,Defender,https://security.microsoft.com/quarantine
+deqre,deq,Quarantined Emails,,Defender,https://security.microsoft.com/quarantine
 azapim,,API Management services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ApiManagement%2Fservice?
 azfdcdn,,Azure Front Door and CDN profiles,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.cdn%2Fprofiles?
 azmi,,Azure Managed Identities,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ManagedIdentity%2FuserAssignedIdentities?
