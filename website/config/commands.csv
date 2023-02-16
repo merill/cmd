@@ -162,5 +162,6 @@ aztemp,,Templates,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseReso
 azsd,,Shared dashboards,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Portal%2Fdashboards?
 m365apps,,Microsoft 365 Apps admin center,,Microsoft 365,https://config.office.com/officeSettings
 adauthstrength,,Authentication strengths,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthStrengths/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade?
+adf,,Azure Data Factory,,Azure,https://adf.azure.com/
 adauthmethodsactivity,authactivity,Authentication methods activity,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthMethodsActivity/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade?
 azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/calculator/
