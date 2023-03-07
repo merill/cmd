@@ -4,7 +4,7 @@ azad,,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#v
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
 azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
-in,intune|endpoint,Intune,,Intune,https://endpoint.microsoft.com
+in,intune|endpoint,Intune,,Intune,https://intune.microsoft.com
 defender,def|security,Defender,,Defender,https://security.microsoft.com
 azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
 ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
@@ -64,21 +64,21 @@ mygroups,mygroup,My groups,,My Pages,https://account.activedirectory.windowsazur
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
-indevices,,Devices,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/overview
-inapps,,Apps,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/overview
-insecurity,insec,Security,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/overview
-inusers,,Users,,Intune,https://endpoint.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers
-ingroups,,Groups,,Intune,https://endpoint.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups
-intenant,intadmin,Tenant admin,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/TenantAdminMenu/~/tenantStatus
-inwin,,Windows devices,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesWindowsMenu/~/windowsDevices
-inios,,iOS/iPad devices,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesIosMenu/~/iosDevices
-inmacos,,macOS devices,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMacOsMenu/~/macOsDevices
-inandroid,,Android,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesAndroidMenu/~/overview
-inenroll,,Enroll devices,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesEnrollmentMenu/~/windowsEnrollment
-incompliance,,Compliance policies,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesComplianceMenu/~/policies
-inconfig,,Configuration profiles,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configurationProfiles
-inscripts,,Scripts,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
-inappconfig,,App configuration policies,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
+indevices,,Devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/overview
+inapps,,Apps,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/overview
+insecurity,insec,Security,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/overview
+inusers,,Users,,Intune,https://intune.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers
+ingroups,,Groups,,Intune,https://intune.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups
+intenant,intadmin,Tenant admin,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/TenantAdminMenu/~/tenantStatus
+inwin,,Windows devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesWindowsMenu/~/windowsDevices
+inios,,iOS/iPad devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesIosMenu/~/iosDevices
+inmacos,,macOS devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMacOsMenu/~/macOsDevices
+inandroid,,Android,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesAndroidMenu/~/overview
+inenroll,,Enroll devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesEnrollmentMenu/~/windowsEnrollment
+incompliance,,Compliance policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesComplianceMenu/~/policies
+inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configurationProfiles
+inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
+inappconfig,,App configuration policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
 azautomanage,azam,Automanage,,Azure,https://portal.azure.com/#view/Microsoft_Azure_AutoManagedVirtualMachines/AutomanageMenuBlade
 azavd,avd,Azure Virtual Desktop,,Azure,https://portal.azure.com/#view/Microsoft_Azure_WVD/WvdManagerMenuBlade/~/overview
 azauto,azautomation,Azure Automation,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts
