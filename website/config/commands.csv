@@ -169,3 +169,4 @@ adauthmethodsactivity,authactivity,Authentication methods activity,,Azure Active
 azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/calculator/
 aderror,,Login error lookup,,Azure Active Directory,https://login.microsoftonline.com/error
 l,,Login page,,Azure Active Directory,https://login.microsoftonline.com/
+azlogicapp,logic apps,Azure Logic Apps,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows
