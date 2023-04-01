@@ -169,3 +169,4 @@ adauthmethodsactivity,authactivity,Authentication methods activity,,Azure Active
 azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/calculator/
 aderror,,Login error lookup,,Azure Active Directory,https://login.microsoftonline.com/error
 l,,Login page,,Azure Active Directory,https://login.microsoftonline.com/
+introubleshoot,,Troubleshooting,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/SupportMenu/~/troubleshooting
