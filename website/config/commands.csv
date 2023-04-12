@@ -170,3 +170,4 @@ azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/
 aderror,,Login error lookup,,Azure Active Directory,https://login.microsoftonline.com/error
 l,,Login page,,Azure Active Directory,https://login.microsoftonline.com/
 introubleshoot,,Troubleshooting,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/SupportMenu/~/troubleshooting
+azidp,,Azure AD Identity Protection,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
