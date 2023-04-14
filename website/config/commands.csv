@@ -171,4 +171,9 @@ azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/
 aderror,,Login error lookup,,Azure Active Directory,https://login.microsoftonline.com/error
 l,,Login page,,Azure Active Directory,https://login.microsoftonline.com/
 introubleshoot,,Troubleshooting,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/SupportMenu/~/troubleshooting
+pbigcc,,Power BI GCC,,Microsoft 365,https://app.powerbigov.us/
+ppgcc,,Power Platform GCC,,Microsoft 365,https://gcc.admin.powerplatform.microsoft.us
+pappsgcc,,PowerApps GCC,,Microsoft 365,https://make.gov.powerapps.us/
+pflowgcc,,PowerAutomate GCC,,Microsoft 365,https://make.gov.powerautomate.us/
+ppagegcc,,PowerPages GCC,,Microsoft 365,https://make.gov.powerpages.microsoft.us/
 adidp,,Azure AD Identity Protection,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
