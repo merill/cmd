@@ -35,6 +35,7 @@ deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
 deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
 deexplorer,,Explorer,,Defender,https://security.microsoft.com/threatexplorer
+dere,,Restricted entities,,Defender,https://security.microsoft.com/restrictedentities
 adappreg,,App registrations,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
 adentapp,adapp|adapps,Enterprise applications,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
 adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
@@ -106,6 +107,7 @@ azsubs,,Subscriptions,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Bill
 azrg,,Resource groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups?
 aznsg,,Network security groups,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FNetworkSecurityGroups
 azkv,kv,Key Vault,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.KeyVault%2Fvaults
+azkusto,adx,Data Explorer,,Azure,https://dataexplorer.azure.com/
 azvm,,Virtual machines,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
 azaks,,Kubernetes services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters
 azredis,,Azure Cache for Redis,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FRedis
@@ -154,6 +156,7 @@ azdatabricks,,Azure Databricks,,Azure,https://portal.azure.com/#view/HubsExtensi
 decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/app-catalog
 decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps
 teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
+teamsrooms,,Teams Rooms Pro Management,,Microsoft 365,https://portal.rooms.microsoft.com/
 oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings
 deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/
 inprorem,,Proactive Remediations,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_Enrollment/UXAnalyticsMenu/~/proactiveRemediations?
@@ -170,6 +173,7 @@ adauthmethodsactivity,authactivity,Authentication methods activity,,Azure Active
 azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/calculator/
 aderror,,Login error lookup,,Azure Active Directory,https://login.microsoftonline.com/error
 l,,Login page,,Azure Active Directory,https://login.microsoftonline.com/
+dl,,Device login,,Azure Active Directory,https://microsoft.com/devicelogin
 introubleshoot,,Troubleshooting,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/SupportMenu/~/troubleshooting
 forms,frm,Microsoft Forms,,Microsoft 365,https://forms.office.com/
 loop,lp,Microsoft Loop,,Microsoft 365,https://loop.microsoft.com/
@@ -180,3 +184,4 @@ pflowgcc,,PowerAutomate GCC,,Microsoft 365,https://make.gov.powerautomate.us/
 ppagegcc,,PowerPages GCC,,Microsoft 365,https://make.gov.powerpages.microsoft.us/
 adidp,,Azure AD Identity Protection,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
 azlogic,,Azure Logic Apps,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows
+azpim,,Azure Resources Privileged Identity Management,,Azure,https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac
