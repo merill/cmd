@@ -179,3 +179,4 @@ pappsgcc,,PowerApps GCC,,Microsoft 365,https://make.gov.powerapps.us/
 pflowgcc,,PowerAutomate GCC,,Microsoft 365,https://make.gov.powerautomate.us/
 ppagegcc,,PowerPages GCC,,Microsoft 365,https://make.gov.powerpages.microsoft.us/
 adidp,,Azure AD Identity Protection,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
+azlogic,,Azure Logic Apps,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows
