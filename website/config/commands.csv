@@ -159,8 +159,8 @@ teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
 teamsrooms,,Teams Rooms Pro Management,,Microsoft 365,https://portal.rooms.microsoft.com/
 oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings
 deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/
-inprorem,,Proactive Remediations,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_Enrollment/UXAnalyticsMenu/~/proactiveRemediations?
-inwur,,Windows Update Rings,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?
+inprorem,,Proactive Remediations,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/UXAnalyticsMenu/~/proactiveRemediations?
+inwur,,Windows Update Rings,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?
 azsynapse,,Azure Synapse Analytics,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Synapse%2Fworkspaces?
 aztemp,,Templates,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Gallery%2Fmyareas%2Fgalleryitems?
 azsd,,Shared dashboards,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Portal%2Fdashboards?
@@ -174,7 +174,7 @@ azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/
 aderror,,Login error lookup,,Azure Active Directory,https://login.microsoftonline.com/error
 l,,Login page,,Azure Active Directory,https://login.microsoftonline.com/
 dl,,Device login,,Azure Active Directory,https://microsoft.com/devicelogin
-introubleshoot,,Troubleshooting,,Intune,https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/SupportMenu/~/troubleshooting
+introubleshoot,,Troubleshooting,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/SupportMenu/~/troubleshooting
 forms,frm,Microsoft Forms,,Microsoft 365,https://forms.office.com/
 loop,lp,Microsoft Loop,,Microsoft 365,https://loop.microsoft.com/
 pbigcc,,Power BI GCC,,Microsoft 365,https://app.powerbigov.us/
