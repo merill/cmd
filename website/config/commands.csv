@@ -186,3 +186,13 @@ adidp,,Azure AD Identity Protection,,Azure Active Directory,https://entra.micros
 azlogic,,Azure Logic Apps,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows
 azpim,,Azure Resources Privileged Identity Management,,Azure,https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac
 inwfu,,Feature updates for Windows,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/featureUpdateDeployments
+pbigcch,,Power BI GCC High,,Microsoft 365,https://app.high.powerbigov.us/
+ppgcch,,Power Platform GCC High,,Microsoft 365,https://high.admin.powerplatform.microsoft.us/
+pappsgcch,,PowerApps GCC High,,Microsoft 365,https://make.high.powerapps.us/
+pflowgcch,,PowerAutomate GCC High,,Microsoft 365,https://high.flow.microsoft.us/
+ppagegcch,,PowerPages GCC High,,Microsoft 365,https://make.high.powerpages.microsoft.us/
+pbidod,,Power BI DoD,,Microsoft 365,https://app.mil.powerbigov.us/
+ppdod,,Power Platform DoD,,Microsoft 365,https://admin.appsplatform.us/
+pappsdod,,PowerApps DoD,,Microsoft 365,https://make.apps.appsplatform.us/
+pflowdod,,PowerAutomate DoD,,Microsoft 365,https://flow.appsplatform.us/
+ppagedod,,PowerPages DoD,,Microsoft 365,https://make.powerpages.microsoft.appsplatform.us/
