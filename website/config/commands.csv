@@ -55,7 +55,7 @@ admfaunblock,,MFA unblock,,Azure Active Directory,https://entra.microsoft.com/#v
 adpim,,Privileged Identity Management,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
 adpimr,,Privileged Identity Management for Roles,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles
 adpimg,,Privileged Identity Management for Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadgroup?
-adpimaz,,Privileged Identity Management for Azure resources,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac
+adpimz,adpimaz,Privileged Identity Management for Azure resources,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac
 adreviews,adar,Access reviews,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/Controls
 adroles,,Roles and administrators,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
 adscore,,Secure score,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/IdentitySecureScore/menuId/IdentitySecureScore
