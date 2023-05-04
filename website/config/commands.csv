@@ -59,7 +59,7 @@ adpimz,adpimaz,Privileged Identity Management for Azure resources,,Azure Active 
 adreviews,adar,Access reviews,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/Controls
 adroles,,Roles and administrators,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
 adpa,,Protected Actions,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/ProtectedActions
-adac,,Authentication Context,,Azure Active Directory, https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/AuthenticationContext
+adac,,Authentication Context,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/AuthenticationContext
 adscore,,Secure score,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/IdentitySecureScore/menuId/IdentitySecureScore
 adsecurity,,Security,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/GettingStarted/menuId/SecurityCenter
 adpassword,adsspr,Password reset,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/PasswordResetMenuBlade/~/Properties
