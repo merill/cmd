@@ -36,6 +36,7 @@ dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hu
 deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
 deexplorer,,Explorer,,Defender,https://security.microsoft.com/threatexplorer
 dere,,Restricted entities,,Defender,https://security.microsoft.com/restrictedentities
+deinvestigations,,Investigations,,Defender,https://security.microsoft.com/airinvestigation
 adappreg,,App registrations,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
 adentapp,adapp|adapps,Enterprise applications,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
 adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
