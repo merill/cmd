@@ -53,7 +53,7 @@ adlegacymfa,,Legacy MFA,,Azure Active Directory,https://account.activedirectory.
 adlicense,,Licenses,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
 adsign,adlogs,Sign-in logs,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
 admfaunblock,,MFA unblock,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationMenuBlade/~/BlockedUsers/fromProviders~/false
-adpim,,Privileged Identity Management,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
+adpim,pim,Privileged Identity Management,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
 adpimr,,Privileged Identity Management for Roles,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles?
 adpimg,,Privileged Identity Management for Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadgroup?
 adpimz,adpimaz,Privileged Identity Management for Azure resources,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac?
