@@ -5,7 +5,7 @@ admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
 azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
 in,intune|endpoint,Intune,,Intune,https://intune.microsoft.com
-defender,def|security,Defender,,Defender,https://security.microsoft.com
+defender,def|security,Microsoft 365 Defender,,Defender,https://security.microsoft.com
 azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
 ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
 sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
