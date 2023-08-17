@@ -13,6 +13,7 @@ teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
 one,onedrive,OneDrive,,Microsoft 365,https://admin.onedrive.com
 pbi,powerbi,Power BI,,Microsoft 365,https://app.powerbi.com/admin-portal
 pp,ppa|power,Power Platform,,Microsoft 365,https://admin.powerplatform.microsoft.com
+pa,pflow,Power Automate,,Microsoft 365,https://make.powerautomate.com
 yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
 ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/en-us/graph/graph-explorer
 arg,arge,Azure Resource Graph Explorer,,Azure,https://portal.azure.com/#view/HubsExtension/ArgQueryBlade?
