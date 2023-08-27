@@ -166,7 +166,7 @@ teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
 teamsrooms,,Teams Rooms Pro Management,,Microsoft 365,https://portal.rooms.microsoft.com/
 oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings
 deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/
-inprorem,,Proactive Remediations,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/UXAnalyticsMenu/~/proactiveRemediations?
+inprorem,,Proactive Remediations,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/remediations?#view/Microsoft_Intune_Enrollment/UXAnalyticsMenu/~/proactiveRemediations?=
 inwur,,Windows Update Rings,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?
 azsynapse,,Azure Synapse Analytics,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Synapse%2Fworkspaces?
 aztemp,,Templates,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Gallery%2Fmyareas%2Fgalleryitems?
@@ -206,3 +206,4 @@ ppagedod,,PowerPages DoD,,Microsoft 365,https://make.powerpages.microsoft.appspl
 aka,,AkaSearch,,General,https://akaSearch.net
 lighthouse,,Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/
 adlaps,,Local Administrator Password Recovery,LAPS,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/LocalAdminPassword/menuId/Overview
+inwdu,,Driver updates for Windows 10,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windowsDriverUpdate?#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?=
