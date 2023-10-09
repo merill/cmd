@@ -209,3 +209,4 @@ adlaps,,Local Administrator Password Recovery,LAPS,Azure Active Directory,https:
 inwdu,,Driver updates for Windows 10,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windowsDriverUpdate?#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?=
 oai,openai,Azure OpenAI Studio,,Azure,https://oai.azure.com/portal
 cs,contentsafety,Azure Content Safety,,Azure,https://contentsafety.cognitive.azure.com/
+ml,machinelearning,Azure Machine Learning,,Azure,https://ml.azure.com/
