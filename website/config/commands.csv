@@ -207,5 +207,7 @@ aka,,AkaSearch,,General,https://akaSearch.net
 lighthouse,,Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/
 adlaps,,Local Administrator Password Recovery,LAPS,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/LocalAdminPassword/menuId/Overview
 inwdu,,Driver updates for Windows 10,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windowsDriverUpdate?#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?=
+azoai,openai,Azure OpenAI Studio,,Azure,https://oai.azure.com/portal
+azcs,,Azure Content Safety,,Azure,https://contentsafety.cognitive.azure.com/
 win365,cloudpc,Windows 365,Windows 365 Cloud PC,Microsoft 365,https://windows365.microsoft.com/
 macvlsc,mackeys,Downloads and Volume Licensing Keys,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home#/subscriptions/vlnew/downloadsandkeys
