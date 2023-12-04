@@ -99,6 +99,11 @@ li > a.menu__link {
   content: url(/static/img/azuread.svg);
 }
 
+.entraid a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/entraid.svg);
+}
+
 .intune a::before {
   padding-right: 0.5rem;
   content: url(/static/img/intune.svg);
@@ -125,6 +130,10 @@ li > a.menu__link {
 
 .cat-azure-active-directory {
   content:url('/static/img/azuread.svg');
+}
+
+.cat-entra {
+  content:url('/static/img/entraid.svg');
 }
 
 .cat-intune {

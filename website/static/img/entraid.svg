@@ -1,0 +1,24 @@
+<svg id="uuid-60ca097b-0599-48f0-8848-1b3eb6f1d948" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <linearGradient id="uuid-66f12133-7773-4a6d-99f8-b6a115ff2647" x1="7.697" y1="12.409" x2="14.082" y2="4.947" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#225086"/>
+      <stop offset="1" stop-color="#0055c5"/>
+    </linearGradient>
+    <linearGradient id="uuid-a3914c44-c7d1-465c-a505-505958b2307c" x1="6.363" y1="13.413" x2="6.363" y2="-2.834" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6df"/>
+      <stop offset="1" stop-color="#0294e4"/>
+    </linearGradient>
+    <linearGradient id="uuid-de386309-4175-4301-b045-939db209533a" x1="9" y1="15.621" x2="9" y2="-3.267" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#44dbf9"/>
+      <stop offset="1" stop-color="#cbf8ff"/>
+    </linearGradient>
+    <linearGradient id="uuid-16331ad5-3173-4cb3-96f5-6793d940b200" x1="13.5" y1="16.856" x2="13.5" y2=".796" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#041642"/>
+      <stop offset="1" stop-color="#041642" stop-opacity=".25"/>
+    </linearGradient>
+  </defs>
+  <path d="m17.646,9.967L10.146,1.507c-.599-.676-1.694-.676-2.294,0L.353,9.967c-.579.654-.428,1.641.323,2.111l7.499,4.688c.5.313,1.148.313,1.648,0l7.499-4.688c.751-.469.902-1.457.323-2.111Z" fill="url(#uuid-66f12133-7773-4a6d-99f8-b6a115ff2647)"/>
+  <path d="m10.147,1.507c-.599-.676-1.694-.676-2.294,0L.354,9.967c-.579.654-.428,1.641.323,2.111,0,0,2.776,1.735,3.126,1.954.388.242,1.033.511,1.715.511.621,0,1.197-.18,1.676-.487,0,0,.001,0,.002-.001l1.804-1.128-4.364-2.728,4.474-5.047c.55-.627,1.377-1.026,2.302-1.026.472,0,.917.107,1.314.292l-2.579-2.909Z" fill="url(#uuid-a3914c44-c7d1-465c-a505-505958b2307c)"/>
+  <polygon points="4.636 10.199 4.688 10.231 9 12.927 9 12.927 13.364 10.199 13.365 10.199 13.364 10.199 9 5.275 4.636 10.199" fill="url(#uuid-de386309-4175-4301-b045-939db209533a)"/>
+  <path d="m9,17c.287,0,.574-.078.824-.234l7.499-4.688c.751-.469.902-1.457.323-2.111L10.147,1.507c-.3-.338-.723-.507-1.147-.507v16Z" fill="url(#uuid-16331ad5-3173-4cb3-96f5-6793d940b200)" fill-opacity=".5" opacity=".5"/>
+</svg>

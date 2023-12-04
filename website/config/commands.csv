@@ -1,6 +1,6 @@
 Command,Alias,Description,Keywords,Category,Url
-ad,aad|entra,Azure Active Directory (Entra),,Azure Active Directory,https://entra.microsoft.com
-azad,,Azure Active Directory,,Azure Active Directory,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
+en,ad|aad|entra,Microsoft Entra,,Entra,https://entra.microsoft.com
+azad,,Microsoft Entra (Azure Portal),,Entra,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
 azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
@@ -44,35 +44,36 @@ deexplorer,,Explorer,,Defender,https://security.microsoft.com/threatexplorer
 dere,,Restricted entities,,Defender,https://security.microsoft.com/restrictedentities
 deinvestigations,,Investigations,,Defender,https://security.microsoft.com/airinvestigation
 deti,,Threat Intelligence,,Defender,https://ti.defender.microsoft.com
-adappreg,,App registrations,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
-adentapp,adapp|adapps,Enterprise applications,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
-adgroups,,Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
-adusers,,Users,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/AllUsers
-addevices,,Devices,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/Devices/menuId/Devices
-addevicesettings,,Device settings,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/DeviceSettings/menuId/Devices/Microsoft_AAD_Devices/DevicesMenuBlade
-adguests,adext,External Identities,guests,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings/menuId/ExternalIdentitiesGettingStarted
-adca,,Conditional Access,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies?
-adctas,adxtap,Cross-tenant access settings,external,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/CrossTenantAccessSettings/menuId/CrossTenantAccessSettings
-adadfslog,,ADFS services,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
-adauth,,Authentication methods,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
-adconsent,,Consent and permissions,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
-adlegacymfa,,Legacy MFA,,Azure Active Directory,https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx
-adlicense,,Licenses,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
-adsign,adlogs,Sign-in logs,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
-admfaunblock,,MFA unblock,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationMenuBlade/~/BlockedUsers/fromProviders~/false
-adpim,pim,Privileged Identity Management,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
-adpimr,,Privileged Identity Management for Roles,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles?
-adpimg,,Privileged Identity Management for Groups,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadgroup?
-adpimz,adpimaz,Privileged Identity Management for Azure resources,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac?
-adreviews,adar,Access reviews,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/Controls
-adroles,,Roles and administrators,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
-adpa,,Protected actions,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/ProtectedActions
-adac,,Authentication context,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/AuthenticationContext
-adscore,,Secure score,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/IdentitySecureScore/menuId/IdentitySecureScore
-adsecurity,,Security,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/GettingStarted/menuId/SecurityCenter
-adpassword,adsspr,Password reset,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/PasswordResetMenuBlade/~/Properties
-adsupport,,Support,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_Support/NewSupportRequestV3Blade/callerName/ActiveDirectory/issueType/technical
-adsynclog,,AAD Connect - Sync errors,aadconnect,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/SyncErros/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade
+engcch,,Entra Admins Centre,,Entra,https://entra.microsoft.us/
+enappreg,adappreg,App registrations,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
+enapps,adentapp|adapp|adapps,Enterprise applications,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
+engroups,adgroups,Groups,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
+enusers,adusers,Users,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/AllUsers
+endevices,addevices,Devices,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/Devices/menuId/Devices
+endevicesettings,addevicesettings,Device settings,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/DeviceSettings/menuId/Devices/Microsoft_AAD_Devices/DevicesMenuBlade
+enguests,adguests|adext,External Identities,guests,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/Settings/menuId/ExternalIdentitiesGettingStarted
+enca,adca,Conditional Access,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies?
+enctas,adctas|adxtap|enxtap,Cross-tenant access settings,external,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/CompanyRelationshipsMenuBlade/~/CrossTenantAccessSettings/menuId/CrossTenantAccessSettings
+enadfslog,adadfslog,ADFS services,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
+enauth,adauth,Authentication methods,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
+enconsent,adconsent,Consent and permissions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
+enlegacymfa,adlegacymfa,Legacy MFA,,Entra,https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx
+enlicense,adlicense,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
+ensign,adsign|adlogs|enlogs,Sign-in logs,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
+enmfaunblock,admfaunblock,MFA unblock,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationMenuBlade/~/BlockedUsers/fromProviders~/false
+enpim,adpim|pim,PIM,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
+enpimr,adpimr,PIM for Roles,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles?
+enpimg,adpimg,PIM for Groups,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadgroup?
+enpimz,adpimz|adpimaz,PIM for Azure resources,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac?
+enar,adreviews|adar,Access reviews,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/Controls
+enroles,adroles,Roles and administrators,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
+enpa,adpa,Protected actions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/ProtectedActions
+enac,adac,Authentication context,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/AuthenticationContext
+enscore,adscore,Secure score,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/IdentitySecureScore/menuId/IdentitySecureScore
+ensecurity,adsecurity,Security,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SecurityMenuBlade/~/GettingStarted/menuId/SecurityCenter
+ensspr,enpassword|adpassword|adsspr,Password reset,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/PasswordResetMenuBlade/~/Properties
+ensupport,adsupport,Support,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_Support/NewSupportRequestV3Blade/callerName/ActiveDirectory/issueType/technical
+ensynclog,adsynclog,AAD Connect - Sync errors,aadconnect,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/SyncErros/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade
 myaccess,,My access,,My Pages,https://myaccess.microsoft.com
 myaccount,,My account,,My Pages,https://myaccount.microsoft.com
 mygroups,mygroup,My groups,,My Pages,https://account.activedirectory.windowsazure.com/r#/groups
@@ -136,8 +137,8 @@ azacr,,Container Registries,,Azure,https://portal.azure.com/#view/HubsExtension/
 azcontainer,,Container Instances,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerInstance%2FcontainerGroups
 azpolicy,,Azure Policy,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/overview
 azshell,shell,Azure Cloud Shell,,Azure,https://portal.azure.com/#cloudshell/
-adinvite,,Azure B2B Invitations,b2b,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/UserCreateBlade/initialMode~/1/b2cEnabled~/false
-adelm,,Azure AD Entitlement Management,elm,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/elmEntitlement
+eninvite,adinvite,Azure B2B Invitations,b2b,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/UserCreateBlade/initialMode~/1/b2cEnabled~/false
+enelm,adelm,Azure AD Entitlement Management,elm,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/elmEntitlement
 azfwmg,,Azure Firewall Manager,,Azure,https://portal.azure.com/#view/Microsoft_Azure_HybridNetworking/FirewallManagerMenuBlade
 azpip,,Public IP Addresses,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FPublicIpAddresses
 azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Azure_ManagementGroups/ManagementGroupBrowseBlade?
@@ -163,9 +164,9 @@ azvmas,,Availability Sets,,Azure,https://portal.azure.com/#view/HubsExtension/Br
 azvmss,,Scale Sets,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Compute%2FvirtualMachineScaleSets?
 azml,,Azure Machine Learning Studio,,Azure,https://ml.azure.com/
 detallow,,Defender Tenant Allow/Block List,,Defender,https://security.microsoft.com/tenantAllowBlockList
-azpg,,Azure Database for PostgreSQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2Fservers?
-azpgfs,,Azure Database for PostgreSQL flexible servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers?
-azpgh,,Azure Database for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2?
+azpg,,DB for PostgreSQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2Fservers?
+azpgfs,,DB for PostgreSQL flexible servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers?
+azpgh,,DB for PostgreSQL Hyperscale (Citus),,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FserverGroupsv2?
 azpgaa,,PostgreSQL servers - Azure Arc,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.AzureArcData%2FpostgresInstances?
 dess,,Microsoft Secure Score,,Defender,https://security.microsoft.com/securescore
 azdatabricks,,Azure Databricks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces?
@@ -181,15 +182,15 @@ azsynapse,,Azure Synapse Analytics,,Azure,https://portal.azure.com/#view/HubsExt
 aztemp,,Templates,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Gallery%2Fmyareas%2Fgalleryitems?
 azsd,,Shared dashboards,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Portal%2Fdashboards?
 m365apps,,Microsoft 365 Apps admin center,,Microsoft 365,https://config.office.com/officeSettings
-adauthstrength,,Authentication strengths,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthStrengths/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade?
+enauthstrength,adauthstrength,Authentication strengths,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthStrengths/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade?
 print,upc,Universal Print Console,Azure,Azure,https://portal.azure.com/#view/Universal_Print/MainMenuBlade/~/Printers?#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
 dev,devops,Azure DevOps Portal,,Azure,https://dev.azure.com
 adf,,Azure Data Factory,,Azure,https://adf.azure.com/
-adauthmethodsactivity,authactivity,Authentication methods activity,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthMethodsActivity/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade?
+enauthactivity,adauthmethodsactivity|authactivity,Authentication methods activity,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthMethodsActivity/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade?
 azprice,price,Azure Price Calculator,,Azure,https://azure.microsoft.com/pricing/calculator/
-aderror,,Login error lookup,,Azure Active Directory,https://login.microsoftonline.com/error
-l,,Login page,,Azure Active Directory,https://login.microsoftonline.com/
-dl,,Device login,,Azure Active Directory,https://microsoft.com/devicelogin
+enerror,aderror,Login error lookup,,Entra,https://login.microsoftonline.com/error
+l,,Login page,,Entra,https://login.microsoftonline.com/
+dl,,Device login,,Entra,https://microsoft.com/devicelogin
 introubleshoot,,Troubleshooting,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/SupportMenu/~/troubleshooting
 forms,frm,Microsoft Forms,,Microsoft 365,https://forms.office.com/
 loop,lp,Microsoft Loop,,Microsoft 365,https://loop.microsoft.com/
@@ -198,9 +199,9 @@ ppgcc,,Power Platform GCC,,Microsoft 365,https://gcc.admin.powerplatform.microso
 pappsgcc,,PowerApps GCC,,Microsoft 365,https://make.gov.powerapps.us/
 pflowgcc,,PowerAutomate GCC,,Microsoft 365,https://make.gov.powerautomate.us/
 ppagegcc,,PowerPages GCC,,Microsoft 365,https://make.gov.powerpages.microsoft.us/
-adidp,,Azure AD Identity Protection,,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
+enidp,adidp,Azure AD Identity Protection,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
 azlogic,,Azure Logic Apps,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows
-azpim,,Azure Resources Privileged Identity Management,,Azure,https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac
+azpim,,Azure Resources PIM,,Azure,https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac
 inwfu,,Feature updates for Windows,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/featureUpdateDeployments
 pbigcch,,Power BI GCC High,,Microsoft 365,https://app.high.powerbigov.us/
 ppgcch,,Power Platform GCC High,,Microsoft 365,https://high.admin.powerplatform.microsoft.us/
@@ -211,13 +212,12 @@ pbidod,,Power BI DoD,,Microsoft 365,https://app.mil.powerbigov.us/
 ppdod,,Power Platform DoD,,Microsoft 365,https://admin.appsplatform.us/
 pappsdod,,PowerApps DoD,,Microsoft 365,https://make.apps.appsplatform.us/
 pflowdod,,PowerAutomate DoD,,Microsoft 365,https://flow.appsplatform.us/
-ppagedod,,PowerPages DoD,,Microsoft 365,https://make.powerpages.microsoft.appsplatform.us/
 aka,,AkaSearch,,General,https://akaSearch.net
 lighthouse,,Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/
-adlaps,,Local Administrator Password Recovery,LAPS,Azure Active Directory,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/LocalAdminPassword/menuId/Overview
+enlaps,adlaps,LAPS,LAPS,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/LocalAdminPassword/menuId/Overview
 inwdu,,Driver updates for Windows 10,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windowsDriverUpdate?#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?=
 azoai,openai,Azure OpenAI Studio,,Azure,https://oai.azure.com/portal
 azcs,,Azure Content Safety,,Azure,https://contentsafety.cognitive.azure.com/
 win365,cloudpc,Windows 365,Windows 365 Cloud PC,Microsoft 365,https://windows365.microsoft.com/
-macvlsc,mackeys,Downloads and Volume Licensing Keys,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home#/subscriptions/vlnew/downloadsandkeys
+macvlsc,mackeys,Volume Licensing Keys,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home#/subscriptions/vlnew/downloadsandkeys
 mc,,Message Center,,Microsoft 365,https://admin.microsoft.com/#/MessageCenter
