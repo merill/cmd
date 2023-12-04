@@ -94,6 +94,7 @@ azavd,avd,Azure Virtual Desktop,,Azure,https://portal.azure.com/#view/Microsoft_
 azauto,azautomation,Azure Automation,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts
 azfn,,Function App,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp
 azcosmos,,Azure Cosmos DB,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DocumentDb%2FdatabaseAccounts
+cosmos,,CosmosDB Explorer,Azure,https://cosmos.azure.com
 azmonitor,,Monitor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/~/overview
 azappinsights,appinsights,Application Insights,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fcomponents
 azloganalytics,la,Log Analytics,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.OperationalInsights%2Fworkspaces
