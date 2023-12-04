@@ -63,6 +63,7 @@ function createRedirectFile(commands){
     console.log('Creating _redirects');
     fs.writeFileSync('./static/_redirects', redirectContent);
     console.log('Redirect file created successfully.')
+    console.log('Redirect count:' + commands.length);
 }
 
 function createJsonFile(commands){

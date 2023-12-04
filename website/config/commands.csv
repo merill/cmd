@@ -32,6 +32,11 @@ puinfoprot,,Purview Information Protection,Microsoft Information Protection,Micr
 puirm,,Purview Insider Risk Management,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.com/insiderriskmgmt
 puprivaprm,,Purview Priva Privacy Risk Management,,Microsoft 365,https://compliance.microsoft.com/privacymgmtoverview
 puprivasrr,,Purview Priva Subject Rights Requests,,Microsoft 365,https://compliance.microsoft.com/privacymgmtsrm
+puactexp,,Purview Activity Explorer,,Microsoft 365,https://compliance.microsoft.com/dataclassification/activityexplorer
+pucontentse,,Purview Content Search,,Microsoft 365,https://compliance.microsoft.com/contentsearchv2
+pucontentex,,Purview Content Explorer,,Microsoft 365,https://compliance.microsoft.com/dataclassification/contentexplorer
+pusit,,Purview Sensitive Info Types,,Microsoft 365,https://compliance.microsoft.com/dataclassificationclassifiers?viewid=sensitiveinfotypes
+puclassifiers,,Purview Data Classification,,Microsoft 365,https://compliance.microsoft.com/dataclassificationclassifiers
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
 deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
