@@ -27,8 +27,8 @@ Get the browser extension for your favorite browser from the links below.
 
 ![Search bar demo](/demos/browserdemo.gif)
 
-## cmd.ms/{command}
+## cmd.ms/[command]
 
-[cmd.ms] also supports the **cmd.ms/{command}** format for those who prefer it over **{command}.cmd.ms**.
+[cmd.ms] also supports the **cmd.ms/[command]** format for those who prefer it over **[command].cmd.ms**.
 
-Having said that **{command}.cmd.ms** is better in the long run due to autocomplete filling in the cmd.ms suffix as soon as you type in the {command} in the browser window.
+Having said that **[command].cmd.ms** is better in the long run due to autocomplete filling in the cmd.ms suffix as soon as you type in the [command] in the browser window.
