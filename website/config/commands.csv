@@ -95,9 +95,11 @@ incompliance,,Compliance policies,,Intune,https://intune.microsoft.com/#view/Mic
 inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configurationProfiles
 inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
 inappconfig,,App configuration policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
-inadev,inautodev|inap,Windows Autopilot devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/AutopilotDevices.ReactView/filterOnManualRemediationRequired~/false
+inap,inautodev|inadev,Windows Autopilot devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/AutopilotDevices.ReactView/filterOnManualRemediationRequired~/false
+inedu,,Education,,Intune,https://intuneeducation.portal.azure.com
 azautomanage,azam,Automanage,,Azure,https://portal.azure.com/#view/Microsoft_Azure_AutoManagedVirtualMachines/AutomanageMenuBlade
 azavd,avd,Azure Virtual Desktop,,Azure,https://portal.azure.com/#view/Microsoft_Azure_WVD/WvdManagerMenuBlade/~/overview
+avdweb,,Remote Desktop Web Client,,Azure,https://client.wvd.microsoft.com/arm/webclient/index.html
 azauto,azautomation,Azure Automation,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts
 azfn,,Function App,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp
 azcosmos,,Azure Cosmos DB,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DocumentDb%2FdatabaseAccounts
@@ -172,6 +174,8 @@ dess,,Microsoft Secure Score,,Defender,https://security.microsoft.com/securescor
 azdatabricks,,Azure Databricks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces?
 decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/app-catalog
 decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps
+dedevices,,Device Inventory,,Defender,https://security.microsoft.com/machines
+deusers,deidentities,Identities,,Defender,https://security.microsoft.com/cloudapps/users-and-accounts
 teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com
 teamsrooms,,Teams Rooms Pro Management,,Microsoft 365,https://portal.rooms.microsoft.com/
 oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings
@@ -221,3 +225,6 @@ azcs,,Azure Content Safety,,Azure,https://contentsafety.cognitive.azure.com/
 win365,cloudpc,Windows 365,Windows 365 Cloud PC,Microsoft 365,https://windows365.microsoft.com/
 macvlsc,mackeys,Volume Licensing Keys,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home#/subscriptions/vlnew/downloadsandkeys
 mc,,Message Center,,Microsoft 365,https://admin.microsoft.com/#/MessageCenter
+azwb,,Azure Workbooks,,Azure,https://portal.azure.com/?feature.msaljs=true#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fworkbooks
+azroutes,,Route tables,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables
+cdx,,Customer Digital Experiences (Demo),,Microsoft 365,https://cdx.transform.microsoft.com
