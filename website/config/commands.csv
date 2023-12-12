@@ -228,3 +228,4 @@ mc,,Message Center,,Microsoft 365,https://admin.microsoft.com/#/MessageCenter
 azwb,,Azure Workbooks,,Azure,https://portal.azure.com/?feature.msaljs=true#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fworkbooks
 azroutes,,Route tables,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables
 cdx,,Customer Digital Experiences (Demo),,Microsoft 365,https://cdx.transform.microsoft.com
+make,mpa,Make Power Apps,Microsoft 365,https://make.powerapps.com
