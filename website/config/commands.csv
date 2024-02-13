@@ -1,48 +1,88 @@
 Command,Alias,Description,Keywords,Category,Url
 en,ad|aad|entra,Microsoft Entra,,Entra,https://entra.microsoft.com
+gen,ad|aad|entra,Microsoft Entra for GCC High,,Entra,https://entra.microsoft.us
 azad,,Microsoft Entra (Azure Portal),,Entra,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
+gazad,,Microsoft Entra (Azure Portal) for GCC High,,Entra,https://portal.azure.us/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
 admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
 az,azure,Azure,,Azure,https://portal.azure.com
+gaz,azure,Azure for GCC High,,Azure,https://portal.azure.us
 azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
 in,intune|endpoint,Intune,,Intune,https://intune.microsoft.com
+gin,intune|endpoint,Intune for GCC high,,Intune,https://intune.microsoft.us
 defender,def|security,Microsoft 365 Defender,,Defender,https://security.microsoft.com
+gdefender,gdef|security,Microsoft 365 Defender for GCC High,,Defender,https://security.microsoft.us
 azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
+gazsentinel,sentinel,Sentinel for GCC high,,Azure,https://portal.azure.us/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
 ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
 sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
+gsp,spo|sharepoint,SharePoint for GCC High,,Microsoft 365,https://admin.onedrive.us
 teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
+gteamsadmins,team,Teams Admin for GCC High,,Microsoft 365,https://admin.gov.teams.microsoft.us/
+gteams,team,Teams for GCC High,,Microsoft 365,https://gov.teams.microsoft.us/
 one,onedrive,OneDrive,,Microsoft 365,https://admin.onedrive.com
+gone,onedrive,OneDrive for GCC High,,Microsoft 365,https://admin.onedrive.us
 pbi,powerbi,Power BI,,Microsoft 365,https://app.powerbi.com/admin-portal
+gpbi,powerbi,Power BI for GCC High,,Microsoft 365,https://app.high.powerbigov.us
 pp,ppa|power,Power Platform,,Microsoft 365,https://admin.powerplatform.microsoft.com
+gpp,ppa|power,Power Platform Admin for GCC High,,Microsoft 365,https://high.admin.powerplatform.microsoft.us
+gpapp,ppa|power,Power Apps for GCC High,,Microsoft 365,https://make.high.powerapps.us
 pa,pflow,Power Automate,,Microsoft 365,https://make.powerautomate.com
+gpa,pflow,Power Automate for GCC High,,Microsoft 365,https://make.high.powerautomate.us
 yam,yammer,Yammer,,Microsoft 365,https://www.yammer.com/office365/admin
 ge,,Graph Explorer,,Microsoft 365,https://developer.microsoft.com/en-us/graph/graph-explorer
 arg,arge,Azure Resource Graph Explorer,,Azure,https://portal.azure.com/#view/HubsExtension/ArgQueryBlade?
+garg,arge,Azure Resource Graph Explorer for GCC High,,Azure,https://portal.azure.us/#view/HubsExtension/ArgQueryBlade?
 mail,outlook,Outlook,,Microsoft 365,https://outlook.office365.com/mail/
+gmail,outlook,Outlook for GCC High,,Microsoft 365,https://outlook.office365.us/mail/
 puudg,purviewudg|purview,Purview Unified Data Governance,Azure Purview portal,Azure,https://web.purview.azure.com
+gpuudg,purviewudg|purview,Purview Unified Data Governance for GCC High,Azure Purview portal,Azure,https://web.purview.azure.us
 puperms,,Purview Permissions manager,,Microsoft 365,https://compliance.microsoft.com/permissions
+gpuperms,,Purview Permissions manager for GCC High,,Microsoft 365,https://compliance.microsoft.us/permissions
 pucmgr,decm,Purview Compliance manager,Microsoft Compliance Manager,Microsoft 365,https://compliance.microsoft.com/compliancemanager
+gpucmgr,decm,Purview Compliance manager for GCC High,Microsoft Compliance Manager,Microsoft 365,https://compliance.microsoft.us/compliancemanager
 pucloudgov,,Purview App Governance,,Microsoft 365,https://compliance.microsoft.com/cloudapps/app-governance
 puaudit,,Purview Audit,Microsoft 365 Advanced Audit,Microsoft 365,https://compliance.microsoft.com/auditlogsearch
+gpuaudit,,Purview Audit for GCC High,Microsoft 365 Advanced Audit,Microsoft 365,https://compliance.microsoft.com/auditlogsearch
 pucomms,,Purview Communication Compliance,Microsoft 365 Communication Compliance,Microsoft 365,https://compliance.microsoft.com/supervisoryreview
+gpucomms,,Purview Communication Compliance for GCC High,Microsoft 365 Communication Compliance,Microsoft 365,https://compliance.microsoft.us/supervisoryreview
 pudlp,dlp,Purview Data Loss Prevention,Microsoft Endpoint DLP,Microsoft 365,https://compliance.microsoft.com/datalossprevention
+gpudlp,dlp,Purview Data Loss Prevention for GCC High,Microsoft Endpoint DLP,Microsoft 365,https://compliance.microsoft.us/datalossprevention
 puedisc,ediscovery,Purview eDiscovery,Office 365 Advanced eDiscovery,Microsoft 365,https://compliance.microsoft.com/advancedediscovery
+gpuedisc,ediscovery,Purview eDiscovery for GCC High,Office 365 Advanced eDiscovery,Microsoft 365,https://compliance.microsoft.us/advancedediscovery
 pudlm,,Purview Data Lifecycle Management,Microsoft Information Governance,Microsoft 365,https://compliance.microsoft.com/informationgovernance
+gpudlm,,Purview Data Lifecycle Management for GCC High,Microsoft Information Governance,Microsoft 365,https://compliance.microsoft.us/informationgovernance
 purecmon,,Purview Records Management,Records Management in Microsoft 365,Microsoft 365,https://compliance.microsoft.com/recordsmanagement
+gpurecmon,,Purview Records Management for GCC High,Records Management in Microsoft 365,Microsoft 365,https://compliance.microsoft.us/recordsmanagement
 puinfoprot,,Purview Information Protection,Microsoft Information Protection,Microsoft 365,https://compliance.microsoft.com/informationprotection
+gpuinfoprot,,Purview Information Protection for GCC High,Microsoft Information Protection,Microsoft 365,https://compliance.microsoft.us/informationprotection
 puirm,,Purview Insider Risk Management,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.com/insiderriskmgmt
+gpuirm,,Purview Insider Risk Management for GCC High,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.us/insiderriskmgmt
 puprivaprm,,Purview Priva Privacy Risk Management,,Microsoft 365,https://compliance.microsoft.com/privacymgmtoverview
+gpuprivaprm,,Purview Priva Privacy Risk Management for GCC High,,Microsoft 365,https://compliance.microsoft.us/privacymgmtoverview
 puprivasrr,,Purview Priva Subject Rights Requests,,Microsoft 365,https://compliance.microsoft.com/privacymgmtsrm
+gpuprivasrr,,Purview Priva Subject Rights Requests for GCC High,,Microsoft 365,https://compliance.microsoft.us/privacymgmtsrm
 puactexp,,Purview Activity Explorer,,Microsoft 365,https://compliance.microsoft.com/dataclassification/activityexplorer
+gpuactexp,,Purview Activity Explorer for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassification/activityexplorer
 pucontentse,,Purview Content Search,,Microsoft 365,https://compliance.microsoft.com/contentsearchv2
+gpucontentse,,Purview Content Search for GCC High,,Microsoft 365,https://compliance.microsoft.us/contentsearchv2
 pucontentex,,Purview Content Explorer,,Microsoft 365,https://compliance.microsoft.com/dataclassification/contentexplorer
+gpucontentex,,Purview Content Explorer for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassification/contentexplorer
 pusit,,Purview Sensitive Info Types,,Microsoft 365,https://compliance.microsoft.com/dataclassificationclassifiers?viewid=sensitiveinfotypes
+gpusit,,Purview Sensitive Info Types for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassificationclassifiers?viewid=sensitiveinfotypes
 puclassifiers,,Purview Data Classification,,Microsoft 365,https://compliance.microsoft.com/dataclassificationclassifiers
+gpuclassifiers,,Purview Data Classification for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassificationclassifiers
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
+gdeincidents,deinc,Incidents for GCC High,,Defender,https://security.microsoft.us/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
+gdehunting,dehunt,Hunting for GCC High,,Defender,https://security.microsoft.us/v2/advanced-hunting
 deactions,,Action centre,,Defender,https://security.microsoft.com/action-center
+gdeactions,,Action Centre for GCC High,,Defender,https://security.microsoft.us/action-center
 deexplorer,,Explorer,,Defender,https://security.microsoft.com/threatexplorer
+gdeexplorer,,Explorer for GCC High,,Defender,https://security.microsoft.us/threatexplorer
 dere,,Restricted entities,,Defender,https://security.microsoft.com/restrictedentities
+gdere,,Restricted Entities for GCC High,,Defender,https://security.microsoft.us/restrictedentities
 deinvestigations,,Investigations,,Defender,https://security.microsoft.com/airinvestigation
+gdeinvestigations,,Investigations for GCC High,,Defender,https://security.microsoft.us/airinvestigation
 deti,,Threat Intelligence,,Defender,https://ti.defender.microsoft.com
 engcch,,Entra Admins Centre,,Entra,https://entra.microsoft.us/
 enappreg,adappreg,App registrations,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
