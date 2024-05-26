@@ -59,7 +59,7 @@ enauth,adauth,Authentication methods,,Entra,https://entra.microsoft.com/#view/Mi
 enconsent,adconsent,Consent and permissions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
 enlegacymfa,adlegacymfa,Legacy MFA,,Entra,https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx
 enlicense,adlicense,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
-ennew,,What's new,,Entra,https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/ChangeManagementHubList.ReactView
+ennew,,What's new,,Entra,https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/ChangeManagementHubList.ReactView?
 ensign,adsign|adlogs|enlogs,Sign-in logs,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
 enmfaunblock,admfaunblock,MFA unblock,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationMenuBlade/~/BlockedUsers/fromProviders~/false
 enpim,adpim|pim,PIM,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
