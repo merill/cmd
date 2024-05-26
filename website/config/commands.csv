@@ -64,7 +64,7 @@ enmfaunblock,admfaunblock,MFA unblock,,Entra,https://entra.microsoft.com/#view/M
 enpim,adpim|pim,PIM,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
 enpimr,adpimr,PIM for Roles,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles?
 enpimg,adpimg,PIM for Groups,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadgroup?
-enpimz,adpimz|adpimaz,PIM for Azure resources,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac?
+enpimz,adpimz|adpimaz,PIM for Azure resources,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/azurerbac?
 enar,adreviews|adar,Access reviews,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/Controls
 enroles,adroles,Roles and administrators,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
 enpa,adpa,Protected actions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/ProtectedActions
@@ -229,3 +229,5 @@ azwb,,Azure Workbooks,,Azure,https://portal.azure.com/?feature.msaljs=true#view/
 azroutes,,Route tables,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables
 cdx,,Customer Digital Experiences (Demo),,Microsoft 365,https://cdx.transform.microsoft.com
 tenants,tnts,All Tenants,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home?#/tenants
+exmt,extrace,Exchange Message Trace,,Microsoft 365,https://admin.exchange.microsoft.com/#/messagetrace
+exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 365,https://admin.exchange.microsoft.com/#/transportrules
