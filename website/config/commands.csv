@@ -77,7 +77,7 @@ ensupport,adsupport,Support,,Entra,https://entra.microsoft.com/#view/Microsoft_A
 ensynclog,adsynclog,AAD Connect - Sync errors,aadconnect,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/SyncErros/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade
 myaccess,,My access,,My Pages,https://myaccess.microsoft.com
 myaccount,,My account,,My Pages,https://myaccount.microsoft.com
-mygroups,mygroup,My groups,,My Pages,https://account.activedirectory.windowsazure.com/r#/groups
+mygroups,mygroup,My groups,,My Pages,https://myaccount.microsoft.com/groups
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
