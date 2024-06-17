@@ -233,3 +233,4 @@ make,mpa,Make Power Apps,,Microsoft 365,https://make.powerapps.com
 tenants,tnts,All Tenants,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home?#/tenants
 exmt,extrace,Exchange Message Trace,,Microsoft 365,https://admin.exchange.microsoft.com/#/messagetrace
 exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 365,https://admin.exchange.microsoft.com/#/transportrules
+deast,,Attack simulation training,,Defender,https://security.microsoft.com/attacksimulator
