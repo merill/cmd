@@ -235,3 +235,4 @@ exmt,extrace,Exchange Message Trace,,Microsoft 365,https://admin.exchange.micros
 exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 365,https://admin.exchange.microsoft.com/#/transportrules
 deast,,Attack simulation training,,Defender,https://security.microsoft.com/attacksimulator
 deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsoft.com/attacksimulationreport
+mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
