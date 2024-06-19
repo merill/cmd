@@ -93,7 +93,7 @@ inmacos,,macOS devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intu
 inandroid,,Android,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesAndroidMenu/~/overview
 inenroll,,Enroll devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesEnrollmentMenu/~/windowsEnrollment
 incompliance,,Compliance policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesComplianceMenu/~/policies
-inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configurationProfiles
+inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configuration
 inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
 inappconfig,,App configuration policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
 inap,inautodev|inadev,Windows Autopilot devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/AutopilotDevices.ReactView/filterOnManualRemediationRequired~/false
