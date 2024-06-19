@@ -77,7 +77,7 @@ ensupport,adsupport,Support,,Entra,https://entra.microsoft.com/#view/Microsoft_A
 ensynclog,adsynclog,AAD Connect - Sync errors,aadconnect,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/SyncErros/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade
 myaccess,,My access,,My Pages,https://myaccess.microsoft.com
 myaccount,,My account,,My Pages,https://myaccount.microsoft.com
-mygroups,mygroup,My groups,,My Pages,https://account.activedirectory.windowsazure.com/r#/groups
+mygroups,mygroup,My groups,,My Pages,https://myaccount.microsoft.com/groups
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
@@ -93,7 +93,7 @@ inmacos,,macOS devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intu
 inandroid,,Android,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesAndroidMenu/~/overview
 inenroll,,Enroll devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesEnrollmentMenu/~/windowsEnrollment
 incompliance,,Compliance policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesComplianceMenu/~/policies
-inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configurationProfiles
+inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configuration
 inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
 inappconfig,,App configuration policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
 inap,inautodev|inadev,Windows Autopilot devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/AutopilotDevices.ReactView/filterOnManualRemediationRequired~/false
@@ -233,3 +233,6 @@ make,mpa,Make Power Apps,,Microsoft 365,https://make.powerapps.com
 tenants,tnts,All Tenants,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home?#/tenants
 exmt,extrace,Exchange Message Trace,,Microsoft 365,https://admin.exchange.microsoft.com/#/messagetrace
 exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 365,https://admin.exchange.microsoft.com/#/transportrules
+deast,,Attack simulation training,,Defender,https://security.microsoft.com/attacksimulator
+deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsoft.com/attacksimulationreport
+mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
