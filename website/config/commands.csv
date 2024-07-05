@@ -236,6 +236,5 @@ exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 3
 deast,,Attack simulation training,,Defender,https://security.microsoft.com/attacksimulator
 deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsoft.com/attacksimulationreport
 mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
-tnts,,All Tenants,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home#/tenants
 cp,,Copilot,,Microsoft 365,https://copilot.microsoft.com
 cpd,,Copilot Dashboard,,Microsoft 365,https://insights.cloud.microsoft/#/CopilotDashboard
