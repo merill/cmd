@@ -153,7 +153,7 @@ powerapps,,PowerApps,,Microsoft 365,https://make.powerapps.com/
 myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
 training,,Training,,General,https://learn.microsoft.com/training/
 docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
-vlsc,,Volume Licensing Service Center,,General,https://www.microsoft.com/Licensing/servicecenter
+vlsc,,Volume Licensing Service Center,,General,https://admin.microsoft.com/adminportal/home?#/subscriptions/vlnew
 lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
 deqre,deq,Quarantined Emails,,Defender,https://security.microsoft.com/quarantine
 azapim,,API Management services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ApiManagement%2Fservice?
@@ -236,3 +236,6 @@ exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 3
 deast,,Attack simulation training,,Defender,https://security.microsoft.com/attacksimulator
 deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsoft.com/attacksimulationreport
 mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
+tnts,,All Tenants,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home#/tenants
+cp,,Copilot,,Microsoft 365,https://copilot.microsoft.com
+cpd,,Copilot Dashboard,,Microsoft 365,https://insights.cloud.microsoft/#/CopilotDashboard
