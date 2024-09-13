@@ -240,3 +240,4 @@ deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsof
 mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
 cp,,Copilot,,Microsoft 365,https://copilot.microsoft.com
 cpd,,Copilot Dashboard,,Microsoft 365,https://insights.cloud.microsoft/#/CopilotDashboard
+azdns.cmd.ms,,DNS zones,,Azure,https://portal.azure.com/#browse/Microsoft.Network%2FdnsZones
