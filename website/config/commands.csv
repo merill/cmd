@@ -99,12 +99,13 @@ enauth,adauth,Authentication methods,,Entra,https://entra.microsoft.com/#view/Mi
 enconsent,adconsent,Consent and permissions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
 enlegacymfa,adlegacymfa,Legacy MFA,,Entra,https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx
 enlicense,adlicense,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
+ennew,,What's new,,Entra,https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/ChangeManagementHubList.ReactView?
 ensign,adsign|adlogs|enlogs,Sign-in logs,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
 enmfaunblock,admfaunblock,MFA unblock,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationMenuBlade/~/BlockedUsers/fromProviders~/false
 enpim,adpim|pim,PIM,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/quickStart
 enpimr,adpimr,PIM for Roles,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles?
 enpimg,adpimg,PIM for Groups,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadgroup?
-enpimz,adpimz|adpimaz,PIM for Azure resources,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac?
+enpimz,adpimz|adpimaz,PIM for Azure resources,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/azurerbac?
 enar,adreviews|adar,Access reviews,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/Controls
 enroles,adroles,Roles and administrators,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles
 enpa,adpa,Protected actions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/ProtectedActions
@@ -116,7 +117,7 @@ ensupport,adsupport,Support,,Entra,https://entra.microsoft.com/#view/Microsoft_A
 ensynclog,adsynclog,AAD Connect - Sync errors,aadconnect,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/SyncErros/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade
 myaccess,,My access,,My Pages,https://myaccess.microsoft.com
 myaccount,,My account,,My Pages,https://myaccount.microsoft.com
-mygroups,mygroup,My groups,,My Pages,https://account.activedirectory.windowsazure.com/r#/groups
+mygroups,mygroup,My groups,,My Pages,https://myaccount.microsoft.com/groups
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
@@ -132,7 +133,7 @@ inmacos,,macOS devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intu
 inandroid,,Android,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesAndroidMenu/~/overview
 inenroll,,Enroll devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesEnrollmentMenu/~/windowsEnrollment
 incompliance,,Compliance policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesComplianceMenu/~/policies
-inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configurationProfiles
+inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configuration
 inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
 inappconfig,,App configuration policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
 inap,inautodev|inadev,Windows Autopilot devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/AutopilotDevices.ReactView/filterOnManualRemediationRequired~/false
@@ -186,13 +187,15 @@ azpip,,Public IP Addresses,,Azure,https://portal.azure.com/#view/HubsExtension/B
 azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Azure_ManagementGroups/ManagementGroupBrowseBlade?
 azumc,,Azure Update Management Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Automation/UpdateCenterMenuBlade/~/overview?
 azbackup,,Backup Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_DataProtection/BackupCenterMenuBlade/~/overview
+azrm,,Azure Resource Manager Blade,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Resources/ResourceManagerBlade/~/overview
 synapse,,Azure Synapse Studio,,Azure,https://web.azuresynapse.net/
+avs,,Azure VMware Solution,,Azure,https://portal.azure.com/#browse/Microsoft.AVS%2FprivateClouds
 partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/dashboard
 powerapps,,PowerApps,,Microsoft 365,https://make.powerapps.com/
 myvs,,Visual Studio Subscriptions,,My Pages,https://my.visualstudio.com/
 training,,Training,,General,https://learn.microsoft.com/training/
 docs,,Technical documentation,,General,https://learn.microsoft.com/docs/
-vlsc,,Volume Licensing Service Center,,General,https://www.microsoft.com/Licensing/servicecenter
+vlsc,,Volume Licensing Service Center,,General,https://admin.microsoft.com/adminportal/home?#/subscriptions/vlnew
 lcs,,Microsoft Dynamics Lifecycle Services,,Microsoft 365,https://lcs.dynamics.com/v2
 deqre,deq,Quarantined Emails,,Defender,https://security.microsoft.com/quarantine
 azapim,,API Management services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ApiManagement%2Fservice?
@@ -268,3 +271,13 @@ mc,,Message Center,,Microsoft 365,https://admin.microsoft.com/#/MessageCenter
 azwb,,Azure Workbooks,,Azure,https://portal.azure.com/?feature.msaljs=true#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fworkbooks
 azroutes,,Route tables,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables
 cdx,,Customer Digital Experiences (Demo),,Microsoft 365,https://cdx.transform.microsoft.com
+make,mpa,Make Power Apps,,Microsoft 365,https://make.powerapps.com
+tenants,tnts,All Tenants,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home?#/tenants
+exmt,extrace,Exchange Message Trace,,Microsoft 365,https://admin.exchange.microsoft.com/#/messagetrace
+exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 365,https://admin.exchange.microsoft.com/#/transportrules
+deast,,Attack simulation training,,Defender,https://security.microsoft.com/attacksimulator
+deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsoft.com/attacksimulationreport
+mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
+cp,,Copilot,,Microsoft 365,https://copilot.microsoft.com
+cpd,,Copilot Dashboard,,Microsoft 365,https://insights.cloud.microsoft/#/CopilotDashboard
+azdns,,DNS zones,,Azure,https://portal.azure.com/#browse/Microsoft.Network%2FdnsZones
