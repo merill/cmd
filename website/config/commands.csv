@@ -273,3 +273,6 @@ mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.co
 cp,,Copilot,,Microsoft 365,https://copilot.microsoft.com
 cpd,,Copilot Dashboard,,Microsoft 365,https://insights.cloud.microsoft/#/CopilotDashboard
 azdns,,DNS zones,,Azure,https://portal.azure.com/#browse/Microsoft.Network%2FdnsZones
+xdrthreathunt,th|threathunt,Threat Hunting,,XDR Sentinel,https://security.microsoft.com/sentinel/hunting
+xdranalytics,,Analytic Rules,,XDR Sentinel,https://security.microsoft.com/sentinel/analytics
+xdrwatchlist,watchlist,Sentinel Watchlist,,XDR Sentinel,https://security.microsoft.com/sentinel/watchlist
