@@ -277,3 +277,4 @@ azdns,,DNS zones,,Azure,https://portal.azure.com/#browse/Microsoft.Network%2Fdns
 xdrthreathunt,th|threathunt,Threat Hunting,,XDR Sentinel,https://security.microsoft.com/sentinel/hunting
 xdranalytics,,Analytic Rules,,XDR Sentinel,https://security.microsoft.com/sentinel/analytics
 xdrwatchlist,watchlist,Sentinel Watchlist,,XDR Sentinel,https://security.microsoft.com/sentinel/watchlist
+scp,cfs,Copilot for Security,,Defender,https://securitycopilot.microsoft.com
