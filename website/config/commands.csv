@@ -94,7 +94,7 @@ enctas,adctas|adxtap|enxtap,Cross-tenant access settings,external,Entra,https://
 enadfslog,adadfslog,ADFS services,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
 enauth,adauth,Authentication methods,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
 enconsent,adconsent,Consent and permissions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
-enlegacymfa,adlegacymfa,Legacy MFA,,Entra,https://account.activedirectory.windowsazure.com/UserManagement/MfaSettings.aspx
+enpumfa,enlegacymfa|adlegacymfa,Legacy MFA,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationConfig.ReactView/tabId/users
 enlicense,adlicense,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
 ennew,,What's new,,Entra,https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/ChangeManagementHubList.ReactView?
 ensign,adsign|adlogs|enlogs,Sign-in logs,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
