@@ -278,3 +278,4 @@ xdrthreathunt,th|threathunt,Threat Hunting,,XDR Sentinel,https://security.micros
 xdranalytics,,Analytic Rules,,XDR Sentinel,https://security.microsoft.com/sentinel/analytics
 xdrwatchlist,watchlist,Sentinel Watchlist,,XDR Sentinel,https://security.microsoft.com/sentinel/watchlist
 scp,cfs,Copilot for Security,,Defender,https://securitycopilot.microsoft.com
+deap,antiphishing|antiphish|phish,Anti-Phishing policies,,Defender,https://security.microsoft.com/antiphishing
