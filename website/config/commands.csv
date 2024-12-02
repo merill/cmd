@@ -279,3 +279,4 @@ xdranalytics,,Analytic Rules,,XDR Sentinel,https://security.microsoft.com/sentin
 xdrwatchlist,watchlist,Sentinel Watchlist,,XDR Sentinel,https://security.microsoft.com/sentinel/watchlist
 scp,cfs,Copilot for Security,,Defender,https://securitycopilot.microsoft.com
 deap,antiphishing|antiphish|phish,Anti-Phishing policies,,Defender,https://security.microsoft.com/antiphishing
+dedkim,dkim,DKIM Email Authentication Settings,,Defender,https://security.microsoft.com/dkimv2
