@@ -3,7 +3,7 @@ en,ad|aad|entra,Microsoft Entra,,Entra,https://entra.microsoft.com
 eng,adg|aadg|entrag,Microsoft Entra for GCC High,,Entra,https://entra.microsoft.us
 azad,,Microsoft Entra (Azure Portal),,Entra,https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
 azadg,,Microsoft Entra (Azure Portal) for GCC High,,Entra,https://portal.azure.us/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview?
-admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.microsoft.com
+admin,,Microsoft 365 Admin,,Microsoft 365,https://admin.cloud.microsoft
 az,azure,Azure,,Azure,https://portal.azure.com
 azg,,Azure for GCC High,,Azure,https://portal.azure.us
 azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
@@ -13,7 +13,7 @@ defender,def|security,Microsoft 365 Defender,,Defender,https://security.microsof
 defenderg,defg|securityg,Microsoft 365 Defender for GCC High,,Defender,https://security.microsoft.us
 azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
 azsentinelg,sentinelg,Sentinel for GCC high,,Azure,https://portal.azure.us/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
-ex,exo|exchange,Exchange,,Microsoft 365,https://admin.exchange.microsoft.com
+ex,exo|exchange,Exchange,,Microsoft 365,https://admin.cloud.microsoft/exchange
 sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
 teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
 teamsg,teamg,Teams Admin for GCC High,,Microsoft 365,https://admin.gov.teams.microsoft.us/
@@ -95,7 +95,6 @@ enadfslog,adadfslog,ADFS services,,Entra,https://entra.microsoft.com/#view/Micro
 enauth,adauth,Authentication methods,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
 enconsent,adconsent,Consent and permissions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
 enusrsettings,enusersettings,User settings,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/UserSettings/menuId/UserSettings
-
 enpumfa,enlegacymfa|adlegacymfa,Legacy MFA,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationConfig.ReactView/tabId/users
 enlicense,adlicense,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
 ennew,,What's new,,Entra,https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/ChangeManagementHubList.ReactView?
@@ -268,8 +267,8 @@ azwb,,Azure Workbooks,,Azure,https://portal.azure.com/?feature.msaljs=true#view/
 azroutes,,Route tables,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables
 cdx,,Customer Digital Experiences (Demo),,Microsoft 365,https://cdx.transform.microsoft.com
 tenants,tnts,All Tenants,,Microsoft 365,https://admin.microsoft.com/Adminportal/Home?#/tenants
-exmt,extrace,Exchange Message Trace,,Microsoft 365,https://admin.exchange.microsoft.com/#/messagetrace
-exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 365,https://admin.exchange.microsoft.com/#/transportrules
+exmt,extrace,Exchange Message Trace,,Microsoft 365,https://admin.cloud.microsoft/exchange#/messagetrace
+exrules,exmailflow,Exchange Mail Flow Rules,Exchange Transport Rules,Microsoft 365,https://admin.cloud.microsoft/exchange#/transportrules
 deast,,Attack simulation training,,Defender,https://security.microsoft.com/attacksimulator
 deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsoft.com/attacksimulationreport
 mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
@@ -287,3 +286,4 @@ infirewall,insecfw,Security - Firewall,,Intune,https://intune.microsoft.com/?ref
 inedr,insecedr,Security - Enpoint detection and Response,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/edr
 inasr,insecasr,Security - ASR,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr
 encloudsync,,Entra Cloud Sync Configuration,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/CloudSyncMenuBlade/~/CloudSyncConfigurations
+planner,,Planner,,Microsoft 365,https://planner.cloud.microsoft
