@@ -94,6 +94,8 @@ enctas,adctas|adxtap|enxtap,Cross-tenant access settings,external,Entra,https://
 enadfslog,adadfslog,ADFS services,,Entra,https://entra.microsoft.com/#view/Microsoft_Azure_ADHybridHealth/AadHealthMenuBlade/~/AdfsServicesList
 enauth,adauth,Authentication methods,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AdminAuthMethods
 enconsent,adconsent,Consent and permissions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
+enusrsettings,enusersettings,User settings,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/UserSettings/menuId/UserSettings
+
 enpumfa,enlegacymfa|adlegacymfa,Legacy MFA,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationConfig.ReactView/tabId/users
 enlicense,adlicense,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
 ennew,,What's new,,Entra,https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/ChangeManagementHubList.ReactView?
@@ -118,7 +120,7 @@ mygroups,mygroup,My groups,,My Pages,https://myaccount.microsoft.com/groups
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
-mysubscriptions,,My Office/365 subscriptions,office account subscriptions applications,My pages,https://portal.office.com/account/#subscriptions
+mysubscriptions,,My Office/365 subscriptions,office account subscriptions applications,My Pages,https://portal.office.com/account/#subscriptions
 indevices,,Devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/overview
 inapps,,Apps,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/overview
 insecurity,insec,Security,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/overview
@@ -280,3 +282,8 @@ xdrwatchlist,watchlist,Sentinel Watchlist,,XDR Sentinel,https://security.microso
 scp,cfs,Copilot for Security,,Defender,https://securitycopilot.microsoft.com
 deap,antiphishing|antiphish|phish,Anti-Phishing policies,,Defender,https://security.microsoft.com/antiphishing
 dedkim,dkim,DKIM Email Authentication Settings,,Defender,https://security.microsoft.com/dkimv2
+inantivirus,insecav,Security - Antivirus,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/antivirus
+infirewall,insecfw,Security - Firewall,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/firewall
+inedr,insecedr,Security - Enpoint detection and Response,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/edr
+inasr,insecasr,Security - ASR,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr
+encloudsync,,Entra Cloud Sync Configuration,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/CloudSyncMenuBlade/~/CloudSyncConfigurations
