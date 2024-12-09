@@ -118,7 +118,7 @@ mygroups,mygroup,My groups,,My Pages,https://myaccount.microsoft.com/groups
 mysec,mysecurity|mysecurityinfo,My security info,my sign ins,My Pages,https://mysignins.microsoft.com/security-info
 myapps,myapp,My apps,,My Pages,https://myapps.microsoft.com
 mystaff,,My staff,,My Pages,https://mystaff.microsoft.com
-mysubscriptions,,My Office/365 subscriptions,office account subscriptions applications,My pages,https://portal.office.com/account/#subscriptions
+mysubscriptions,,My Office/365 subscriptions,office account subscriptions applications,My Pages,https://portal.office.com/account/#subscriptions
 indevices,,Devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/overview
 inapps,,Apps,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/overview
 insecurity,insec,Security,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/overview
