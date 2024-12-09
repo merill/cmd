@@ -159,7 +159,7 @@ azlb,lb,Load balancing,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Net
 azsa,storage,Storage accounts,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts
 azdisks,,Disks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2Fdisks
 azvn,vnet,Virtual networks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworks
-azdefender,,Microsoft Defender for Cloud,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0
+azdefender,azdef,Microsoft Defender for Cloud,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0
 azadf,,Data factories,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DataFactory%2FdataFactories
 azhelp,,Help + support,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Support/HelpAndSupportBlade/~/overview
 azsubs,,Subscriptions,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBlade?
