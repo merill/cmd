@@ -281,6 +281,7 @@ xdranalytics,,Analytic Rules,,XDR Sentinel,https://security.microsoft.com/sentin
 xdrwatchlist,watchlist,Sentinel Watchlist,,XDR Sentinel,https://security.microsoft.com/sentinel/watchlist
 scp,cfs,Copilot for Security,,Defender,https://securitycopilot.microsoft.com
 deap,antiphishing|antiphish|phish,Anti-Phishing policies,,Defender,https://security.microsoft.com/antiphishing
+dedkim,dkim,DKIM Email Authentication Settings,,Defender,https://security.microsoft.com/dkimv2
 inantivirus,insecav,Security - Antivirus,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/antivirus
 infirewall,insecfw,Security - Firewall,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/firewall
 inedr,insecedr,Security - Enpoint detection and Response,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/edr
