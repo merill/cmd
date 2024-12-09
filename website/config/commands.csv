@@ -154,6 +154,7 @@ azsqldb,,SQL databases,,Azure,https://portal.azure.com/#view/HubsExtension/Brows
 azsqlep,,SQL elastic pools,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers%2Felasticpools
 azsqlmi,sqlmi,SQL managed instance,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2FmanagedInstances
 azcost,,Cost Management + Billing,,Azure,https://portal.azure.com/#view/Microsoft_Azure_GTM/ModernBillingMenuBlade/~/BillingAccounts
+azcarbon,azsustainability,Carbon optimization - Emission Trends,,Azure,https://portal.azure.com/#view/HubsExtension/AssetMenuBlade/~/EmissionTrendsId/assetName/Sustainability/extensionName/Microsoft_Azure_Sustainability
 azlb,lb,Load balancing,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Network/LoadBalancingHubMenuBlade/~/overview
 azsa,storage,Storage accounts,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts
 azdisks,,Disks,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2Fdisks
