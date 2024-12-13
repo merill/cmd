@@ -17,8 +17,6 @@ Centro 365 is a neat browser extension that gives you one-click access to the va
 
 Check it out at [Centro 365](https://seanosullivan.co.uk/projects/centro365/)
 
-![Centro Image](https://seanosullivan.co.uk/projects/centro365/images/edge-screen1.png)
-
 ### [aka.ms/commands](https://aka.ms/commands)
 
 aka.ms/commands is very similar to [cmd.ms] and lists come of the most common aka.ms short-links and commands.
@@ -32,3 +30,11 @@ This site is slightly different to the ones on this page. The focus of MSShells.
 The 'How to Install' and 'How to Connect' columns for each modules are the hidden gems in this very useful page.
 
 https://msshells.net/
+
+### [PowerShell Function for cmd.ms](https://powershellisfun.com/2024/12/12/powershell-function-for-the-cmd-ms-website/)
+
+Want to launch into the admin portals from the command line? Your in luck! Harm Veenstra has written a handy function that uses cmd.ms to view and launch shortcuts directly from PowerShell.
+
+Check out [his blog post](https://powershellisfun.com/2024/12/12/powershell-function-for-the-cmd-ms-website/) for more info.
+
+![PowerShell](https://github.com/user-attachments/assets/bb5cb8eb-8dd6-49e2-9264-108262495e36)
