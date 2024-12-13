@@ -2,7 +2,6 @@
 sidebar_position: 2
 title: ✍️ Contributing
 ---
-
 ### Adding a new command to [cmd.ms]
 
 To add a new command to [cmd.ms] for your favorite Microsoft blade or portal you can either submit a form or better yet, create a pull request in GitHub.
@@ -19,7 +18,7 @@ To add a new command to [cmd.ms] for your favorite Microsoft blade or portal you
 
 #### App Specific Blades / Pages
 
-* When a command is deep linking to an app specific blade (e.g. Users blade in Azure AD), include the app's two letter prefix (e.g. **ad**ca.cmd.ms).
+* When a command is deep linking to an app specific blade (e.g. Users blade in Entra ID), include the app's two letter prefix (e.g. **ad**ca.cmd.ms).
 * If this is a new app, you can suggest a new two letter prefix for the app.
 
 #### PR Checklist
