@@ -181,7 +181,7 @@ azcontainer,,Container Instances,,Azure,https://portal.azure.com/#view/HubsExten
 azpolicy,,Azure Policy,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/overview
 azshell,shell,Azure Cloud Shell,,Azure,https://portal.azure.com/#cloudshell/
 eninvite,adinvite,Azure B2B Invitations,b2b,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/UserCreateBlade/initialMode~/1/b2cEnabled~/false
-enelm,adelm,Azure AD Entitlement Management,elm,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/elmEntitlement
+enelm,adelm,Entra ID Entitlement Management,elm,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_ERM/DashboardBlade/~/elmEntitlement
 azfwmg,,Azure Firewall Manager,,Azure,https://portal.azure.com/#view/Microsoft_Azure_HybridNetworking/FirewallManagerMenuBlade
 azpip,,Public IP Addresses,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FPublicIpAddresses
 azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Azure_ManagementGroups/ManagementGroupBrowseBlade?
@@ -245,7 +245,7 @@ ppg,,Power Platform GCC,,Microsoft 365,https://gcc.admin.powerplatform.microsoft
 pappsg,,Power Apps GCC,,Microsoft 365,https://make.gov.powerapps.us/
 pag,pflowg,Power Automate GCC,,Microsoft 365,https://make.gov.powerautomate.us/
 ppageg,,Power Pages GCC,,Microsoft 365,https://make.gov.powerpages.microsoft.us/
-enidp,adidp,Azure AD Identity Protection,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
+enidp,adidp,Entra ID Identity Protection,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/~/Overview
 azlogic,,Azure Logic Apps,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows
 azpim,,Azure Resources PIM,,Azure,https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/CommonMenuBlade/~/azurerbac
 inwfu,,Feature updates for Windows,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/featureUpdateDeployments
