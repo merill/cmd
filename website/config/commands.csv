@@ -288,3 +288,9 @@ inedr,insecedr,Security - Enpoint detection and Response,,Intune,https://intune.
 inasr,insecasr,Security - ASR,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr
 encloudsync,,Entra Cloud Sync Configuration,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/CloudSyncMenuBlade/~/CloudSyncConfigurations
 planner,,Planner,,Microsoft 365,https://planner.cloud.microsoft
+detp,threatpolicy|threatpolicies,Threat policies,,Defender,https://security.microsoft.com/threatpolicy
+deasp,antispam|antispampolicies,Anti-spam policies,,Defender,https://security.microsoft.com/antispam
+deamp,deamv2|antimalware|antimalwarepolicies,Anti-malware policies,,Defender,https://security.microsoft.com/antimalwarev2
+desap,safeattachments|desav2,Safe attachments policies,,Defender,https://security.microsoft.com/safeattachmentv2
+deslp,safelinks|deslv2,Safe links policies,,Defender,https://security.microsoft.com/safelinksv2
+deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft.com/quarantinePolicies
