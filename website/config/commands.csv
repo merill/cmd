@@ -288,3 +288,19 @@ inedr,insecedr,Security - Enpoint detection and Response,,Intune,https://intune.
 inasr,insecasr,Security - ASR,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr
 encloudsync,,Entra Cloud Sync Configuration,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/CloudSyncMenuBlade/~/CloudSyncConfigurations
 planner,,Planner,,Microsoft 365,https://planner.cloud.microsoft
+dereport,,Defender reports,,Defender,https://security.microsoft.com/securityreports
+Derepquery,queryresources,Reports - Query resources,Query quota,Defender,https://security.microsoft.com/advanced-hunting/quotareport
+desecreport,securityreport,Reports - Security report,,Defender,https://security.microsoft.com/reports
+Devulnreport,,Reports - Vulnerable Devices,,Defender,https://security.microsoft.com/mde-reports/vulnerability
+deasrreport,asrreport|asrmdereport,Reports - Attack Surface Reduction Rules,Asr,Defender,https://security.microsoft.com/asr
+dedevcontrol,Devcontrolreport,Reports - Device Control,,Defender,https://security.microsoft.com/devicecontrol
+Dedevhealth,Devicehealth,Reports - Device Health,,Defender,https://security.microsoft.com/devicehealth
+defwreport,Firewallreport,Reports - Firewall,,Defender,https://security.microsoft.com/firewall
+demonsum,monthlysum,Reports - Monthly security summary ,,Defender,https://security.microsoft.com/value-report
+dewebprotect,,Reports - Web Protection,,Defender,https://security.microsoft.com/webprotection
+Deemailcoll,,Reports - Email & Collaboration,,Defender,https://security.microsoft.com/emailandcollabreport
+Exmailflowrep,mailflowreports,Exchange mail flow reports,,Microsoft 365,https://security.microsoft.com/ExchangeMailFlowReport
+Deschedules,,Reports - Email & Collaboration - Manage schedules,,Defender,https://security.microsoft.com/ManageSubscription
+Dedwnrep,derepdownload,Reports - Email & Collaboration - Reports for download,,Defender,https://security.microsoft.com/ReportsForDownload
+Demcasreports,demcasrep,Cloud Apps - Exported Reports,,Defender,https://security.microsoft.com/cloudapps/exported-reports
+Deidrepmgmt,,Identities - Report management,,Defender,https://security.microsoft.com/identities-reports
