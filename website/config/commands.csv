@@ -258,7 +258,10 @@ ppdod,,Power Platform DoD,,Microsoft 365,https://admin.appsplatform.us/
 pappsdod,,PowerApps DoD,,Microsoft 365,https://make.apps.appsplatform.us/
 pflowdod,,PowerAutomate DoD,,Microsoft 365,https://flow.appsplatform.us/
 aka,,AkaSearch,,General,https://akaSearch.net
-lighthouse,,Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/
+lh,,Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/
+lhbsl,,Baselines Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/#view/Microsoft_Intune_MTM/Blueprints.ReactView
+lhdi,,Deployment Insights Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/#view/Microsoft_Intune_MTM/MultiTenantDeploymentReport.ReactView
+lhtnt,,Tenants Lighthouse,,Microsoft 365,https://lighthouse.microsoft.com/#view/Microsoft_Intune_MTM/Tenants.ReactView
 enlaps,adlaps,LAPS,LAPS,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Devices/DevicesMenuBlade/~/LocalAdminPassword/menuId/Overview
 inwdu,,Driver updates for Windows 10,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windowsDriverUpdate?#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/windows10UpdateRings?=
 azoai,openai,Azure OpenAI Studio,,Azure,https://oai.azure.com/portal
