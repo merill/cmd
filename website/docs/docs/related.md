@@ -33,7 +33,7 @@ https://msshells.net/
 
 ### [PowerShell Function for cmd.ms](https://powershellisfun.com/2024/12/12/powershell-function-for-the-cmd-ms-website/)
 
-Want to launch into the admin portals from the command line? Your in luck! Harm Veenstra has written a handy function that uses cmd.ms to view and launch shortcuts directly from PowerShell.
+Want to launch into the admin portals from the command line? You're in luck! Harm Veenstra has written a handy function that uses cmd.ms to view and launch shortcuts directly from PowerShell.
 
 Check out [his blog post](https://powershellisfun.com/2024/12/12/powershell-function-for-the-cmd-ms-website/) for more info.
 
