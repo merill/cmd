@@ -293,6 +293,7 @@ inedr,insecedr,Security - Enpoint detection and Response,,Intune,https://intune.
 inasr,insecasr,Security - ASR,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr
 encloudsync,,Entra Cloud Sync Configuration,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/CloudSyncMenuBlade/~/CloudSyncConfigurations
 planner,,Planner,,Microsoft 365,https://planner.cloud.microsoft
+sds,,School Data Sync,,Microsoft 365,https://sds.edu.cloud.microsoft
 dereport,,Defender reports,,Defender,https://security.microsoft.com/securityreports
 derepquery,queryresources,Reports - Query resources,Query quota,Defender,https://security.microsoft.com/advanced-hunting/quotareport
 desecreport,securityreport,Reports - Security report,,Defender,https://security.microsoft.com/reports
