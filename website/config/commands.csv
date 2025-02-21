@@ -188,6 +188,7 @@ azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Az
 azumc,,Azure Update Management Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Automation/UpdateCenterMenuBlade/~/overview?
 azbackup,,Backup Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_DataProtection/BackupCenterMenuBlade/~/overview
 azrm,,Azure Resource Manager Blade,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Resources/ResourceManagerBlade/~/overview
+azguestconfig,azguest,Azure Guest Assignments,,Azure,https://portal.azure.com/#browse/Microsoft.Compute%2FvirtualMachines%2Fproviders%2FguestConfigurationAssignments
 synapse,,Azure Synapse Studio,,Azure,https://web.azuresynapse.net/
 avs,,Azure VMware Solution,,Azure,https://portal.azure.com/#browse/Microsoft.AVS%2FprivateClouds
 partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/dashboard
