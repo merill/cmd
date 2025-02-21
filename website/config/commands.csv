@@ -188,7 +188,8 @@ azmg,,Azure Management Groups,,Azure,https://portal.azure.com/#view/Microsoft_Az
 azumc,,Azure Update Management Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Automation/UpdateCenterMenuBlade/~/overview?
 azbackup,,Backup Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_DataProtection/BackupCenterMenuBlade/~/overview
 azrm,,Azure Resource Manager Blade,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Resources/ResourceManagerBlade/~/overview
-azguestconfig,azguest,Azure Guest Assignments,,Azure,https://portal.azure.com/#browse/Microsoft.Compute%2FvirtualMachines%2Fproviders%2FguestConfigurationAssignments
+azguestconfig,azguest,Azure Guest Assignments,,Azure,https://portal.azure.com/#browse/Microsoft.Compute%2FvirtualMachines%2Fproviders%2FguestConfigurationAssignments
+
 synapse,,Azure Synapse Studio,,Azure,https://web.azuresynapse.net/
 avs,,Azure VMware Solution,,Azure,https://portal.azure.com/#browse/Microsoft.AVS%2FprivateClouds
 partner,,Microsoft Partner Center,,General,https://partner.microsoft.com/dashboard
@@ -289,3 +290,9 @@ inedr,insecedr,Security - Enpoint detection and Response,,Intune,https://intune.
 inasr,insecasr,Security - ASR,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr
 encloudsync,,Entra Cloud Sync Configuration,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Connect_Provisioning/CloudSyncMenuBlade/~/CloudSyncConfigurations
 planner,,Planner,,Microsoft 365,https://planner.cloud.microsoft
+detp,threatpolicy|threatpolicies,Threat policies,,Defender,https://security.microsoft.com/threatpolicy
+deasp,antispam|antispampolicies,Anti-spam policies,,Defender,https://security.microsoft.com/antispam
+deamp,deamv2|antimalware|antimalwarepolicies,Anti-malware policies,,Defender,https://security.microsoft.com/antimalwarev2
+desap,safeattachments|desav2,Safe attachments policies,,Defender,https://security.microsoft.com/safeattachmentv2
+deslp,safelinks|deslv2,Safe links policies,,Defender,https://security.microsoft.com/safelinksv2
+deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft.com/quarantinePolicies
