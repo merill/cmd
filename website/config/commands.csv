@@ -315,3 +315,4 @@ deamp,deamv2|antimalware|antimalwarepolicies,Anti-malware policies,,Defender,htt
 desap,safeattachments|desav2,Safe attachments policies,,Defender,https://security.microsoft.com/safeattachmentv2
 deslp,safelinks|deslv2,Safe links policies,,Defender,https://security.microsoft.com/safelinksv2
 deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft.com/quarantinePolicies
+syntex,,Syntex,,Microsoft 365,https://admin.cloud.microsoft/#/syntex
