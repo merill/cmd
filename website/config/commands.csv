@@ -316,4 +316,4 @@ desap,safeattachments|desav2,Safe attachments policies,,Defender,https://securit
 deslp,safelinks|deslv2,Safe links policies,,Defender,https://security.microsoft.com/safelinksv2
 deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft.com/quarantinePolicies
 syntex,,Syntex,,Microsoft 365,https://admin.cloud.microsoft/#/syntex
-edgeconfig,EdgePolicyConfiguration,Edge Configuration Profiles,,Microsoft 365,https://admin.microsoft.com/?source=applauncher#/Edge/PolicyConfiguration
+edgeconfig,,Edge Configuration Profiles,,Microsoft 365,https://admin.microsoft.com/?source=applauncher#/Edge/PolicyConfiguration
