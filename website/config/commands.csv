@@ -146,7 +146,7 @@ azcosmos,,Azure Cosmos DB,,Azure,https://portal.azure.com/#view/HubsExtension/Br
 cosmos,,CosmosDB Explorer,,Azure,https://cosmos.azure.com
 azmonitor,,Monitor,,Azure,https://portal.azure.com/#view/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/~/overview
 azappinsights,appinsights,Application Insights,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fcomponents
-azloganalytics,la,Log Analytics,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.OperationalInsights%2Fworkspaces
+azloganalytics,azla|la,Log Analytics,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.OperationalInsights%2Fworkspaces
 azasp,,App Service plans,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2FserverFarms
 azapps,azweb,App Services,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites
 azsql,,SQL servers,,Azure,https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers
