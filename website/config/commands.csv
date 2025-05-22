@@ -81,7 +81,7 @@ dere,,Restricted entities,,Defender,https://security.microsoft.com/restrictedent
 dereg,,Restricted Entities for GCC High,,Defender,https://security.microsoft.us/restrictedentities
 deinvestigations,,Investigations,,Defender,https://security.microsoft.com/airinvestigation
 deinvestigationsg,,Investigations for GCC High,,Defender,https://security.microsoft.us/airinvestigation
-deti,,Threat Intelligence,,Defender,https://ti.defender.microsoft.com
+deti,,Threat Intelligence,,Defender,https://security.microsoft.com/intel-explorer?referrer=MDTI_STANDALONE_REDIRECT
 enappreg,adappreg,App registrations,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType~/null/sourceType/Microsoft_AAD_IAM
 enapps,adentapp|adapp|adapps,Enterprise applications,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/~/AppAppsPreview
 engroups,adgroups,Groups,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups
@@ -315,3 +315,4 @@ deamp,deamv2|antimalware|antimalwarepolicies,Anti-malware policies,,Defender,htt
 desap,safeattachments|desav2,Safe attachments policies,,Defender,https://security.microsoft.com/safeattachmentv2
 deslp,safelinks|deslv2,Safe links policies,,Defender,https://security.microsoft.com/safelinksv2
 deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft.com/quarantinePolicies
+syntex,,Syntex,,Microsoft 365,https://admin.cloud.microsoft/#/syntex
