@@ -317,3 +317,4 @@ deslp,safelinks|deslv2,Safe links policies,,Defender,https://security.microsoft.
 deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft.com/quarantinePolicies
 syntex,,Syntex,,Microsoft 365,https://admin.cloud.microsoft/#/syntex
 edgeconfig,,Edge Configuration Profiles,,Microsoft 365,https://admin.microsoft.com/?source=applauncher#/Edge/PolicyConfiguration
+edge,,Edge Configuration Overview,,Microsoft 365,https://admin.cloud.microsoft#/edge
