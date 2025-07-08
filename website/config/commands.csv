@@ -284,7 +284,7 @@ azdns,,DNS zones,,Azure,https://portal.azure.com/#browse/Microsoft.Network%2Fdns
 xdrthreathunt,th|threathunt,Threat Hunting,,XDR Sentinel,https://security.microsoft.com/sentinel/hunting
 xdranalytics,,Analytic Rules,,XDR Sentinel,https://security.microsoft.com/sentinel/analytics
 xdrwatchlist,watchlist,Sentinel Watchlist,,XDR Sentinel,https://security.microsoft.com/sentinel/watchlist
-scp,cfs,Copilot for Security,,Defender,https://securitycopilot.microsoft.com
+scp,cfs,Security Copilot,,Defender,https://securitycopilot.microsoft.com
 deap,antiphishing|antiphish|phish,Anti-Phishing policies,,Defender,https://security.microsoft.com/antiphishing
 dedkim,dkim,DKIM Email Authentication Settings,,Defender,https://security.microsoft.com/dkimv2
 inantivirus,insecav,Security - Antivirus,,Intune,https://intune.microsoft.com/?ref=AdminCenter#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/antivirus
