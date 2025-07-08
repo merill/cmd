@@ -33,7 +33,7 @@ argg,argeg,Azure Resource Graph Explorer for GCC High,,Azure,https://portal.azur
 mail,outlook,Outlook,,Microsoft 365,https://outlook.office365.com/mail/
 mailg,outlookg,Outlook for GCC High,,Microsoft 365,https://outlook.office365.us/mail/
 pu,purview,Microsoft Purview,,Microsoft 365,https://purview.microsoft.com/
-puudg,purviewudg|purview,Purview Unified Data Governance,Azure Purview portal,Azure,https://web.purview.azure.com
+puudg,purviewudg,Purview Unified Data Governance,Azure Purview portal,Azure,https://web.purview.azure.com
 puudgg,purviewudgg|purviewg,Purview Unified Data Governance for GCC High,Azure Purview portal,Azure,https://web.purview.azure.us
 puperms,,Purview Permissions manager,,Microsoft 365,https://purview.microsoft.com/settings/purviewpermissions
 pupermsg,,Purview Permissions manager for GCC High,,Microsoft 365,https://compliance.microsoft.us/permissions
