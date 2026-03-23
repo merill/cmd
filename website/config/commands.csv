@@ -56,7 +56,7 @@ puinfoprot,,Purview Information Protection,Microsoft Information Protection,Purv
 puinfoprotg,,Purview Information Protection for GCC High,Microsoft Information Protection,Purview,https://purview.microsoft.us/informationprotection
 puirm,,Purview Insider Risk Management,Microsoft 365 Insider Risk Management,Purview,https://purview.microsoft.com/insiderriskmgmt
 puirmg,,Purview Insider Risk Management for GCC High,Microsoft 365 Insider Risk Management,Purview,https://purview.microsoft.us/insiderriskmgmt
-puprivaprm,,Purview Priva Privacy Risk Management,,Microsoft 365,https://purview.microsoft.com/priva/prm
+puprivaprm,,Purview Priva Privacy Risk Management,,Purview,https://purview.microsoft.com/priva/prm
 puprivaprmg,,Purview Priva Privacy Risk Management for GCC High,,Purview,https://purview.microsoft.us/privacymgmtoverview
 puprivasrr,,Purview Priva Subject Rights Requests,,Purview,https://purview.microsoft.com/priva/dsr/governance/main/privacydsr/privacy/overview
 puprivasrrg,,Purview Priva Subject Rights Requests for GCC High,,Purview,https://purview.microsoft.us/privacymgmtsrm
