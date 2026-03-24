@@ -134,7 +134,7 @@ inandroid,,Android,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_D
 inenroll,,Enroll devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesEnrollmentMenu/~/windowsEnrollment
 incompliance,,Compliance policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesComplianceMenu/~/policies
 inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configuration
-inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
+inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/scripts
 inappconfig,,App configuration policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
 inap,inautodev|inadev,Windows Autopilot devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/AutopilotDevices.ReactView/filterOnManualRemediationRequired~/false
 inedu,,Education,,Intune,https://intuneeducation.portal.azure.com
