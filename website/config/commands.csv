@@ -17,6 +17,7 @@ ex,exo|exchange,Exchange,,Microsoft 365,https://admin.cloud.microsoft/exchange
 sp,spo|sharepoint,SharePoint,,Microsoft 365,https://admin.microsoft.com/sharepoint
 teams,team,Teams,,Microsoft 365,https://admin.teams.microsoft.com/
 teamsg,teamg,Teams Admin for GCC High,,Microsoft 365,https://admin.gov.teams.microsoft.us/
+places,place,Places Admin,,Microsoft 365,https://places.cloud.microsoft/places/admin/space-management/
 one,onedrive,OneDrive,,Microsoft 365,https://admin.onedrive.com
 oneg,onedriveg,OneDrive for GCC High,,Microsoft 365,https://admin.onedrive.us
 pbi,powerbi,Power BI,,Microsoft 365,https://app.powerbi.com/admin-portal
