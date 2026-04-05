@@ -33,44 +33,44 @@ arg,arge,Azure Resource Graph Explorer,,Azure,https://portal.azure.com/#view/Hub
 argg,argeg,Azure Resource Graph Explorer for GCC High,,Azure,https://portal.azure.us/#view/HubsExtension/ArgQueryBlade?
 mail,outlook,Outlook,,Microsoft 365,https://outlook.office365.com/mail/
 mailg,outlookg,Outlook for GCC High,,Microsoft 365,https://outlook.office365.us/mail/
-pu,purview,Microsoft Purview,,Microsoft 365,https://purview.microsoft.com/
+pu,purview,Microsoft Purview,,Purview,https://purview.microsoft.com/
 puudg,purviewudg,Purview Unified Data Governance,Azure Purview portal,Azure,https://web.purview.azure.com
 puudgg,purviewudgg|purviewg,Purview Unified Data Governance for GCC High,Azure Purview portal,Azure,https://web.purview.azure.us
-puperms,,Purview Permissions manager,,Microsoft 365,https://purview.microsoft.com/settings/purviewpermissions
-pupermsg,,Purview Permissions manager for GCC High,,Microsoft 365,https://compliance.microsoft.us/permissions
-pucmgr,decm,Purview Compliance manager,Microsoft Compliance Manager,Microsoft 365,https://purview.microsoft.com/compliancemanager
-pucmgrg,decmg,Purview Compliance manager for GCC High,Microsoft Compliance Manager,Microsoft 365,https://compliance.microsoft.us/compliancemanager
-pucloudgov,,Purview App Governance,,Microsoft 365,https://compliance.microsoft.com/cloudapps/app-governance
-puaudit,,Purview Audit,Microsoft 365 Advanced Audit,Microsoft 365,https://purview.microsoft.com/audit/auditsearch
-puauditg,,Purview Audit for GCC High,Microsoft 365 Advanced Audit,Microsoft 365,https://compliance.microsoft.com/auditlogsearch
-pucomms,,Purview Communication Compliance,Microsoft 365 Communication Compliance,Microsoft 365,https://purview.microsoft.com/cc
-pucommsg,,Purview Communication Compliance for GCC High,Microsoft 365 Communication Compliance,Microsoft 365,https://compliance.microsoft.us/supervisoryreview
-pudlp,dlp,Purview Data Loss Prevention,Microsoft Endpoint DLP,Microsoft 365,https://purview.microsoft.com/datalossprevention
-pudlpg,dlpg,Purview Data Loss Prevention for GCC High,Microsoft Endpoint DLP,Microsoft 365,https://compliance.microsoft.us/datalossprevention
-puedisc,ediscovery,Purview eDiscovery,Office 365 Advanced eDiscovery,Microsoft 365,https://purview.microsoft.com/ediscovery/advancedediscovery
-puediscg,ediscoveryg,Purview eDiscovery for GCC High,Office 365 Advanced eDiscovery,Microsoft 365,https://compliance.microsoft.us/advancedediscovery
-pudlm,,Purview Data Lifecycle Management,Microsoft Information Governance,Microsoft 365,https://purview.microsoft.com/datalifecyclemanagement
-pudlmg,,Purview Data Lifecycle Management for GCC High,Microsoft Information Governance,Microsoft 365,https://compliance.microsoft.us/informationgovernance
-purecmon,,Purview Records Management,Records Management in Microsoft 365,Microsoft 365,https://purview.microsoft.com/recordsmanagement
-purecmong,,Purview Records Management for GCC High,Records Management in Microsoft 365,Microsoft 365,https://compliance.microsoft.us/recordsmanagement
-puinfoprot,,Purview Information Protection,Microsoft Information Protection,Microsoft 365,https://purview.microsoft.com/informationprotection
-puinfoprotg,,Purview Information Protection for GCC High,Microsoft Information Protection,Microsoft 365,https://compliance.microsoft.us/informationprotection
-puirm,,Purview Insider Risk Management,Microsoft 365 Insider Risk Management,Microsoft 365,https://purview.microsoft.com/insiderriskmgmt
-puirmg,,Purview Insider Risk Management for GCC High,Microsoft 365 Insider Risk Management,Microsoft 365,https://compliance.microsoft.us/insiderriskmgmt
-puprivaprm,,Purview Priva Privacy Risk Management,,Microsoft 365,https://purview.microsoft.com/priva/prm
-puprivaprmg,,Purview Priva Privacy Risk Management for GCC High,,Microsoft 365,https://compliance.microsoft.us/privacymgmtoverview
-puprivasrr,,Purview Priva Subject Rights Requests,,Microsoft 365,https://purview.microsoft.com/priva/dsr/governance/main/privacydsr/privacy/overview
-puprivasrrg,,Purview Priva Subject Rights Requests for GCC High,,Microsoft 365,https://compliance.microsoft.us/privacymgmtsrm
-puactexp,,Purview Activity Explorer,,Microsoft 365,https://purview.microsoft.com/informationprotection/dataclassification/activityexplorer
-puactexpg,,Purview Activity Explorer for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassification/activityexplorer
-pucontentse,,Purview Content Search,,Microsoft 365,https://purview.microsoft.com/ediscovery/contentsearchv2
-pucontentseg,,Purview Content Search for GCC High,,Microsoft 365,https://compliance.microsoft.us/contentsearchv2
-pucontentex,,Purview Content Explorer,,Microsoft 365,https://purview.microsoft.com/informationprotection/dataclassification/contentexplorer
-pucontentexg,,Purview Content Explorer for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassification/contentexplorer
-pusit,,Purview Sensitive Info Types,,Microsoft 365,https://purview.microsoft.com/cc/dataclassification/multicloudsensitiveinfotypes
-pusitg,,Purview Sensitive Info Types for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassificationclassifiers?viewid=sensitiveinfotypes
-puclassifiers,,Purview Data Classification,,Microsoft 365,https://purview.microsoft.com/cc/dataclassification/multicloudsensitiveinfotypes
-puclassifiersg,,Purview Data Classification for GCC High,,Microsoft 365,https://compliance.microsoft.us/dataclassificationclassifiers
+puperms,,Purview Permissions manager,,Purview,https://purview.microsoft.com/settings/purviewpermissions
+pupermsg,,Purview Permissions manager for GCC High,,Purview,https://purview.microsoft.us/permissions
+pucmgr,decm,Purview Compliance manager,Microsoft Compliance Manager,Purview,https://purview.microsoft.com/compliancemanager
+pucmgrg,decmg,Purview Compliance manager for GCC High,Microsoft Compliance Manager,Purview,https://purview.microsoft.us/compliancemanager
+pucloudgov,,Purview App Governance,,Purview,https://purview.microsoft.com/cloudapps/app-governance
+puaudit,,Purview Audit,Microsoft 365 Advanced Audit,Purview,https://purview.microsoft.com/audit/auditsearch
+puauditg,,Purview Audit for GCC High,Microsoft 365 Advanced Audit,Purview,https://purview.microsoft.com/auditlogsearch
+pucomms,,Purview Communication Compliance,Microsoft 365 Communication Compliance,Purview,https://purview.microsoft.com/cc
+pucommsg,,Purview Communication Compliance for GCC High,Microsoft 365 Communication Compliance,Purview,https://purview.microsoft.us/supervisoryreview
+pudlp,dlp,Purview Data Loss Prevention,Microsoft Endpoint DLP,Purview,https://purview.microsoft.com/datalossprevention
+pudlpg,dlpg,Purview Data Loss Prevention for GCC High,Microsoft Endpoint DLP,Purview,https://purview.microsoft.us/datalossprevention
+puedisc,ediscovery,Purview eDiscovery,Office 365 Advanced eDiscovery,Purview,https://purview.microsoft.com/ediscovery/advancedediscovery
+puediscg,ediscoveryg,Purview eDiscovery for GCC High,Office 365 Advanced eDiscovery,Purview,https://purview.microsoft.us/advancedediscovery
+pudlm,,Purview Data Lifecycle Management,Microsoft Information Governance,Purview,https://purview.microsoft.com/datalifecyclemanagement
+pudlmg,,Purview Data Lifecycle Management for GCC High,Microsoft Information Governance,Purview,https://purview.microsoft.us/informationgovernance
+purecmon,,Purview Records Management,Records Management in Microsoft 365,Purview,https://purview.microsoft.com/recordsmanagement
+purecmong,,Purview Records Management for GCC High,Records Management in Microsoft 365,Purview,https://purview.microsoft.us/recordsmanagement
+puinfoprot,,Purview Information Protection,Microsoft Information Protection,Purview,https://purview.microsoft.com/informationprotection
+puinfoprotg,,Purview Information Protection for GCC High,Microsoft Information Protection,Purview,https://purview.microsoft.us/informationprotection
+puirm,,Purview Insider Risk Management,Microsoft 365 Insider Risk Management,Purview,https://purview.microsoft.com/insiderriskmgmt
+puirmg,,Purview Insider Risk Management for GCC High,Microsoft 365 Insider Risk Management,Purview,https://purview.microsoft.us/insiderriskmgmt
+puprivaprm,,Purview Priva Privacy Risk Management,,Purview,https://purview.microsoft.com/priva/prm
+puprivaprmg,,Purview Priva Privacy Risk Management for GCC High,,Purview,https://purview.microsoft.us/privacymgmtoverview
+puprivasrr,,Purview Priva Subject Rights Requests,,Purview,https://purview.microsoft.com/priva/dsr/governance/main/privacydsr/privacy/overview
+puprivasrrg,,Purview Priva Subject Rights Requests for GCC High,,Purview,https://purview.microsoft.us/privacymgmtsrm
+puactexp,,Purview Activity Explorer,,Purview,https://purview.microsoft.com/informationprotection/dataclassification/activityexplorer
+puactexpg,,Purview Activity Explorer for GCC High,,Purview,https://purview.microsoft.us/dataclassification/activityexplorer
+pucontentse,,Purview Content Search,,Purview,https://purview.microsoft.com/ediscovery/contentsearchv2
+pucontentseg,,Purview Content Search for GCC High,,Purview,https://purview.microsoft.us/contentsearchv2
+pucontentex,,Purview Content Explorer,,Purview,https://purview.microsoft.com/informationprotection/dataclassification/contentexplorer
+pucontentexg,,Purview Content Explorer for GCC High,,Purview,https://purview.microsoft.us/dataclassification/contentexplorer
+pusit,,Purview Sensitive Info Types,,Purview,https://purview.microsoft.com/cc/dataclassification/multicloudsensitiveinfotypes
+pusitg,,Purview Sensitive Info Types for GCC High,,Purview,https://purview.microsoft.us/dataclassificationclassifiers?viewid=sensitiveinfotypes
+puclassifiers,,Purview Data Classification,,Purview,https://purview.microsoft.com/cc/dataclassification/multicloudsensitiveinfotypes
+puclassifiersg,,Purview Data Classification for GCC High,,Purview,https://purview.microsoft.us/dataclassificationclassifiers
 deincidents,deinc,Incidents,,Defender,https://security.microsoft.com/incidents
 deincidentsg,deincg,Incidents for GCC High,,Defender,https://security.microsoft.us/incidents
 dehunting,dehunt,Hunting,,Defender,https://security.microsoft.com/v2/advanced-hunting
