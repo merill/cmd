@@ -319,3 +319,4 @@ deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft
 syntex,,Syntex,,Microsoft 365,https://admin.cloud.microsoft/#/syntex
 edgeconfig,,Edge Configuration Profiles,,Microsoft 365,https://admin.microsoft.com/?source=applauncher#/Edge/PolicyConfiguration
 edge,,Edge Configuration Overview,,Microsoft 365,https://admin.cloud.microsoft#/edge
+endom,addom|endomains|addomains,Domain names,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/DomainsManagementMenuBlade/~/CustomDomainNames
