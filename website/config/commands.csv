@@ -98,7 +98,8 @@ enauth,adauth,Authentication methods,,Entra,https://entra.microsoft.com/#view/Mi
 enconsent,adconsent,Consent and permissions,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings
 enusrsettings,enusersettings,User settings,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/UserSettings/menuId/UserSettings
 enpumfa,enlegacymfa|adlegacymfa,Legacy MFA,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationConfig.ReactView/tabId/users
-enlicense,adlicense,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
+enlicense,,Licenses,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/LicensesMenuBlade/~/Products
+adlicense,,Licenses,,Microsoft 365,https://admin.cloud.microsoft/?#/licenses
 ennew,,What's new,,Entra,https://entra.microsoft.com/#blade/Microsoft_AAD_IAM/ChangeManagementHubList.ReactView?
 ensign,adsign|adlogs|enlogs,Sign-in logs,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/SignInEventsV3Blade/timeRangeType/last24hours/showApplicationSignIns~/true
 enmfaunblock,admfaunblock,MFA unblock,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/MultifactorAuthenticationMenuBlade/~/BlockedUsers/fromProviders~/false
@@ -135,7 +136,7 @@ inandroid,,Android,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_D
 inenroll,,Enroll devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesEnrollmentMenu/~/windowsEnrollment
 incompliance,,Compliance policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesComplianceMenu/~/policies
 inconfig,,Configuration profiles,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/configuration
-inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/powershell
+inscripts,,Scripts,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/scripts
 inappconfig,,App configuration policies,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/appConfig
 inap,inautodev|inadev,Windows Autopilot devices,,Intune,https://intune.microsoft.com/#view/Microsoft_Intune_Enrollment/AutopilotDevices.ReactView/filterOnManualRemediationRequired~/false
 inedu,,Education,,Intune,https://intuneeducation.portal.azure.com
@@ -320,4 +321,5 @@ deqp,quarantinepolicies,Quarantine policies,,Defender,https://security.microsoft
 syntex,,Syntex,,Microsoft 365,https://admin.cloud.microsoft/#/syntex
 edgeconfig,,Edge Configuration Profiles,,Microsoft 365,https://admin.microsoft.com/?source=applauncher#/Edge/PolicyConfiguration
 edge,,Edge Configuration Overview,,Microsoft 365,https://admin.cloud.microsoft#/edge
-
+enagentid,,Agent ID,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/AllAgents.MenuView/~/overview
+endom,,Domain names,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/DomainsManagementMenuBlade/~/CustomDomainNames
