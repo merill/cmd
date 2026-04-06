@@ -74,10 +74,10 @@ const CommandsDataTable = ({
       </div>
 
           <div className="py-2 ">
-            <div className="overflow-x-auto">
+            <div className="overflow-hidden">
               <table
                 {...getTableProps()}
-                className="min-w-full divide-y divide-gray-200 table-fixed"
+                className="w-full divide-y divide-gray-200 table-fixed"
               >
                 <thead className="">
                   {headerGroups.map((headerGroup) => (

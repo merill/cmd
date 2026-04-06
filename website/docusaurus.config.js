@@ -11,7 +11,11 @@ const config = {
   url: 'https://cmd.ms',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'favicon.ico',
 
   // GitHub pages deployment config.

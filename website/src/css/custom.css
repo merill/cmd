@@ -32,7 +32,31 @@
   --ifm-color-primary-lighter: #0135d2;
   --ifm-color-primary-lightest: #013cee;
   --ifm-code-font-size: 95%;
+  --doc-sidebar-width: 220px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 997px) {
+  :root {
+    --doc-sidebar-width: 220px !important;
+  }
+
+  .theme-doc-sidebar-container,
+  aside[class*="docSidebarContainer"] {
+    width: 220px !important;
+    min-width: 0 !important;
+  }
+
+  .theme-doc-sidebar-menu {
+    width: 220px !important;
+    padding-inline: 0.25rem !important;
+  }
+
+  .theme-doc-sidebar-menu .menu__link,
+  .theme-doc-sidebar-menu .menu__caret {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

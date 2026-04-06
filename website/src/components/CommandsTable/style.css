@@ -12,8 +12,15 @@
 
 .col-url {
   white-space: nowrap; 
-  text-overflow:ellipsis; 
+  text-overflow: ellipsis; 
   overflow: hidden;
-  max-width: 400px;
-  width: 80%;
+  max-width: 0;
+  width: 70%;
+}
+
+.commands-data-table td,
+.commands-data-table th {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
