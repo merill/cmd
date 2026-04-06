@@ -329,3 +329,25 @@ azbcc,bcc,Business Continuity Center,,Azure,https://portal.azure.com/#view/Micro
 azsnap,,Disk Snapshots,,Azure,https://portal.azure.com/#browse/Microsoft.Compute%2Fsnapshots
 fabric,,Fabric,,Microsoft 365,https://app.powerbi.com/home?experience=fabric-developer
 engage,,Engage Center,,Azure,https://engagecenter.microsoft.com
+desettings,,Defender - Settings,,Defender,https://security.microsoft.com/securitysettings
+demdesettings,,Defender - Settings - Endpoints,,Defender,https://security.microsoft.com/securitysettings/endpoints
+demdeadvfeats,,Defender - Settings - Endpoints - Advanced features,,Defender,https://security.microsoft.com/securitysettings/endpoints/integration
+demdelibrary,,Defender - Settings - Endpoints - Library Management,,Defender,https://security.microsoft.com/securitysettings/endpoints/libraryManagement
+demdelicenses,,Defender - Settings - Endpoints - Licenses,,Defender,https://security.microsoft.com/securitysettings/endpoints/licenses
+demdemailalerts,,Defender - Settings - Endpoints - e-Mail Notifications - Alerts,,Defender,https://security.microsoft.com/securitysettings/endpoints/email_notifications
+demdemailvulns,,Defender - Settings - Endpoints - e-Mail Notifications - Vulnerabilities,,Defender,https://security.microsoft.com/securitysettings/endpoints/email_notifications?childviewid=vulnerabilities
+demderoles,,Defender - Settings - Endpoints - Roles,,Defender,https://security.microsoft.com/securitysettings/endpoints/user_roles
+demdedevgrps,,Defender - Settings - Endpoints - Device Groups,,Defender,https://security.microsoft.com/securitysettings/endpoints/machine_groups
+demdetifiles,,Defender - Settings - Endpoints - Indicators - Files,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=files
+demdetiip,,Defender - Settings - Endpoints - Indicators - IPs,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=ip
+demdetiurls,,Defender - Settings - Endpoints - Indicators - URLs/Domains,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=url
+demdeticerts,,Defender - Settings - Endpoints - Indicators - Certificates,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=certificate
+demdeier,,Defender - Settings - Endpoints - Isolation Exclusion Rules,,Defender,https://security.microsoft.com/securitysettings/endpoints/isolation_exclusions
+demdepmi,,Defender - Settings - Endpoints - Process Memory Indicators,,Defender,https://security.microsoft.com/securitysettings/endpoints/system_exclusions
+demdewcf,,Defender - Settings - Endpoints - Web Content Filtering,,Defender,https://security.microsoft.com/securitysettings/endpoints/web_content_filtering_policy
+demdeau,,Defender - Settings - Endpoints - Automation Uploads,,Defender,https://security.microsoft.com/securitysettings/endpoints/advanced
+demdeafe,,Defender - Settings - Endpoints - Automation Folder Exclusions,,Defender,https://security.microsoft.com/securitysettings/endpoints/folder_exclusions
+demdessm,,Defender - Settings - Endpoints - Security setting management,,Defender,https://security.microsoft.com/securitysettings/endpoints/configuration_management2
+demdeinperms,,Defender - Settings - Endpoints - Intune Permissions,,Defender,https://security.microsoft.com/securitysettings/endpoints/intune_permissions
+demdeonboard,,Defender - Settings - Endpoints - Onboarding,,Defender,https://security.microsoft.com/securitysettings/endpoints/onboarding
+demdeoffboard,,Defender - Settings - Endpoints - Offboarding,,Defender,https://security.microsoft.com/securitysettings/endpoints/offboarding
