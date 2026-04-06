@@ -9,7 +9,7 @@ azg,,Azure for GCC High,,Azure,https://portal.azure.us
 azp,azurepreview,Azure Preview Portal,,Azure,https://preview.portal.azure.com/
 in,intune|endpoint,Intune,,Intune,https://intune.microsoft.com
 ing,intuneg,Intune for GCC high,,Intune,https://intune.microsoft.us
-defender,def|security,Microsoft 365 Defender,,Defender,https://security.microsoft.com
+defender,mde|def|security,Microsoft 365 Defender,,Defender,https://security.microsoft.com
 defenderg,defg|securityg,Microsoft 365 Defender for GCC High,,Defender,https://security.microsoft.us
 azsentinel,sentinel,Sentinel,,Azure,https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
 azsentinelg,sentinelg,Sentinel for GCC high,,Azure,https://portal.azure.us/#blade/Microsoft_Azure_Security_Insights/WorkspaceSelectorBlade?
