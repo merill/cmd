@@ -139,6 +139,14 @@
   font-family: inherit;
 }
 
+.terminalLight .logo {
+  background: linear-gradient(135deg, #a855f7, #6366f1, #3b82f6, #06b6d4, #10b981) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .subtitle {
   color: var(--text);
   font-size: 1.2rem;
