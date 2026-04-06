@@ -326,3 +326,4 @@ enagentid,,Agent ID,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_Regis
 endom,,Domain names,,Entra,https://entra.microsoft.com/#view/Microsoft_AAD_IAM/DomainsManagementMenuBlade/~/CustomDomainNames
 domains,domain,Domains,,Microsoft 365,https://admin.cloud.microsoft/#/Domains
 azbcc,bcc,Business Continuity Center,,Azure,https://portal.azure.com/#view/Microsoft_Azure_BCDRCenter/AbcCenterMenuBlade/~/overview
+azsnap,,Disk Snapshots,,Azure,https://portal.azure.com/#browse/Microsoft.Compute%2Fsnapshots
