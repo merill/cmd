@@ -19,6 +19,7 @@ const CommandsDataTable = ({
   columns,
   data,
   applyFilter = '',
+  initialSearch = '',
   columnsToHide = [''],
   getHeaderProps = defaultPropGetter,
   getColumnProps = defaultPropGetter,
@@ -40,6 +41,7 @@ const CommandsDataTable = ({
       columnsToHide,
        initialState: { 
         hiddenColumns: columnsToHide.concat(['keywords']),
+        globalFilter: initialSearch || undefined,
         filters: [
           {
             id: 'category',
@@ -70,6 +72,7 @@ const CommandsDataTable = ({
           globalFilter={state.globalFilter}
           setGlobalFilter={setGlobalFilter}
           applyFilter={applyFilter}
+          initialSearch={initialSearch}
         />
       </div>
 
@@ -150,9 +153,10 @@ function GlobalFilter({
   globalFilter,
   setGlobalFilter,
   applyFilter,
+  initialSearch = '',
 }) {
   const count = preGlobalFilteredRows.length;
-  const [value, setValue] = React.useState(globalFilter);
+  const [value, setValue] = React.useState(globalFilter || initialSearch);
   const onChange = useAsyncDebounce((value) => {
     setGlobalFilter(value || undefined);
   }, 1);

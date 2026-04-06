@@ -5,8 +5,17 @@ import Heading from "@theme/Heading";
 import { CommandsTable } from "@site/src/components/CommandsTable";
 import { commands } from "@site/src/tableHome/commands.table";
 import { columns } from "@site/src/tableHome/columns.table";
+import { useLocation } from "@docusaurus/router";
 
 export default function NotFoundContent({ className }) {
+  const location = useLocation();
+  const rawTerm = decodeURIComponent(location.pathname.replace(/^\//,'').replace(/\//g, ' ')).trim();
+  const hasResults = rawTerm && commands.some((row) =>
+    Object.values(row).some((val) =>
+      String(val).toLowerCase().includes(rawTerm.toLowerCase())
+    )
+  );
+  const searchTerm = hasResults ? rawTerm : '';
   return (
     <main className={clsx("container margin-vert--xl", className)}>
       <div className="row">
@@ -37,7 +46,7 @@ export default function NotFoundContent({ className }) {
           </p>
         </div>
         <div className="col col--offset-0">
-          <CommandsTable columns={columns} data={commands} applyFilter="" />
+          <CommandsTable columns={columns} data={commands} applyFilter="" initialSearch={searchTerm} />
         </div>
       </div>
     </main>
