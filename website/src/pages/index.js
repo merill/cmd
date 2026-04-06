@@ -17,6 +17,51 @@ const COL_NAME = 42;
 const COL_ALIAS = 22;
 const COL_GAP = "   ";
 
+// Priority order for categories (lower = shown first)
+const CATEGORY_ORDER = [
+  "Entra",
+  "Intune",
+  "Defender",
+  "XDR Sentinel",
+  "Purview",
+  "Microsoft 365",
+  "Azure",
+  "My Pages",
+  "General",
+];
+
+// Pin these commands to the very top (in this order)
+const PINNED_COMMANDS = [
+  "enpim", "en", "enusers", "engroups", "enca", "enapps", "enappreg",
+  "in", "indevices", "inapps",
+  "defender", "sp", "teams",
+];
+
+// Build a pre-sorted command list
+const sortedCommands = (() => {
+  const pinSet = new Set(PINNED_COMMANDS);
+  const pinOrder = Object.fromEntries(PINNED_COMMANDS.map((c, i) => [c, i]));
+  const catOrder = Object.fromEntries(CATEGORY_ORDER.map((c, i) => [c, i]));
+
+  const pinned = [];
+  const rest = [];
+  for (const cmd of commands) {
+    if (pinSet.has(cmd.command)) {
+      pinned.push(cmd);
+    } else {
+      rest.push(cmd);
+    }
+  }
+  pinned.sort((a, b) => pinOrder[a.command] - pinOrder[b.command]);
+  rest.sort((a, b) => {
+    const ca = catOrder[a.category] ?? 999;
+    const cb = catOrder[b.category] ?? 999;
+    if (ca !== cb) return ca - cb;
+    return a.description.localeCompare(b.description);
+  });
+  return [...pinned, ...rest];
+})();
+
 function pad(str, len) {
   if (!str) str = "";
   if (str.length > len) str = str.slice(0, len - 1) + "…";
@@ -49,9 +94,9 @@ export default function TuiHome() {
 
   // Filter commands
   const filtered = React.useMemo(() => {
-    if (!search.trim()) return commands;
+    if (!search.trim()) return sortedCommands;
     const q = search.toLowerCase().trim();
-    return commands.filter(
+    return sortedCommands.filter(
       (c) =>
         c.command.toLowerCase().includes(q) ||
         c.description.toLowerCase().includes(q) ||
@@ -80,10 +125,8 @@ export default function TuiHome() {
   // Global keyboard handler
   React.useEffect(() => {
     const handler = (e) => {
-      // ? — toggle shortcuts overlay
+      // ? — toggle shortcuts overlay (works everywhere including input)
       if (e.key === "?" && !e.ctrlKey && !e.metaKey) {
-        const tag = document.activeElement?.tagName;
-        if (tag === "INPUT" || tag === "TEXTAREA") return;
         e.preventDefault();
         setShowShortcuts((prev) => !prev);
         return;
@@ -271,7 +314,11 @@ export default function TuiHome() {
         <div className={styles.tableContainer} ref={tableRef}>
           {/* Header */}
           <div className={styles.tableHeader}>
-            {formatRow("COMMAND", "NAME", "ALIAS")}
+            <span>{" " + pad("COMMAND", COL_CMD)}</span>
+            <span>{COL_GAP + " "}</span>
+            <span>{pad("NAME", COL_NAME)}</span>
+            <span>{COL_GAP + " "}</span>
+            <span>{pad("ALIAS", COL_ALIAS)}</span>
           </div>
 
           {/* Separator */}
@@ -279,8 +326,11 @@ export default function TuiHome() {
 
           {/* Data rows */}
           {filtered.length === 0 ? (
-            <div className={styles.tableRow}>
-              {formatRow("", "No results found.", "")}
+            <div className={styles.noResults}>
+              <div>Command not found.</div>
+              <div className={styles.noResultsSub}>
+                Want to add a new command to cmd.ms? <a href="/docs/docs/contributing" className={styles.noResultsLink}>Learn how to contribute →</a>
+              </div>
             </div>
           ) : (
             filtered.map((cmd, i) => (
@@ -299,7 +349,9 @@ export default function TuiHome() {
                 onMouseLeave={() => setHoveredIdx(-1)}
               >
                 <span className={styles.colCmd}>{" " + pad(cmd.command + ".cmd.ms", COL_CMD)}</span>
+                <span className={styles.colGap}>{COL_GAP}</span>
                 <span className={styles.colName}>{pad(cmd.description, COL_NAME)}</span>
+                <span className={styles.colGap}>{COL_GAP}</span>
                 <span className={styles.colAlias}>{pad(cmd.alias || "", COL_ALIAS)}</span>
               </div>
             ))

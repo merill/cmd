@@ -38,11 +38,10 @@ export default function NotFoundContent({ className }) {
           </p>
           <p>
             If the command you want is not yet available in <b>cmd.ms</b> you
-            can use the{" "}
-            <a href="https://github.com/merill/cmd/issues/new?assignees=&labels=enhancement&template=new-command-request.md&title=">
-              Propose New Command form
-            </a>{" "}
-            to make a request.
+            can{" "}
+            <a href="/docs/docs/contributing">
+              learn how to contribute and add a new command
+            </a>.
           </p>
         </div>
         <div className="col col--offset-0">

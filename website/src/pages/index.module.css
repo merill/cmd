@@ -168,6 +168,29 @@
   min-height: 0;
 }
 
+/* No results */
+.noResults {
+  padding: 1.5rem 1rem;
+  color: #f5c542;
+  font-size: 1rem;
+}
+
+.noResultsSub {
+  margin-top: 0.5rem;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.noResultsLink {
+  color: #5ea5f5;
+  text-decoration: none;
+}
+
+.noResultsLink:hover {
+  color: #8bb8f5;
+  text-decoration: underline;
+}
+
 .tableHeader {
   white-space: pre;
   font-family: inherit;
@@ -175,7 +198,7 @@
   line-height: 1.8;
   color: #5ea5f5;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0;
 }
 
 .tableSeparator {
