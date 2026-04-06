@@ -245,17 +245,20 @@ export default function TuiHome() {
         {/* Search box */}
         <div className={styles.searchArea}>
           <span className={styles.searchPrefix}>C:\cmd.ms&gt;</span>
-          <input
-            ref={inputRef}
-            type="text"
-            className={styles.searchInput}
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search commands..."
-            autoComplete="off"
-            spellCheck="false"
-            autoFocus
-          />
+          <div className={styles.searchInputWrap}>
+            <input
+              ref={inputRef}
+              type="text"
+              className={styles.searchInput}
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search commands..."
+              autoComplete="off"
+              spellCheck="false"
+              autoFocus
+            />
+            <span className={styles.blockCursor} style={{ left: `${search.length}ch` }} />
+          </div>
         </div>
 
         {/* Results count */}

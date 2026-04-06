@@ -124,12 +124,28 @@
   caret-color: transparent;
   padding: 0;
   margin: 0;
-  animation: caretBlink 1s step-end infinite;
 }
 
-@keyframes caretBlink {
-  0%, 100% { caret-color: #f5c542; }
-  50% { caret-color: transparent; }
+.searchInputWrap {
+  position: relative;
+  flex: 1;
+  display: flex;
+}
+
+.blockCursor {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.6em;
+  height: 1.2em;
+  background: #f5c542;
+  animation: cursorBlink 1s step-end infinite;
+  pointer-events: none;
+}
+
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 .searchInput::placeholder {
