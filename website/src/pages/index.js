@@ -88,22 +88,52 @@ export default function TuiHome() {
   const [selectedIdx, setSelectedIdx] = React.useState(0);
   const [showShortcuts, setShowShortcuts] = React.useState(false);
   const [hoveredIdx, setHoveredIdx] = React.useState(-1);
+  const [theme, setTheme] = React.useState("dark");
+  const [sortCol, setSortCol] = React.useState(null); // null | "command" | "name" | "alias"
+  const [sortDir, setSortDir] = React.useState("asc"); // "asc" | "desc"
   const inputRef = React.useRef(null);
   const tableRef = React.useRef(null);
   const rowRefs = React.useRef([]);
 
-  // Filter commands
+  const toggleSort = (col) => {
+    if (sortCol === col) {
+      if (sortDir === "asc") setSortDir("desc");
+      else { setSortCol(null); setSortDir("asc"); } // third click resets
+    } else {
+      setSortCol(col);
+      setSortDir("asc");
+    }
+  };
+
+  const sortIndicator = (col) => {
+    if (sortCol !== col) return " ·";
+    return sortDir === "asc" ? " ▲" : " ▼";
+  };
+
+  // Filter and sort commands
   const filtered = React.useMemo(() => {
-    if (!search.trim()) return sortedCommands;
-    const q = search.toLowerCase().trim();
-    return sortedCommands.filter(
-      (c) =>
-        c.command.toLowerCase().includes(q) ||
-        c.description.toLowerCase().includes(q) ||
-        (c.alias && c.alias.toLowerCase().includes(q)) ||
-        (c.keywords && c.keywords.toLowerCase().includes(q))
-    );
-  }, [search]);
+    let list = sortedCommands;
+    if (search.trim()) {
+      const q = search.toLowerCase().trim();
+      list = list.filter(
+        (c) =>
+          c.command.toLowerCase().includes(q) ||
+          c.description.toLowerCase().includes(q) ||
+          (c.alias && c.alias.toLowerCase().includes(q)) ||
+          (c.keywords && c.keywords.toLowerCase().includes(q))
+      );
+    }
+    if (sortCol) {
+      const key = sortCol === "command" ? "command" : sortCol === "name" ? "description" : "alias";
+      list = [...list].sort((a, b) => {
+        const va = (a[key] || "").toLowerCase();
+        const vb = (b[key] || "").toLowerCase();
+        const cmp = va.localeCompare(vb);
+        return sortDir === "asc" ? cmp : -cmp;
+      });
+    }
+    return list;
+  }, [search, sortCol, sortDir]);
 
   // Reset selection when filter changes
   React.useEffect(() => {
@@ -225,11 +255,11 @@ export default function TuiHome() {
           name="description"
           content="cmd.ms: The Microsoft cloud command line for Microsoft 365, Azure, Entra, Intune, Defender, and more. Type a command to jump straight to any Microsoft portal."
         />
-        <meta name="theme-color" content="#0a0a0a" />
+        <meta name="theme-color" content={theme === "dark" ? "#0a0a0a" : "#f5f5f5"} />
         <link rel="search" type="application/opensearchdescription+xml" title="[cmd.ms] Search" href="/opensearch.xml" />
         <style>{`
           html, body, #__docusaurus, [class*="docMainContainer"], [class*="docPage"], main, .main-wrapper {
-            background: #0a0a0a !important;
+            background: ${theme === "dark" ? "#0a0a0a" : "#f5f5f5"} !important;
             margin: 0;
             padding: 0;
           }
@@ -253,7 +283,7 @@ export default function TuiHome() {
         `}</style>
       </Head>
 
-      <div className={styles.terminal}>
+      <div className={`${styles.terminal} ${theme === "light" ? styles.terminalLight : ""}`}>
         {/* Top nav bar */}
         <div className={styles.topNav}>
           <div className={styles.topNavLeft}>
@@ -272,6 +302,14 @@ export default function TuiHome() {
                 {link.label}
               </a>
             ))}
+            <button
+              className={styles.themeToggle}
+              onClick={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
+              aria-label="Toggle light/dark mode"
+              title="Toggle light/dark mode"
+            >
+              {theme === "dark" ? "☀️" : "🌙"}
+            </button>
           </div>
         </div>
 
@@ -314,11 +352,11 @@ export default function TuiHome() {
         <div className={styles.tableContainer} ref={tableRef}>
           {/* Header */}
           <div className={styles.tableHeader}>
-            <span>{" " + pad("COMMAND", COL_CMD)}</span>
+            <span className={styles.sortable} onClick={() => toggleSort("command")}>{" " + pad("COMMAND" + sortIndicator("command"), COL_CMD)}</span>
             <span>{COL_GAP + " "}</span>
-            <span>{pad("NAME", COL_NAME)}</span>
+            <span className={styles.sortable} onClick={() => toggleSort("name")}>{pad("NAME" + sortIndicator("name"), COL_NAME)}</span>
             <span>{COL_GAP + " "}</span>
-            <span>{pad("ALIAS", COL_ALIAS)}</span>
+            <span className={styles.sortable} onClick={() => toggleSort("alias")}>{pad("ALIAS" + sortIndicator("alias"), COL_ALIAS)}</span>
           </div>
 
           {/* Separator */}

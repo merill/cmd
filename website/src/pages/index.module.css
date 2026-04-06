@@ -1,9 +1,68 @@
 /* TUI Terminal Homepage Styles */
 
+/* ─── Theme Variables ─── */
+.terminal {
+  --bg: #0a0a0a;
+  --bg-secondary: #111;
+  --bg-hover: #1a1a2e;
+  --bg-selected: #1a2a4a;
+  --bg-hover-row: #141420;
+  --border: #222;
+  --border-input: #333;
+  --border-input-focus: #555;
+  --text: #e2e2e2;
+  --text-dim: #ccc;
+  --text-muted: #888;
+  --text-faint: #666;
+  --text-fainter: #555;
+  --accent-yellow: #f5c542;
+  --logo-color: #f5c542;
+  --accent-blue: #5ea5f5;
+  --accent-blue-light: #8bb8f5;
+  --separator: #333;
+  --kbd-bg: #1a1a1a;
+  --kbd-border: #333;
+  --overlay-bg: rgba(0, 0, 0, 0.85);
+  --dialog-bg: #111;
+  --dialog-border: #333;
+  --scrollbar-track: #0a0a0a;
+  --scrollbar-thumb: #333;
+  --scrollbar-thumb-hover: #555;
+}
+
+.terminalLight {
+  --bg: #f5f5f5;
+  --bg-secondary: #fff;
+  --bg-hover: #e8edf5;
+  --bg-selected: #d0dff5;
+  --bg-hover-row: #eef1f6;
+  --border: #ddd;
+  --border-input: #ccc;
+  --border-input-focus: #999;
+  --text: #1a1a1a;
+  --text-dim: #333;
+  --text-muted: #666;
+  --text-faint: #888;
+  --text-fainter: #aaa;
+  --accent-yellow: #0969da;
+  --logo-color: #1a1a1a;
+  --accent-blue: #2563eb;
+  --accent-blue-light: #3b82f6;
+  --separator: #ccc;
+  --kbd-bg: #e8e8e8;
+  --kbd-border: #ccc;
+  --overlay-bg: rgba(255, 255, 255, 0.85);
+  --dialog-bg: #fff;
+  --dialog-border: #ddd;
+  --scrollbar-track: #f5f5f5;
+  --scrollbar-thumb: #ccc;
+  --scrollbar-thumb-hover: #999;
+}
+
 .terminal {
   min-height: 100vh;
-  background: #0a0a0a;
-  color: #e2e2e2;
+  background: var(--bg);
+  color: var(--text);
   font-family: 'Berkeley Mono', 'Geist Mono', 'SF Mono', 'Menlo', 'Consolas', 'Courier New', monospace;
   font-size: 15px;
   line-height: 1.6;
@@ -23,7 +82,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 0;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid var(--border);
   margin-bottom: 1.5rem;
   flex-shrink: 0;
 }
@@ -36,22 +95,39 @@
 .topNavRight {
   display: flex;
   gap: 1.25rem;
+  align-items: center;
+}
+
+.themeToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  padding: 0.15rem 0.3rem;
+  line-height: 1;
+  transition: color 0.15s;
+  font-family: inherit;
+}
+
+.themeToggle:hover {
+  color: var(--accent-yellow);
 }
 
 .topNavLink {
-  color: #888;
+  color: var(--text-muted);
   text-decoration: none;
   font-size: 0.85rem;
   transition: color 0.15s;
 }
 
 .topNavLink:hover {
-  color: #f5c542;
+  color: var(--accent-yellow);
 }
 
 /* ─── ASCII Art Logo ─── */
 .logo {
-  color: #f5c542;
+  color: var(--logo-color);
   font-size: 0.8rem;
   line-height: 1.15;
   margin-bottom: 0.75rem;
@@ -64,34 +140,34 @@
 }
 
 .subtitle {
-  color: #e2e2e2;
+  color: var(--text);
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.35rem;
 }
 
 .tagline {
-  color: #888;
+  color: var(--text-muted);
   font-size: 0.95rem;
   margin-bottom: 1.5rem;
   line-height: 1.5;
 }
 
 .highlight {
-  color: #5ea5f5;
+  color: var(--accent-blue);
   font-weight: 500;
 }
 
 .highlightYellow {
-  color: #f5c542;
+  color: var(--accent-yellow);
 }
 
 /* ─── Search Box ─── */
 .searchArea {
   display: flex;
   align-items: center;
-  background: #111;
-  border: 1px solid #333;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-input);
   border-radius: 6px;
   padding: 0.65rem 1rem;
   margin-bottom: 1rem;
@@ -100,11 +176,11 @@
 }
 
 .searchArea:focus-within {
-  border-color: #555;
+  border-color: var(--border-input-focus);
 }
 
 .searchPrefix {
-  color: #f5c542;
+  color: var(--accent-yellow);
   margin-right: 0.75rem;
   font-size: 1.05rem;
   user-select: none;
@@ -117,7 +193,7 @@
   border: none;
   outline: none;
   box-shadow: none;
-  color: #e2e2e2;
+  color: var(--text);
   font-family: inherit;
   font-size: 1.05rem;
   flex: 1;
@@ -138,7 +214,7 @@
   transform: translateY(-50%);
   width: 0.6em;
   height: 1.2em;
-  background: #f5c542;
+  background: var(--accent-yellow);
   animation: cursorBlink 1s step-end infinite;
   pointer-events: none;
 }
@@ -149,13 +225,13 @@
 }
 
 .searchInput::placeholder {
-  color: #555;
+  color: var(--text-fainter);
 }
 
 /* ─── Results count ─── */
 .resultCount {
   font-size: 0.85rem;
-  color: #666;
+  color: var(--text-faint);
   margin-bottom: 0.5rem;
   flex-shrink: 0;
 }
@@ -171,23 +247,23 @@
 /* No results */
 .noResults {
   padding: 1.5rem 1rem;
-  color: #f5c542;
+  color: var(--accent-yellow);
   font-size: 1rem;
 }
 
 .noResultsSub {
   margin-top: 0.5rem;
-  color: #888;
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
 
 .noResultsLink {
-  color: #5ea5f5;
+  color: var(--accent-blue);
   text-decoration: none;
 }
 
 .noResultsLink:hover {
-  color: #8bb8f5;
+  color: var(--accent-blue-light);
   text-decoration: underline;
 }
 
@@ -196,9 +272,18 @@
   font-family: inherit;
   font-size: inherit;
   line-height: 1.8;
-  color: #5ea5f5;
+  color: var(--accent-blue);
   font-weight: 600;
   letter-spacing: 0;
+}
+
+.sortable {
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.sortable:hover {
+  color: var(--accent-yellow);
 }
 
 .tableSeparator {
@@ -206,7 +291,7 @@
   font-family: inherit;
   font-size: inherit;
   line-height: 1.2;
-  color: #333;
+  color: var(--separator);
 }
 
 .tableRow {
@@ -217,20 +302,20 @@
   cursor: pointer;
   border-radius: 3px;
   transition: background 0.1s;
-  color: #ccc;
+  color: var(--text-dim);
 }
 
 .tableRow:hover {
-  background: #1a1a2e;
+  background: var(--bg-hover);
 }
 
 .rowSelected {
-  background: #1a2a4a !important;
+  background: var(--bg-selected) !important;
   color: #fff !important;
 }
 
 .rowSelected .colCmd {
-  color: #f5c542 !important;
+  color: var(--accent-yellow) !important;
 }
 
 .rowSelected .colName {
@@ -238,24 +323,24 @@
 }
 
 .rowSelected .colAlias {
-  color: #8bb8f5 !important;
+  color: var(--accent-blue-light) !important;
 }
 
 .rowHover {
-  background: #141420;
+  background: var(--bg-hover-row);
 }
 
 /* Column colors */
 .colCmd {
-  color: #f5c542;
+  color: var(--accent-yellow);
 }
 
 .colName {
-  color: #e2e2e2;
+  color: var(--text);
 }
 
 .colAlias {
-  color: #666;
+  color: var(--text-faint);
 }
 
 /* ─── Footer bar ─── */
@@ -264,18 +349,18 @@
   justify-content: center;
   gap: 2rem;
   font-size: 0.8rem;
-  color: #555;
+  color: var(--text-fainter);
   padding-top: 0.75rem;
-  border-top: 1px solid #222;
+  border-top: 1px solid var(--border);
   margin-top: 0.75rem;
   flex-shrink: 0;
   user-select: none;
 }
 
 .footerBar kbd {
-  color: #888;
-  background: #1a1a1a;
-  border: 1px solid #333;
+  color: var(--text-muted);
+  background: var(--kbd-bg);
+  border: 1px solid var(--kbd-border);
   border-radius: 3px;
   padding: 0.1em 0.4em;
   font-family: inherit;
@@ -284,12 +369,12 @@
 }
 
 .footerBar a {
-  color: #555;
+  color: var(--text-fainter);
   text-decoration: none;
 }
 
 .footerBar a:hover {
-  color: #f5c542;
+  color: var(--accent-yellow);
 }
 
 /* ─── Shortcuts overlay ─── */
@@ -299,7 +384,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: var(--overlay-bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -307,8 +392,8 @@
 }
 
 .shortcutsDialog {
-  background: #111;
-  border: 1px solid #333;
+  background: var(--dialog-bg);
+  border: 1px solid var(--dialog-border);
   border-radius: 8px;
   padding: 1.5rem 2rem;
   font-family: inherit;
@@ -318,7 +403,7 @@
 }
 
 .shortcutsDialog h2 {
-  color: #f5c542;
+  color: var(--accent-yellow);
   font-size: 1rem;
   margin: 0 0 1rem 0;
   text-align: center;
@@ -331,14 +416,14 @@
 
 .shortcutsDialog td {
   padding: 0.35rem 0.5rem;
-  color: #ccc;
+  color: var(--text-dim);
   font-size: 0.95rem;
 }
 
 .shortcutsDialog td:first-child {
   text-align: right;
   width: 35%;
-  color: #5ea5f5;
+  color: var(--accent-blue);
   font-weight: 500;
 }
 
@@ -348,14 +433,14 @@
   right: 0.75rem;
   background: transparent;
   border: none;
-  color: #888;
+  color: var(--text-muted);
   font-size: 1.3rem;
   cursor: pointer;
   font-family: inherit;
 }
 
 .shortcutsClose:hover {
-  color: #e2e2e2;
+  color: var(--text);
 }
 
 /* ─── Scrollbar ─── */
@@ -364,16 +449,16 @@
 }
 
 .tableContainer::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: var(--scrollbar-track);
 }
 
 .tableContainer::-webkit-scrollbar-thumb {
-  background: #333;
+  background: var(--scrollbar-thumb);
   border-radius: 3px;
 }
 
 .tableContainer::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--scrollbar-thumb-hover);
 }
 
 /* ─── Mobile ─── */
