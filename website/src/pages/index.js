@@ -155,6 +155,13 @@ export default function TuiHome() {
   // Global keyboard handler
   React.useEffect(() => {
     const handler = (e) => {
+      // ` — toggle dark/light mode (works everywhere including input)
+      if (e.key === "`" && !e.ctrlKey && !e.metaKey) {
+        e.preventDefault();
+        setTheme((t) => (t === "dark" ? "light" : "dark"));
+        return;
+      }
+
       // ? — toggle shortcuts overlay (works everywhere including input)
       if (e.key === "?" && !e.ctrlKey && !e.metaKey) {
         e.preventDefault();
@@ -320,7 +327,7 @@ export default function TuiHome() {
           Type a command to jump to any Microsoft portal — or use <span className={styles.highlight}>[command].cmd.ms</span> in your browser address bar.
         </div>
         <div className={styles.tagline}>
-          🚀 Use the power of your browser's address bar to quickly get to your favorite blade in Azure, Microsoft 365, Entra ID, Intune...
+          🚀 Use the power of your browser's address bar, check out the <a href="/docs/docs/tips" className={styles.taglineLink}>Power User Tips</a>
         </div>
 
         {/* Search box */}
@@ -398,11 +405,17 @@ export default function TuiHome() {
 
         {/* Footer bar */}
         <div className={styles.footerBar}>
-          <span><kbd>↑↓</kbd> Navigate</span>
-          <span><kbd>Enter</kbd> Open</span>
-          <span><kbd>/</kbd> Search</span>
-          <span><kbd>Esc</kbd> Clear</span>
-          <span><kbd>?</kbd> Help</span>
+          <div className={styles.footerLeft}>
+            <span><kbd>↑↓</kbd> Navigate</span>
+            <span><kbd>Enter</kbd> Open</span>
+            <span><kbd>/</kbd> Search</span>
+            <span><kbd>Esc</kbd> Clear</span>
+            <span><kbd>`</kbd> Theme</span>
+            <span><kbd>?</kbd> Help</span>
+          </div>
+          <div className={styles.footerRight}>
+            Made in 🦘 Australia with ❤️
+          </div>
         </div>
 
         {/* Shortcuts overlay */}
@@ -430,6 +443,7 @@ export default function TuiHome() {
                   <tr><td>↓ / ↑</td><td>Navigate table rows</td></tr>
                   <tr><td>Enter</td><td>Open selected link</td></tr>
                   <tr><td>Esc</td><td>Clear search</td></tr>
+                  <tr><td>`</td><td>Toggle dark / light mode</td></tr>
                   <tr><td>?</td><td>Show / hide this help</td></tr>
                 </tbody>
               </table>

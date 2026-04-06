@@ -45,7 +45,7 @@
   --text-faint: #888;
   --text-fainter: #aaa;
   --accent-yellow: #0969da;
-  --logo-color: #1a1a1a;
+  --logo-color: #4f46e5;
   --accent-blue: #2563eb;
   --accent-blue-light: #3b82f6;
   --separator: #ccc;
@@ -60,7 +60,7 @@
 }
 
 .terminal {
-  min-height: 100vh;
+  height: 100vh;
   background: var(--bg);
   color: var(--text);
   font-family: 'Berkeley Mono', 'Geist Mono', 'SF Mono', 'Menlo', 'Consolas', 'Courier New', monospace;
@@ -151,6 +151,17 @@
   font-size: 0.95rem;
   margin-bottom: 1.5rem;
   line-height: 1.5;
+}
+
+.taglineLink {
+  color: var(--accent-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.taglineLink:hover {
+  color: var(--accent-blue-light);
+  text-decoration: underline;
 }
 
 .highlight {
@@ -346,10 +357,10 @@
 /* ─── Footer bar ─── */
 .footerBar {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.8rem;
-  color: var(--text-fainter);
+  color: var(--text-muted);
   padding-top: 0.75rem;
   border-top: 1px solid var(--border);
   margin-top: 0.75rem;
@@ -357,8 +368,18 @@
   user-select: none;
 }
 
+.footerLeft {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footerRight {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+}
+
 .footerBar kbd {
-  color: var(--text-muted);
+  color: var(--text);
   background: var(--kbd-bg);
   border: 1px solid var(--kbd-border);
   border-radius: 3px;
@@ -485,9 +506,15 @@
   }
 
   .footerBar {
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .footerLeft {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0.75rem;
   }
 }
 
