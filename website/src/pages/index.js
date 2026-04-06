@@ -428,26 +428,43 @@ export default function TuiHome() {
             <div
               className={styles.shortcutsDialog}
               onClick={(e) => e.stopPropagation()}
-              style={{ position: "relative" }}
             >
-              <button
-                className={styles.shortcutsClose}
-                onClick={() => setShowShortcuts(false)}
-                aria-label="Close"
-              >
-                &times;
-              </button>
-              <h2>Keyboard Shortcuts</h2>
-              <table>
-                <tbody>
-                  <tr><td>/</td><td>Focus search box</td></tr>
-                  <tr><td>↓ / ↑</td><td>Navigate table rows</td></tr>
-                  <tr><td>Enter</td><td>Open selected link</td></tr>
-                  <tr><td>Esc</td><td>Clear search</td></tr>
-                  <tr><td>`</td><td>Toggle dark / light mode</td></tr>
-                  <tr><td>?</td><td>Show / hide this help</td></tr>
-                </tbody>
-              </table>
+              <div className={styles.shortcutsHeader}>
+                <h2>⌨️ Keyboard Shortcuts</h2>
+                <button
+                  className={styles.shortcutsClose}
+                  onClick={() => setShowShortcuts(false)}
+                  aria-label="Close"
+                >
+                  &times;
+                </button>
+              </div>
+              <div className={styles.shortcutsGrid}>
+                <div className={styles.shortcutCard}>
+                  <span className={styles.shortcutKeys}><kbd>/</kbd></span>
+                  <span className={styles.shortcutLabel}>Focus search</span>
+                </div>
+                <div className={styles.shortcutCard}>
+                  <span className={styles.shortcutKeys}><kbd>↑</kbd> <kbd>↓</kbd></span>
+                  <span className={styles.shortcutLabel}>Navigate rows</span>
+                </div>
+                <div className={styles.shortcutCard}>
+                  <span className={styles.shortcutKeys}><kbd>↵</kbd></span>
+                  <span className={styles.shortcutLabel}>Open selected</span>
+                </div>
+                <div className={styles.shortcutCard}>
+                  <span className={styles.shortcutKeys}><kbd>Esc</kbd></span>
+                  <span className={styles.shortcutLabel}>Clear search</span>
+                </div>
+                <div className={styles.shortcutCard}>
+                  <span className={styles.shortcutKeys}><kbd>`</kbd></span>
+                  <span className={styles.shortcutLabel}>Toggle theme</span>
+                </div>
+                <div className={styles.shortcutCard}>
+                  <span className={styles.shortcutKeys}><kbd>?</kbd></span>
+                  <span className={styles.shortcutLabel}>This help</span>
+                </div>
+              </div>
             </div>
           </div>
         )}

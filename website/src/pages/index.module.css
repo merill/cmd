@@ -414,6 +414,8 @@
   right: 0;
   bottom: 0;
   background: var(--overlay-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -423,53 +425,100 @@
 .shortcutsDialog {
   background: var(--dialog-bg);
   border: 1px solid var(--dialog-border);
-  border-radius: 8px;
-  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  padding: 1.75rem 2rem 1.5rem;
   font-family: inherit;
-  max-width: 420px;
+  max-width: 460px;
   width: 90%;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.shortcutsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  position: relative;
 }
 
 .shortcutsDialog h2 {
-  color: var(--accent-yellow);
-  font-size: 1rem;
-  margin: 0 0 1rem 0;
-  text-align: center;
+  color: var(--text);
+  font-size: 1.05rem;
+  margin: 0;
   font-family: inherit;
-}
-
-.shortcutsDialog table {
-  width: 100%;
-}
-
-.shortcutsDialog td {
-  padding: 0.35rem 0.5rem;
-  color: var(--text-dim);
-  font-size: 0.95rem;
-}
-
-.shortcutsDialog td:first-child {
-  text-align: right;
-  width: 35%;
-  color: var(--accent-blue);
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .shortcutsClose {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.75rem;
   background: transparent;
   border: none;
   color: var(--text-muted);
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   cursor: pointer;
   font-family: inherit;
+  padding: 0.15rem 0.35rem;
+  border-radius: 6px;
+  line-height: 1;
+  transition: background 0.15s, color 0.15s;
 }
 
 .shortcutsClose:hover {
   color: var(--text);
+  background: var(--bg-hover);
+}
+
+.shortcutsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
+.shortcutCard {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 10px;
+  background: var(--bg-hover-row);
+  border: 1px solid var(--border);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.shortcutCard:hover {
+  background: var(--bg-hover);
+  border-color: var(--border-input);
+}
+
+.shortcutKeys {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  flex-shrink: 0;
+}
+
+.shortcutKeys kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  height: 1.6rem;
+  padding: 0 0.35rem;
+  font-size: 0.75rem;
+  font-family: inherit;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: var(--kbd-bg);
+  border: 1px solid var(--kbd-border);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  line-height: 1;
+}
+
+.shortcutLabel {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  white-space: nowrap;
 }
 
 /* ─── Scrollbar ─── */

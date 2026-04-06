@@ -19,19 +19,35 @@ function ShortcutsOverlay({ onClose }) {
     <div className="shortcuts-overlay" onClick={onClose}>
       <div className="shortcuts-dialog" onClick={(e) => e.stopPropagation()}>
         <div className="shortcuts-header">
-          <h2>Keyboard Shortcuts</h2>
+          <h2>⌨️ Keyboard Shortcuts</h2>
           <button className="shortcuts-close" onClick={onClose} aria-label="Close">&times;</button>
         </div>
-        <table className="shortcuts-table">
-          <tbody>
-            <tr><td><kbd>/</kbd></td><td>Focus search box</td></tr>
-            <tr><td><kbd>↓</kbd> / <kbd>↑</kbd></td><td>Navigate table rows</td></tr>
-            <tr><td><kbd>Enter</kbd></td><td>Open selected row link</td></tr>
-            <tr><td><kbd>Alt</kbd> + <kbd>Enter</kbd></td><td>Open first row link</td></tr>
-            <tr><td><kbd>`</kbd></td><td>Toggle dark / light mode</td></tr>
-            <tr><td><kbd>?</kbd></td><td>Show this help</td></tr>
-          </tbody>
-        </table>
+        <div className="shortcuts-grid">
+          <div className="shortcut-card">
+            <span className="shortcut-keys"><kbd>/</kbd></span>
+            <span className="shortcut-label">Focus search</span>
+          </div>
+          <div className="shortcut-card">
+            <span className="shortcut-keys"><kbd>↑</kbd> <kbd>↓</kbd></span>
+            <span className="shortcut-label">Navigate rows</span>
+          </div>
+          <div className="shortcut-card">
+            <span className="shortcut-keys"><kbd>↵</kbd></span>
+            <span className="shortcut-label">Open selected</span>
+          </div>
+          <div className="shortcut-card">
+            <span className="shortcut-keys"><kbd>Alt</kbd> + <kbd>↵</kbd></span>
+            <span className="shortcut-label">Open first row</span>
+          </div>
+          <div className="shortcut-card">
+            <span className="shortcut-keys"><kbd>`</kbd></span>
+            <span className="shortcut-label">Toggle theme</span>
+          </div>
+          <div className="shortcut-card">
+            <span className="shortcut-keys"><kbd>?</kbd></span>
+            <span className="shortcut-label">This help</span>
+          </div>
+        </div>
       </div>
     </div>
   );
