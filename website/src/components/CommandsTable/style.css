@@ -24,3 +24,115 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* Selected row highlight */
+.row-selected {
+  background-color: #dbeafe !important;
+  outline: 2px solid #3b82f6;
+  outline-offset: -2px;
+}
+
+[data-theme='dark'] .row-selected {
+  background-color: #1e3a5f !important;
+  outline-color: #60a5fa;
+}
+
+/* Shortcuts overlay */
+.shortcuts-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+.shortcuts-dialog {
+  background: #ffffff;
+  color: #1c1e21;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  min-width: 340px;
+  max-width: 90vw;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .shortcuts-dialog {
+  background: #1b1b1d;
+  color: #e3e3e3;
+  border-color: #444;
+}
+
+.shortcuts-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.shortcuts-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1c1e21;
+}
+
+[data-theme='dark'] .shortcuts-header h2 {
+  color: #e3e3e3;
+}
+
+.shortcuts-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #1c1e21;
+  line-height: 1;
+  padding: 0 0.25rem;
+}
+
+[data-theme='dark'] .shortcuts-close {
+  color: #e3e3e3;
+}
+
+.shortcuts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shortcuts-table td {
+  padding: 0.4rem 0.5rem;
+  vertical-align: middle;
+  color: #1c1e21;
+}
+
+[data-theme='dark'] .shortcuts-table td {
+  color: #e3e3e3;
+}
+
+.shortcuts-table td:first-child {
+  white-space: nowrap;
+  padding-right: 1.5rem;
+}
+
+.shortcuts-table kbd {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  line-height: 1.4;
+  color: #1c1e21;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+
+[data-theme='dark'] .shortcuts-table kbd {
+  color: #e3e3e3;
+  background: #333;
+  border-color: #555;
+  box-shadow: 0 1px 0 #555;
+}
