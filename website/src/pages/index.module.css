@@ -106,9 +106,10 @@
 .searchPrefix {
   color: #f5c542;
   margin-right: 0.75rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   user-select: none;
   flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .searchInput {
@@ -120,31 +121,19 @@
   font-family: inherit;
   font-size: 1.05rem;
   flex: 1;
-  caret-color: #f5c542;
+  caret-color: transparent;
   padding: 0;
   margin: 0;
+  animation: caretBlink 1s step-end infinite;
+}
+
+@keyframes caretBlink {
+  0%, 100% { caret-color: #f5c542; }
+  50% { caret-color: transparent; }
 }
 
 .searchInput::placeholder {
   color: #555;
-}
-
-/* Blinking cursor — positioned right after the prefix when input is empty */
-.cursor {
-  display: inline-block;
-  width: 0.55em;
-  height: 1.15em;
-  background: #f5c542;
-  vertical-align: text-bottom;
-  animation: blink 1s step-end infinite;
-  flex-shrink: 0;
-  order: -1;
-  margin-right: auto;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
 }
 
 /* ─── Results count ─── */

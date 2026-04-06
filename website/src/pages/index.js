@@ -244,7 +244,7 @@ export default function TuiHome() {
 
         {/* Search box */}
         <div className={styles.searchArea}>
-          <span className={styles.searchPrefix}>❯</span>
+          <span className={styles.searchPrefix}>C:\cmd.ms&gt;</span>
           <input
             ref={inputRef}
             type="text"
@@ -256,7 +256,6 @@ export default function TuiHome() {
             spellCheck="false"
             autoFocus
           />
-          {!search && <span className={styles.cursor} />}
         </div>
 
         {/* Results count */}
