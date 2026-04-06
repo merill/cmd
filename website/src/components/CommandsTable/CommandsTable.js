@@ -109,8 +109,8 @@ const CommandsDataTable = ({
         return;
       }
 
-      // ` — toggle dark/light mode (not when typing in input)
-      if (e.key === '`' && !isInput && !e.altKey && !e.ctrlKey && !e.metaKey) {
+      // ` — toggle dark/light mode (works everywhere including input)
+      if (e.key === '`' && !e.altKey && !e.ctrlKey && !e.metaKey) {
         e.preventDefault();
         const html = document.documentElement;
         const current = html.getAttribute('data-theme');
