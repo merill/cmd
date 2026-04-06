@@ -1,0 +1,391 @@
+/* TUI Terminal Homepage Styles */
+
+.terminal {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: #e2e2e2;
+  font-family: 'Berkeley Mono', 'Geist Mono', 'SF Mono', 'Menlo', 'Consolas', 'Courier New', monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.01em;
+  padding: 0 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ─── Top Navigation Bar ─── */
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #222;
+  margin-bottom: 1.5rem;
+  flex-shrink: 0;
+}
+
+.topNavLeft {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.topNavRight {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.topNavLink {
+  color: #888;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.15s;
+}
+
+.topNavLink:hover {
+  color: #f5c542;
+}
+
+/* ─── ASCII Art Logo ─── */
+.logo {
+  color: #f5c542;
+  font-size: 0.8rem;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+  white-space: pre;
+  user-select: none;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: inherit;
+}
+
+.subtitle {
+  color: #e2e2e2;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.tagline {
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.highlight {
+  color: #5ea5f5;
+  font-weight: 500;
+}
+
+.highlightYellow {
+  color: #f5c542;
+}
+
+/* ─── Search Box ─── */
+.searchArea {
+  display: flex;
+  align-items: center;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 0.65rem 1rem;
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+  transition: border-color 0.15s;
+}
+
+.searchArea:focus-within {
+  border-color: #555;
+}
+
+.searchPrefix {
+  color: #f5c542;
+  margin-right: 0.75rem;
+  font-size: 1.1rem;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.searchInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #e2e2e2;
+  font-family: inherit;
+  font-size: 1.05rem;
+  flex: 1;
+  caret-color: #f5c542;
+  padding: 0;
+  margin: 0;
+}
+
+.searchInput::placeholder {
+  color: #555;
+}
+
+/* Blinking cursor — positioned right after the prefix when input is empty */
+.cursor {
+  display: inline-block;
+  width: 0.55em;
+  height: 1.15em;
+  background: #f5c542;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+  flex-shrink: 0;
+  order: -1;
+  margin-right: auto;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ─── Results count ─── */
+.resultCount {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* ─── Table ─── */
+.tableContainer {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+}
+
+.tableHeader {
+  white-space: pre;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.8;
+  color: #5ea5f5;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.tableSeparator {
+  white-space: pre;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.2;
+  color: #333;
+}
+
+.tableRow {
+  white-space: pre;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.8;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.1s;
+  color: #ccc;
+}
+
+.tableRow:hover {
+  background: #1a1a2e;
+}
+
+.rowSelected {
+  background: #1a2a4a !important;
+  color: #fff !important;
+}
+
+.rowSelected .colCmd {
+  color: #f5c542 !important;
+}
+
+.rowSelected .colName {
+  color: #fff !important;
+}
+
+.rowSelected .colAlias {
+  color: #8bb8f5 !important;
+}
+
+.rowHover {
+  background: #141420;
+}
+
+/* Column colors */
+.colCmd {
+  color: #f5c542;
+}
+
+.colName {
+  color: #e2e2e2;
+}
+
+.colAlias {
+  color: #666;
+}
+
+/* ─── Footer bar ─── */
+.footerBar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 0.8rem;
+  color: #555;
+  padding-top: 0.75rem;
+  border-top: 1px solid #222;
+  margin-top: 0.75rem;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.footerBar kbd {
+  color: #888;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 0.1em 0.4em;
+  font-family: inherit;
+  font-size: 0.85em;
+  margin-right: 0.25em;
+}
+
+.footerBar a {
+  color: #555;
+  text-decoration: none;
+}
+
+.footerBar a:hover {
+  color: #f5c542;
+}
+
+/* ─── Shortcuts overlay ─── */
+.shortcutsOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.shortcutsDialog {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  font-family: inherit;
+  max-width: 420px;
+  width: 90%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.shortcutsDialog h2 {
+  color: #f5c542;
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-family: inherit;
+}
+
+.shortcutsDialog table {
+  width: 100%;
+}
+
+.shortcutsDialog td {
+  padding: 0.35rem 0.5rem;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.shortcutsDialog td:first-child {
+  text-align: right;
+  width: 35%;
+  color: #5ea5f5;
+  font-weight: 500;
+}
+
+.shortcutsClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.shortcutsClose:hover {
+  color: #e2e2e2;
+}
+
+/* ─── Scrollbar ─── */
+.tableContainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+.tableContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ─── Mobile ─── */
+@media (max-width: 768px) {
+  .terminal {
+    padding: 0 1rem 1rem;
+    font-size: 13px;
+  }
+
+  .logo {
+    font-size: 0.45rem;
+    line-height: 1.1;
+  }
+
+  .topNav {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .topNavRight {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .footerBar {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 0.35rem;
+  }
+
+  .tableRow,
+  .tableHeader,
+  .tableSeparator {
+    font-size: 12px;
+  }
+}

@@ -20,6 +20,7 @@
 /ing https://intune.microsoft.us 302
 /intuneg https://intune.microsoft.us 302
 /defender https://security.microsoft.com 302
+/mde https://security.microsoft.com 302
 /def https://security.microsoft.com 302
 /security https://security.microsoft.com 302
 /defenderg https://security.microsoft.us 302
@@ -213,6 +214,7 @@
 /myaccount https://myaccount.microsoft.com 302
 /mygroups https://myaccount.microsoft.com/groups 302
 /mygroup https://myaccount.microsoft.com/groups 302
+/mymfa https://mysignins.microsoft.com/security-info 302
 /mysec https://mysignins.microsoft.com/security-info 302
 /mysecurity https://mysignins.microsoft.com/security-info 302
 /mysecurityinfo https://mysignins.microsoft.com/security-info 302
@@ -220,6 +222,7 @@
 /myapp https://myapps.microsoft.com 302
 /mystaff https://mystaff.microsoft.com 302
 /mysubscriptions https://portal.office.com/account/#subscriptions 302
+/mypw https://passwordreset.microsoftonline.com 302
 /indevices https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/overview 302
 /inapps https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/AppsMenu/~/overview 302
 /insecurity https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/overview 302
@@ -507,3 +510,10 @@
 /edge https://admin.cloud.microsoft#/edge 302
 /enagentid https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/AllAgents.MenuView/~/overview 302
 /endom https://entra.microsoft.com/#view/Microsoft_AAD_IAM/DomainsManagementMenuBlade/~/CustomDomainNames 302
+/domains https://admin.cloud.microsoft/#/Domains 302
+/domain https://admin.cloud.microsoft/#/Domains 302
+/azbcc https://portal.azure.com/#view/Microsoft_Azure_BCDRCenter/AbcCenterMenuBlade/~/overview 302
+/bcc https://portal.azure.com/#view/Microsoft_Azure_BCDRCenter/AbcCenterMenuBlade/~/overview 302
+/azsnap https://portal.azure.com/#browse/Microsoft.Compute%2Fsnapshots 302
+/fabric https://app.powerbi.com/home?experience=fabric-developer 302
+/engage https://engagecenter.microsoft.com 302
