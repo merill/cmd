@@ -63,6 +63,36 @@ const config = {
         },
         items: [
           {
+            label: 'merill.net',
+            href: 'https://merill.net',
+            position: 'right',
+          },
+          {
+            label: 'Entra News',
+            href: 'https://entra.news',
+            position: 'right',
+          },
+          {
+            label: 'Entra Chat',
+            href: 'https://entra.chat',
+            position: 'right',
+          },
+          {
+            label: 'Graph X-Ray',
+            href: 'https://graphxray.merill.net',
+            position: 'right',
+          },
+          {
+            label: 'Maester',
+            href: 'https://maester.dev',
+            position: 'right',
+          },
+          {
+            label: 'Lokka',
+            href: 'https://lokka.dev',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/merill/cmd',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
