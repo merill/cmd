@@ -120,7 +120,8 @@ export default function TuiHome() {
           c.command.toLowerCase().includes(q) ||
           c.description.toLowerCase().includes(q) ||
           (c.alias && c.alias.toLowerCase().includes(q)) ||
-          (c.keywords && c.keywords.toLowerCase().includes(q))
+          (c.keywords && c.keywords.toLowerCase().includes(q)) ||
+          (c.category && c.category.toLowerCase().includes(q))
       );
     }
     if (sortCol) {

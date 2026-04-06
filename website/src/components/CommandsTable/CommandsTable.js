@@ -67,6 +67,20 @@ const CommandsDataTable = ({
       data,
       applyFilter,
       columnsToHide,
+      globalFilter: (rows, columnIds, filterValue) => {
+        if (!filterValue) return rows;
+        const q = String(filterValue).toLowerCase();
+        return rows.filter((row) => {
+          const v = row.values;
+          return (
+            (v.command && String(v.command).toLowerCase().includes(q)) ||
+            (v.description && String(v.description).toLowerCase().includes(q)) ||
+            (v.alias && String(v.alias).toLowerCase().includes(q)) ||
+            (v.keywords && String(v.keywords).toLowerCase().includes(q)) ||
+            (v.category && String(v.category).toLowerCase().includes(q))
+          );
+        });
+      },
        initialState: { 
         hiddenColumns: columnsToHide.concat(['keywords']),
         globalFilter: initialSearch || undefined,
