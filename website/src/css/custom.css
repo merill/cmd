@@ -124,6 +124,11 @@ li > a.menu__link {
   content: url(/static/img/defender.svg);
 }
 
+.purview a::before {
+  padding-right: 0.5rem;
+  content: url(/static/img/purview.svg);
+}
+
 .cat-azure {
   content:url('/static/img/azure.svg');
 }
@@ -150,6 +155,10 @@ li > a.menu__link {
 
 .cat-defender {
   content:url('/static/img/defender.svg');
+}
+
+.cat-purview {
+  content:url('/static/img/purview.svg');
 }
 
 .cat-general {

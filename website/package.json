@@ -27,6 +27,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-table": "^7.8.0",
+    "regenerator-runtime": "^0.14.1",
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
