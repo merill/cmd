@@ -328,5 +328,27 @@ azbcc,bcc,Business Continuity Center,,Azure,https://portal.azure.com/#view/Micro
 azsnap,,Disk Snapshots,,Azure,https://portal.azure.com/#browse/Microsoft.Compute%2Fsnapshots
 fabric,,Fabric,,Microsoft 365,https://app.powerbi.com/home?experience=fabric-developer
 engage,,Engage Center,,Azure,https://engagecenter.microsoft.com
+desettings,,Defender - Settings,,Defender,https://security.microsoft.com/securitysettings
+demdesettings,,Endpoints,,Defender,https://security.microsoft.com/securitysettings/endpoints
+demdeadvfeats,,Advanced features,,Defender,https://security.microsoft.com/securitysettings/endpoints/integration
+demdelibrary,,Library Management,,Defender,https://security.microsoft.com/securitysettings/endpoints/libraryManagement
+demdelicenses,,Licenses,,Defender,https://security.microsoft.com/securitysettings/endpoints/licenses
+demdemailalerts,,e-Mail Notifications - Alerts,,Defender,https://security.microsoft.com/securitysettings/endpoints/email_notifications
+demdemailvulns,,e-Mail Notifications - Vulnerabilities,,Defender,https://security.microsoft.com/securitysettings/endpoints/email_notifications?childviewid=vulnerabilities
+demderoles,,Roles,,Defender,https://security.microsoft.com/securitysettings/endpoints/user_roles
+demdedevgrps,,Device Groups,,Defender,https://security.microsoft.com/securitysettings/endpoints/machine_groups
+demdetifiles,,Indicators - Files,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=files
+demdetiip,,Indicators - IPs,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=ip
+demdetiurls,,Indicators - URLs/Domains,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=url
+demdeticerts,,Indicators - Certificates,,Defender,https://security.microsoft.com/securitysettings/endpoints/custom_ti_indicators?childviewid=certificate
+demdeier,,Isolation Exclusion Rules,,Defender,https://security.microsoft.com/securitysettings/endpoints/isolation_exclusions
+demdepmi,,Process Memory Indicators,,Defender,https://security.microsoft.com/securitysettings/endpoints/system_exclusions
+demdewcf,,Web Content Filtering,,Defender,https://security.microsoft.com/securitysettings/endpoints/web_content_filtering_policy
+demdeau,,Automation Uploads,,Defender,https://security.microsoft.com/securitysettings/endpoints/advanced
+demdeafe,,Automation Folder Exclusions,,Defender,https://security.microsoft.com/securitysettings/endpoints/folder_exclusions
+demdessm,,Security setting management,,Defender,https://security.microsoft.com/securitysettings/endpoints/configuration_management2
+demdeinperms,,Intune Permissions,,Defender,https://security.microsoft.com/securitysettings/endpoints/intune_permissions
+demdeonboard,,Onboarding,,Defender,https://security.microsoft.com/securitysettings/endpoints/onboarding
+demdeoffboard,,Offboarding,,Defender,https://security.microsoft.com/securitysettings/endpoints/offboarding
 cps,,Copilot Studio,,Power Platform,https://www.copilotstudio.microsoft.com
 cpsg,,Copilot Studio GCC,,Power Platform,https://gcc.powerva.microsoft.us
