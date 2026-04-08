@@ -281,7 +281,7 @@ deast,,Attack simulation training,,Defender,https://security.microsoft.com/attac
 deastrep,,Attack Simulation Training Reports,,Defender,https://security.microsoft.com/attacksimulationreport
 mshealth,,Microsoft 365 Service health,,Microsoft 365,https://admin.microsoft.com/#/servicehealth
 cp,,Copilot,,Microsoft 365,https://copilot.microsoft.com
-cpd,,Copilot Dashboard,,Microsoft 365,https://insights.cloud.microsoft/#/CopilotDashboard
+cpd,,Copilot Dashboard,,Microsoft 365,https://analysis.insights.cloud.microsoft
 azdns,,DNS zones,,Azure,https://portal.azure.com/#browse/Microsoft.Network%2FdnsZones
 xdrthreathunt,th|threathunt,Threat Hunting,,XDR Sentinel,https://security.microsoft.com/sentinel/hunting
 xdranalytics,,Analytic Rules,,XDR Sentinel,https://security.microsoft.com/sentinel/analytics
