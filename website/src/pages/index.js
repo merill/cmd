@@ -394,7 +394,7 @@ export default function TuiHome() {
                 onMouseEnter={() => setHoveredIdx(i)}
                 onMouseLeave={() => setHoveredIdx(-1)}
               >
-                <span className={styles.colCmd}>{" " + pad(cmd.command + ".cmd.ms", COL_CMD)}</span>
+                <span className={styles.colCmd}>{" " + cmd.command}<span className={styles.colCmdSuffix}>{pad(".cmd.ms", COL_CMD - cmd.command.length)}</span></span>
                 <span className={styles.colGap}>{COL_GAP}</span>
                 <span className={styles.colName}>{pad(cmd.description, COL_NAME)}</span>
                 <span className={styles.colGap}>{COL_GAP}</span>

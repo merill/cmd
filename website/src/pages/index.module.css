@@ -354,6 +354,10 @@
   color: var(--accent-yellow);
 }
 
+.colCmdSuffix {
+  opacity: 0.4;
+}
+
 .colName {
   color: var(--text);
 }
