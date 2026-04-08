@@ -328,3 +328,5 @@ azbcc,bcc,Business Continuity Center,,Azure,https://portal.azure.com/#view/Micro
 azsnap,,Disk Snapshots,,Azure,https://portal.azure.com/#browse/Microsoft.Compute%2Fsnapshots
 fabric,,Fabric,,Microsoft 365,https://app.powerbi.com/home?experience=fabric-developer
 engage,,Engage Center,,Azure,https://engagecenter.microsoft.com
+cps,,Copilot Studio,,Power Platform,https://www.copilotstudio.microsoft.com
+cpsg,,Copilot Studio GCC,,Power Platform,https://gcc.powerva.microsoft.us
