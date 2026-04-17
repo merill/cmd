@@ -352,5 +352,5 @@ demdeonboard,,Onboarding,,Defender,https://security.microsoft.com/securitysettin
 demdeoffboard,,Offboarding,,Defender,https://security.microsoft.com/securitysettings/endpoints/offboarding,
 cps,,Copilot Studio,,Power Platform,https://copilotstudio.microsoft.com,
 cpsg,,Copilot Studio GCC,,Power Platform,https://gcc.powerva.microsoft.us,
-mmig,,Microsoft Migration Manager 365,Microsoft 365 Email/SharePoint/Files Migration,Microsoft 365,https://admin.cloud.microsoft/?entry=SPAC#/featureexplorer/collections/migrations,
-musers,,Active Users,,Microsoft 365 Admin,Microsoft 365,,https://admin.microsoft.com/#/users
+mmig,,Microsoft Migration Manager 365,,Microsoft 365,https://admin.cloud.microsoft/?entry=SPAC#/featureexplorer/collections/migrations,
+musers,,Active Users,,Microsoft 365,https://admin.microsoft.com/#/users,
