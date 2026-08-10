@@ -223,7 +223,7 @@ decacat,,Cloud app catalog,,Defender,https://security.microsoft.com/cloudapps/ap
 decaoauth,,Manage OAuth apps,,Defender,https://security.microsoft.com/cloudapps/oauth-apps,
 dedevices,,Device Inventory,,Defender,https://security.microsoft.com/machines,
 deusers,deidentities,Identities,,Defender,https://security.microsoft.com/cloudapps/users-and-accounts,
-teamsweb,,Teams Web Client,,Microsoft 365,https://teams.microsoft.com,
+teamsweb,,Teams Web Client,,Microsoft 365,https://teams.cloud.microsoft,
 teamsrooms,,Teams Rooms Pro Management,,Microsoft 365,https://portal.rooms.microsoft.com/,
 oct,,Office Customization Tool,,Microsoft 365,https://config.office.com/deploymentsettings,
 deca,,Microsoft Defender for Cloud Apps,,Defender,https://portal.cloudappsecurity.com/,
